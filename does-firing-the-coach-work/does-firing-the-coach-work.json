@@ -1,0 +1,2829 @@
+{
+ "meta": {
+  "source": "transfermarkt-datasets (games, CC0 1.0; data from Transfermarkt.de); openfootball/deutschland (CC0 1.0)",
+  "updated": "2026-10-15",
+  "seasons": "2012/13–2025/26",
+  "window": 6,
+  "bootstrap": 10000
+ },
+ "summary": {
+  "matches": 4284,
+  "changes": 116,
+  "standins": 10,
+  "analysed": 91,
+  "controlPositions": 4779,
+  "leaguePpg": 1.377
+ },
+ "effect": {
+  "prePpg": 0.679,
+  "postPpg": 1.282,
+  "controlPostPpg": 1.209,
+  "perGame": 0.073,
+  "perWindow": 0.44,
+  "improvedShare": 0.802,
+  "controlImprovedShare": 0.759,
+  "oppPostPpg": 1.374,
+  "controlOppPostPpg": 1.377
+ },
+ "slump": {
+  "threshold": 4,
+  "positions": 554,
+  "prePpg": 0.503,
+  "postPpg": 1.181,
+  "crisisChanges": 59,
+  "crisisPrePpg": 0.418,
+  "crisisPostPpg": 1.175
+ },
+ "trajectory": {
+  "relative": [
+   -6,
+   -5,
+   -4,
+   -3,
+   -2,
+   -1,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "changes": [
+   0.956,
+   0.78,
+   0.758,
+   0.868,
+   0.56,
+   0.154,
+   1.418,
+   1.143,
+   1.066,
+   1.352,
+   1.385,
+   1.33
+  ],
+  "controls": [
+   0.661,
+   0.704,
+   0.679,
+   0.675,
+   0.688,
+   0.669,
+   1.29,
+   1.222,
+   1.214,
+   1.191,
+   1.231,
+   1.105
+  ]
+ },
+ "depth": [
+  {
+   "pre": 0,
+   "postPpg": 0.93,
+   "n": 19
+  },
+  {
+   "pre": 1,
+   "postPpg": 1.155,
+   "n": 58
+  },
+  {
+   "pre": 2,
+   "postPpg": 1.06,
+   "n": 81
+  },
+  {
+   "pre": 3,
+   "postPpg": 1.168,
+   "n": 133
+  },
+  {
+   "pre": 4,
+   "postPpg": 1.248,
+   "n": 263
+  },
+  {
+   "pre": 5,
+   "postPpg": 1.277,
+   "n": 349
+  },
+  {
+   "pre": 6,
+   "postPpg": 1.228,
+   "n": 367
+  },
+  {
+   "pre": 7,
+   "postPpg": 1.296,
+   "n": 563
+  },
+  {
+   "pre": 8,
+   "postPpg": 1.326,
+   "n": 502
+  },
+  {
+   "pre": 9,
+   "postPpg": 1.341,
+   "n": 434
+  },
+  {
+   "pre": 10,
+   "postPpg": 1.422,
+   "n": 521
+  },
+  {
+   "pre": 11,
+   "postPpg": 1.576,
+   "n": 345
+  },
+  {
+   "pre": 12,
+   "postPpg": 1.599,
+   "n": 282
+  },
+  {
+   "pre": 13,
+   "postPpg": 1.693,
+   "n": 315
+  },
+  {
+   "pre": 14,
+   "postPpg": 1.926,
+   "n": 147
+  },
+  {
+   "pre": 15,
+   "postPpg": 1.869,
+   "n": 153
+  },
+  {
+   "pre": 16,
+   "postPpg": 2.053,
+   "n": 165
+  },
+  {
+   "pre": 18,
+   "postPpg": 2.226,
+   "n": 82
+  }
+ ],
+ "changes": [
+  {
+   "season": "2012/13",
+   "club": "1. FC Nürnberg",
+   "game": 18,
+   "out": "Dieter Hecking",
+   "in": "Michael Wiesinger",
+   "permanent": "Michael Wiesinger",
+   "pre": 9,
+   "post": 7,
+   "ctrlPost": 8.04,
+   "points": [
+    1,
+    1,
+    3,
+    0,
+    3,
+    1,
+    1,
+    0,
+    3,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "season": "2012/13",
+   "club": "FC Schalke 04",
+   "game": 18,
+   "out": "Huub Stevens",
+   "in": "Jens Keller",
+   "permanent": "Jens Keller",
+   "pre": 2,
+   "post": 8,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    3,
+    1,
+    0,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2012/13",
+   "club": "SpVgg Greuther Fürth",
+   "game": 23,
+   "out": "Mike Büskens",
+   "in": "Ludwig Preis",
+   "permanent": "Frank Kramer",
+   "pre": 4,
+   "post": 3,
+   "ctrlPost": 7.49,
+   "points": [
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2012/13",
+   "club": "Hoffenheim",
+   "game": 16,
+   "out": "Markus Babbel",
+   "in": "Frank Kramer",
+   "permanent": "Marco Kurz",
+   "pre": 4,
+   "post": 4,
+   "ctrlPost": 7.49,
+   "points": [
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2012/13",
+   "club": "Hoffenheim",
+   "game": 28,
+   "out": "Marco Kurz",
+   "in": "Markus Gisdol",
+   "permanent": "Markus Gisdol",
+   "pre": 4,
+   "post": 8,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    3,
+    1,
+    0,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2012/13",
+   "club": "VfL Wolfsburg",
+   "game": 9,
+   "out": "Felix Magath",
+   "in": "Lorenz-Günther Köstner",
+   "permanent": "Lorenz-Günther Köstner",
+   "pre": 2,
+   "post": 10,
+   "ctrlPost": 6.36,
+   "points": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2012/13",
+   "club": "VfL Wolfsburg",
+   "game": 18,
+   "out": "Lorenz-Günther Köstner",
+   "in": "Dieter Hecking",
+   "permanent": "Dieter Hecking",
+   "pre": 8,
+   "post": 8,
+   "ctrlPost": 7.95,
+   "points": [
+    3,
+    1,
+    0,
+    1,
+    3,
+    0,
+    3,
+    0,
+    1,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2013/14",
+   "club": "1. FC Nürnberg",
+   "game": 9,
+   "out": "Michael Wiesinger",
+   "in": "Roger Prinzen",
+   "permanent": "Gertjan Verbeek",
+   "pre": 3,
+   "post": 3,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2013/14",
+   "club": "Hamburger SV",
+   "game": 22,
+   "out": "Bert van Marwijk",
+   "in": "Mirko Slomka",
+   "permanent": "Mirko Slomka",
+   "pre": 0,
+   "post": 8,
+   "ctrlPost": 5.58,
+   "points": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2013/14",
+   "club": "Hannover 96",
+   "game": 18,
+   "out": "Mirko Slomka",
+   "in": "Tayfun Korkut",
+   "permanent": "Tayfun Korkut",
+   "pre": 5,
+   "post": 7,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    0,
+    3,
+    0,
+    1,
+    0,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2013/14",
+   "club": "VfB Stuttgart",
+   "game": 25,
+   "out": "Thomas Schneider",
+   "in": "Huub Stevens",
+   "permanent": "Huub Stevens",
+   "pre": 1,
+   "post": 8,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    0,
+    0,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2014/15",
+   "club": "Mainz 05",
+   "game": 22,
+   "out": "Kasper Hjulmand",
+   "in": "Martin Schmidt",
+   "permanent": "Martin Schmidt",
+   "pre": 5,
+   "post": 9,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    0,
+    3,
+    1,
+    0,
+    0,
+    3,
+    0,
+    1,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "season": "2014/15",
+   "club": "FC Schalke 04",
+   "game": 8,
+   "out": "Jens Keller",
+   "in": "Roberto Di Matteo",
+   "permanent": "Roberto Di Matteo",
+   "pre": 8,
+   "post": 12,
+   "ctrlPost": 7.95,
+   "points": [
+    1,
+    0,
+    1,
+    3,
+    3,
+    0,
+    3,
+    0,
+    3,
+    0,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2014/15",
+   "club": "Hamburger SV",
+   "game": 27,
+   "out": "Josef Zinnbauer",
+   "in": "Peter Knäbel",
+   "permanent": "Bruno Labbadia",
+   "pre": 2,
+   "post": 7,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2014/15",
+   "club": "Hertha BSC",
+   "game": 20,
+   "out": "Jos Luhukay",
+   "in": "Pál Dárdai",
+   "permanent": "Pál Dárdai",
+   "pre": 4,
+   "post": 8,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "season": "2014/15",
+   "club": "Werder Bremen",
+   "game": 10,
+   "out": "Robin Dutt",
+   "in": "Viktor Skrypnyk",
+   "permanent": "Viktor Skrypnyk",
+   "pre": 1,
+   "post": 10,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    3,
+    0,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2014/15",
+   "club": "VfB Stuttgart",
+   "game": 13,
+   "out": "Armin Veh",
+   "in": "Huub Stevens",
+   "permanent": "Huub Stevens",
+   "pre": 4,
+   "post": 8,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2015/16",
+   "club": "Eintracht Frankfurt",
+   "game": 26,
+   "out": "Armin Veh",
+   "in": "Niko Kovac",
+   "permanent": "Niko Kovac",
+   "pre": 3,
+   "post": 6,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2015/16",
+   "club": "Hannover 96",
+   "game": 18,
+   "out": "Michael Frontzeck",
+   "in": "Thomas Schaaf",
+   "permanent": "Thomas Schaaf",
+   "pre": 3,
+   "post": 3,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2015/16",
+   "club": "Hannover 96",
+   "game": 29,
+   "out": "Thomas Schaaf",
+   "in": "Daniel Stendel",
+   "permanent": "Daniel Stendel",
+   "pre": 3,
+   "post": 8,
+   "ctrlPost": 7.01,
+   "points": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    1,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2015/16",
+   "club": "Hoffenheim",
+   "game": 11,
+   "out": "Markus Gisdol",
+   "in": "Huub Stevens",
+   "permanent": "Huub Stevens",
+   "pre": 5,
+   "post": 7,
+   "ctrlPost": 7.66,
+   "points": [
+    0,
+    1,
+    3,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2015/16",
+   "club": "Hoffenheim",
+   "game": 21,
+   "out": "Huub Stevens",
+   "in": "Julian Nagelsmann",
+   "permanent": "Julian Nagelsmann",
+   "pre": 5,
+   "post": 10,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    3,
+    0,
+    1,
+    0,
+    0,
+    1,
+    3,
+    0,
+    3,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2015/16",
+   "club": "VfB Stuttgart",
+   "game": 14,
+   "out": "Alexander Zorniger",
+   "in": "Jürgen Kramny",
+   "permanent": "Jürgen Kramny",
+   "pre": 7,
+   "post": 11,
+   "ctrlPost": 7.78,
+   "points": [
+    1,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "Bayer Leverkusen",
+   "game": 24,
+   "out": "Roger Schmidt",
+   "in": "Tayfun Korkut",
+   "permanent": "Tayfun Korkut",
+   "pre": 6,
+   "post": 6,
+   "ctrlPost": 7.37,
+   "points": [
+    0,
+    0,
+    3,
+    3,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "Mönchengladbach",
+   "game": 17,
+   "out": "André Schubert",
+   "in": "Dieter Hecking",
+   "permanent": "Dieter Hecking",
+   "pre": 4,
+   "post": 13,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    1,
+    3,
+    3,
+    3,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "FC Augsburg",
+   "game": 15,
+   "out": "Dirk Schuster",
+   "in": "Manuel Baum",
+   "permanent": "Manuel Baum",
+   "pre": 6,
+   "post": 10,
+   "ctrlPost": 7.37,
+   "points": [
+    0,
+    3,
+    1,
+    1,
+    1,
+    0,
+    3,
+    1,
+    0,
+    3,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "FC Ingolstadt 04",
+   "game": 11,
+   "out": "Markus Kauczinski",
+   "in": "Maik Walpurgis",
+   "permanent": "Maik Walpurgis",
+   "pre": 1,
+   "post": 10,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    1,
+    0,
+    3,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "SV Darmstadt 98",
+   "game": 14,
+   "out": "Norbert Meier",
+   "in": "Ramon Berndroth",
+   "permanent": "Torsten Frings",
+   "pre": 3,
+   "post": 1,
+   "ctrlPost": 7.01,
+   "points": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "VfL Wolfsburg",
+   "game": 8,
+   "out": "Dieter Hecking",
+   "in": "Valérien Ismaël",
+   "permanent": "Valérien Ismaël",
+   "pre": 3,
+   "post": 4,
+   "ctrlPost": 7.01,
+   "points": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2016/17",
+   "club": "VfL Wolfsburg",
+   "game": 23,
+   "out": "Valérien Ismaël",
+   "in": "Andries Jonker",
+   "permanent": "Andries Jonker",
+   "pre": 6,
+   "post": 8,
+   "ctrlPost": 7.37,
+   "points": [
+    3,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    3,
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "1. FC Köln",
+   "game": 15,
+   "out": "Peter Stöger",
+   "in": "Stefan Ruthenbeck",
+   "permanent": "Stefan Ruthenbeck",
+   "pre": 2,
+   "post": 10,
+   "ctrlPost": 6.36,
+   "points": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    3,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "Bayern München",
+   "game": 7,
+   "out": "Carlo Ancelotti",
+   "in": "Willy Sagnol",
+   "permanent": "Jupp Heynckes",
+   "pre": 13,
+   "post": 16,
+   "ctrlPost": 10.16,
+   "points": [
+    3,
+    3,
+    0,
+    3,
+    3,
+    1,
+    1,
+    3,
+    3,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "Borussia Dortmund",
+   "game": 16,
+   "out": "Peter Bosz",
+   "in": "Peter Stöger",
+   "permanent": "Peter Stöger",
+   "pre": 2,
+   "post": 12,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    3,
+    3,
+    1,
+    1,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "Hamburger SV",
+   "game": 20,
+   "out": "Markus Gisdol",
+   "in": "Bernd Hollerbach",
+   "permanent": "Bernd Hollerbach",
+   "pre": 2,
+   "post": 3,
+   "ctrlPost": 6.36,
+   "points": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "Hamburger SV",
+   "game": 27,
+   "out": "Bernd Hollerbach",
+   "in": "Christian Titz",
+   "permanent": "Christian Titz",
+   "pre": 2,
+   "post": 10,
+   "ctrlPost": 6.36,
+   "points": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    3,
+    0,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "Werder Bremen",
+   "game": 11,
+   "out": "Alexander Nouri",
+   "in": "Florian Kohfeldt",
+   "permanent": "Florian Kohfeldt",
+   "pre": 4,
+   "post": 9,
+   "ctrlPost": 7.49,
+   "points": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    3,
+    0,
+    3,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "VfB Stuttgart",
+   "game": 21,
+   "out": "Hannes Wolf",
+   "in": "Tayfun Korkut",
+   "permanent": "Tayfun Korkut",
+   "pre": 3,
+   "post": 14,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    3,
+    3,
+    3,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2017/18",
+   "club": "VfL Wolfsburg",
+   "game": 24,
+   "out": "Martin Schmidt",
+   "in": "Bruno Labbadia",
+   "permanent": "Bruno Labbadia",
+   "pre": 5,
+   "post": 5,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    0,
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2018/19",
+   "club": "1. FC Nürnberg",
+   "game": 22,
+   "out": "Michael Köllner",
+   "in": "Boris Schommers",
+   "permanent": "Boris Schommers",
+   "pre": 1,
+   "post": 4,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2018/19",
+   "club": "Bayer Leverkusen",
+   "game": 18,
+   "out": "Heiko Herrlich",
+   "in": "Peter Bosz",
+   "permanent": "Peter Bosz",
+   "pre": 13,
+   "post": 12,
+   "ctrlPost": 10.16,
+   "points": [
+    3,
+    1,
+    3,
+    0,
+    3,
+    3,
+    0,
+    3,
+    3,
+    3,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2018/19",
+   "club": "FC Augsburg",
+   "game": 29,
+   "out": "Manuel Baum",
+   "in": "Martin Schmidt",
+   "permanent": "Martin Schmidt",
+   "pre": 7,
+   "post": 7,
+   "ctrlPost": 7.78,
+   "points": [
+    0,
+    3,
+    1,
+    3,
+    0,
+    0,
+    3,
+    3,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2018/19",
+   "club": "FC Schalke 04",
+   "game": 26,
+   "out": "Domenico Tedesco",
+   "in": "Huub Stevens",
+   "permanent": "Huub Stevens",
+   "pre": 1,
+   "post": 7,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2018/19",
+   "club": "Hannover 96",
+   "game": 20,
+   "out": "André Breitenreiter",
+   "in": "Thomas Doll",
+   "permanent": "Thomas Doll",
+   "pre": 2,
+   "post": 3,
+   "ctrlPost": 6.36,
+   "points": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2018/19",
+   "club": "VfB Stuttgart",
+   "game": 8,
+   "out": "Tayfun Korkut",
+   "in": "Markus Weinzierl",
+   "permanent": "Markus Weinzierl",
+   "pre": 5,
+   "post": 6,
+   "ctrlPost": 7.66,
+   "points": [
+    0,
+    1,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "1. FC Köln",
+   "game": 12,
+   "out": "Achim Beierlorzer",
+   "in": "Markus Gisdol",
+   "permanent": "Markus Gisdol",
+   "pre": 4,
+   "post": 10,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "Mainz 05",
+   "game": 12,
+   "out": "Sandro Schwarz",
+   "in": "Achim Beierlorzer",
+   "permanent": "Achim Beierlorzer",
+   "pre": 6,
+   "post": 9,
+   "ctrlPost": 7.37,
+   "points": [
+    0,
+    3,
+    0,
+    3,
+    0,
+    0,
+    3,
+    3,
+    0,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "Bayern München",
+   "game": 11,
+   "out": "Niko Kovac",
+   "in": "Hansi Flick",
+   "permanent": "Hansi Flick",
+   "pre": 10,
+   "post": 12,
+   "ctrlPost": 8.53,
+   "points": [
+    3,
+    3,
+    0,
+    1,
+    3,
+    0,
+    3,
+    3,
+    0,
+    0,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "FC Augsburg",
+   "game": 26,
+   "out": "Martin Schmidt",
+   "in": "Heiko Herrlich",
+   "permanent": "Heiko Herrlich",
+   "pre": 4,
+   "post": 8,
+   "ctrlPost": 7.49,
+   "points": [
+    3,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "Fortuna Düsseldorf",
+   "game": 20,
+   "out": "Friedhelm Funkel",
+   "in": "Uwe Rösler",
+   "permanent": "Uwe Rösler",
+   "pre": 3,
+   "post": 7,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    1,
+    0,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "Hertha BSC",
+   "game": 13,
+   "out": "Ante Covic",
+   "in": "Jürgen Klinsmann",
+   "permanent": "Jürgen Klinsmann",
+   "pre": 4,
+   "post": 8,
+   "ctrlPost": 7.49,
+   "points": [
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2019/20",
+   "club": "Hertha BSC",
+   "game": 22,
+   "out": "Jürgen Klinsmann",
+   "in": "Alexander Nouri",
+   "permanent": "Bruno Labbadia",
+   "pre": 8,
+   "post": 11,
+   "ctrlPost": 7.95,
+   "points": [
+    3,
+    1,
+    0,
+    3,
+    1,
+    0,
+    3,
+    0,
+    1,
+    1,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "1. FC Köln",
+   "game": 29,
+   "out": "Markus Gisdol",
+   "in": "Friedhelm Funkel",
+   "permanent": "Friedhelm Funkel",
+   "pre": 2,
+   "post": 10,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    3,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "Mainz 05",
+   "game": 14,
+   "out": "Jan-Moritz Lichte",
+   "in": "Jan Siewert",
+   "permanent": "Bo Svensson",
+   "pre": 5,
+   "post": 4,
+   "ctrlPost": 7.66,
+   "points": [
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "Arminia Bielefeld",
+   "game": 23,
+   "out": "Uwe Neuhaus",
+   "in": "Frank Kramer",
+   "permanent": "Frank Kramer",
+   "pre": 4,
+   "post": 8,
+   "ctrlPost": 7.49,
+   "points": [
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "Bayer Leverkusen",
+   "game": 27,
+   "out": "Peter Bosz",
+   "in": "Hannes Wolf",
+   "permanent": "Hannes Wolf",
+   "pre": 5,
+   "post": 11,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    1,
+    0,
+    3,
+    0,
+    0,
+    3,
+    1,
+    3,
+    0,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "Borussia Dortmund",
+   "game": 12,
+   "out": "Lucien Favre",
+   "in": "Edin Terzic",
+   "permanent": "Edin Terzic",
+   "pre": 7,
+   "post": 10,
+   "ctrlPost": 7.78,
+   "points": [
+    3,
+    0,
+    3,
+    0,
+    1,
+    0,
+    3,
+    0,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "FC Schalke 04",
+   "game": 13,
+   "out": "Manuel Baum",
+   "in": "Huub Stevens",
+   "permanent": "Christian Gross",
+   "pre": 2,
+   "post": 3,
+   "ctrlPost": 6.36,
+   "points": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "FC Schalke 04",
+   "game": 24,
+   "out": "Christian Gross",
+   "in": "Dimitrios Grammozis",
+   "permanent": "Dimitrios Grammozis",
+   "pre": 2,
+   "post": 4,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2020/21",
+   "club": "Hertha BSC",
+   "game": 19,
+   "out": "Bruno Labbadia",
+   "in": "Pál Dárdai",
+   "permanent": "Pál Dárdai",
+   "pre": 4,
+   "post": 4,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    3,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2021/22",
+   "club": "Hertha BSC",
+   "game": 14,
+   "out": "Pál Dárdai",
+   "in": "Tayfun Korkut",
+   "permanent": "Tayfun Korkut",
+   "pre": 8,
+   "post": 8,
+   "ctrlPost": 7.95,
+   "points": [
+    3,
+    3,
+    0,
+    1,
+    0,
+    1,
+    1,
+    3,
+    0,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2021/22",
+   "club": "Hertha BSC",
+   "game": 27,
+   "out": "Tayfun Korkut",
+   "in": "Mark Fotheringham",
+   "permanent": "Felix Magath",
+   "pre": 1,
+   "post": 10,
+   "ctrlPost": 6.93,
+   "points": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    3,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2021/22",
+   "club": "RB Leipzig",
+   "game": 15,
+   "out": "Jesse Marsch",
+   "in": "Domenico Tedesco",
+   "permanent": "Domenico Tedesco",
+   "pre": 7,
+   "post": 13,
+   "ctrlPost": 7.78,
+   "points": [
+    3,
+    1,
+    3,
+    0,
+    0,
+    0,
+    3,
+    1,
+    0,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2021/22",
+   "club": "VfL Wolfsburg",
+   "game": 10,
+   "out": "Mark van Bommel",
+   "in": "Florian Kohfeldt",
+   "permanent": "Florian Kohfeldt",
+   "pre": 4,
+   "post": 7,
+   "ctrlPost": 7.49,
+   "points": [
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "Bayer Leverkusen",
+   "game": 9,
+   "out": "Gerardo Seoane",
+   "in": "Xabi Alonso",
+   "permanent": "Xabi Alonso",
+   "pre": 5,
+   "post": 10,
+   "ctrlPost": 7.66,
+   "points": [
+    0,
+    3,
+    0,
+    1,
+    1,
+    0,
+    3,
+    0,
+    1,
+    0,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "Bayern München",
+   "game": 26,
+   "out": "Julian Nagelsmann",
+   "in": "Thomas Tuchel",
+   "permanent": "Thomas Tuchel",
+   "pre": 12,
+   "post": 13,
+   "ctrlPost": 9.59,
+   "points": [
+    3,
+    0,
+    3,
+    3,
+    3,
+    0,
+    3,
+    3,
+    1,
+    0,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "FC Schalke 04",
+   "game": 11,
+   "out": "Frank Kramer",
+   "in": "Matthias Kreutzer",
+   "permanent": "Thomas Reis",
+   "pre": 4,
+   "post": 3,
+   "ctrlPost": 7.49,
+   "points": [
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "Hertha BSC",
+   "game": 29,
+   "out": "Sandro Schwarz",
+   "in": "Pál Dárdai",
+   "permanent": "Pál Dárdai",
+   "pre": 2,
+   "post": 7,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "Hoffenheim",
+   "game": 20,
+   "out": "André Breitenreiter",
+   "in": "Pellegrino Matarazzo",
+   "permanent": "Pellegrino Matarazzo",
+   "pre": 1,
+   "post": 3,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "VfB Stuttgart",
+   "game": 10,
+   "out": "Pellegrino Matarazzo",
+   "in": "Michael Wimmer",
+   "permanent": "Michael Wimmer",
+   "pre": 3,
+   "post": 9,
+   "ctrlPost": 7.01,
+   "points": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "VfB Stuttgart",
+   "game": 16,
+   "out": "Michael Wimmer",
+   "in": "Bruno Labbadia",
+   "permanent": "Bruno Labbadia",
+   "pre": 9,
+   "post": 5,
+   "ctrlPost": 8.04,
+   "points": [
+    3,
+    0,
+    3,
+    0,
+    3,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "VfB Stuttgart",
+   "game": 27,
+   "out": "Bruno Labbadia",
+   "in": "Sebastian Hoeneß",
+   "permanent": "Sebastian Hoeneß",
+   "pre": 4,
+   "post": 9,
+   "ctrlPost": 7.49,
+   "points": [
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    1,
+    1,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "season": "2022/23",
+   "club": "VfL Bochum",
+   "game": 7,
+   "out": "Thomas Reis",
+   "in": "Heiko Butscher",
+   "permanent": "Thomas Letsch",
+   "pre": 0,
+   "post": 7,
+   "ctrlPost": 5.58,
+   "points": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "1. FC Köln",
+   "game": 17,
+   "out": "Steffen Baumgart",
+   "in": "Timo Schultz",
+   "permanent": "Timo Schultz",
+   "pre": 5,
+   "post": 6,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    0,
+    3,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "Union Berlin",
+   "game": 12,
+   "out": "Urs Fischer",
+   "in": "Marco Grote",
+   "permanent": "Nenad Bjelica",
+   "pre": 0,
+   "post": 8,
+   "ctrlPost": 5.58,
+   "points": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "Mainz 05",
+   "game": 10,
+   "out": "Bo Svensson",
+   "in": "Jan Siewert",
+   "permanent": "Jan Siewert",
+   "pre": 2,
+   "post": 6,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "Mainz 05",
+   "game": 22,
+   "out": "Jan Siewert",
+   "in": "Bo Henriksen",
+   "permanent": "Bo Henriksen",
+   "pre": 3,
+   "post": 8,
+   "ctrlPost": 7.01,
+   "points": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    1,
+    0,
+    3,
+    1
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "FC Augsburg",
+   "game": 8,
+   "out": "Enrico Maaßen",
+   "in": "Jess Thorup",
+   "permanent": "Jess Thorup",
+   "pre": 4,
+   "post": 12,
+   "ctrlPost": 7.49,
+   "points": [
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    3,
+    3,
+    1,
+    1,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "VfL Bochum",
+   "game": 29,
+   "out": "Thomas Letsch",
+   "in": "Heiko Butscher",
+   "permanent": "Heiko Butscher",
+   "pre": 1,
+   "post": 7,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2023/24",
+   "club": "VfL Wolfsburg",
+   "game": 27,
+   "out": "Niko Kovac",
+   "in": "Ralph Hasenhüttl",
+   "permanent": "Ralph Hasenhüttl",
+   "pre": 2,
+   "post": 12,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2024/25",
+   "club": "Union Berlin",
+   "game": 16,
+   "out": "Bo Svensson",
+   "in": "Steffen Baumgart",
+   "permanent": "Steffen Baumgart",
+   "pre": 1,
+   "post": 7,
+   "ctrlPost": 6.93,
+   "points": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    3
+   ]
+  },
+  {
+   "season": "2024/25",
+   "club": "Borussia Dortmund",
+   "game": 19,
+   "out": "Nuri Şahin",
+   "in": "Mike Tullberg",
+   "permanent": "Niko Kovac",
+   "pre": 5,
+   "post": 10,
+   "ctrlPost": 7.66,
+   "points": [
+    1,
+    1,
+    3,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    0,
+    3,
+    3
+   ]
+  },
+  {
+   "season": "2024/25",
+   "club": "RB Leipzig",
+   "game": 28,
+   "out": "Marco Rose",
+   "in": "Zsolt Löw",
+   "permanent": "Zsolt Löw",
+   "pre": 6,
+   "post": 9,
+   "ctrlPost": 7.37,
+   "points": [
+    1,
+    1,
+    0,
+    1,
+    3,
+    0,
+    3,
+    3,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "season": "2024/25",
+   "club": "Hoffenheim",
+   "game": 11,
+   "out": "Pellegrino Matarazzo",
+   "in": "Christian Ilzer",
+   "permanent": "Christian Ilzer",
+   "pre": 6,
+   "post": 5,
+   "ctrlPost": 7.37,
+   "points": [
+    0,
+    1,
+    3,
+    1,
+    0,
+    1,
+    3,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2024/25",
+   "club": "VfL Bochum",
+   "game": 8,
+   "out": "Peter Zeidler",
+   "in": "Markus Feldhoff",
+   "permanent": "Dieter Hecking",
+   "pre": 1,
+   "post": 1,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "1. FC Köln",
+   "game": 28,
+   "out": "Lukas Kwasniok",
+   "in": "René Wagner",
+   "permanent": "René Wagner",
+   "pre": 3,
+   "post": 6,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    3,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "Mainz 05",
+   "game": 13,
+   "out": "Bo Henriksen",
+   "in": "Benjamin Hoffmann",
+   "permanent": "Urs Fischer",
+   "pre": 2,
+   "post": 6,
+   "ctrlPost": 6.36,
+   "points": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "Eintracht Frankfurt",
+   "game": 19,
+   "out": "Dino Toppmöller",
+   "in": "Dennis Schmitt",
+   "permanent": "Albert Riera",
+   "pre": 6,
+   "post": 7,
+   "ctrlPost": 7.37,
+   "points": [
+    0,
+    3,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    3,
+    0,
+    3
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "FC Augsburg",
+   "game": 13,
+   "out": "Sandro Wagner",
+   "in": "Manuel Baum",
+   "permanent": "Manuel Baum",
+   "pre": 4,
+   "post": 6,
+   "ctrlPost": 7.49,
+   "points": [
+    1,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "Werder Bremen",
+   "game": 21,
+   "out": "Horst Steffen",
+   "in": "Daniel Thioune",
+   "permanent": "Daniel Thioune",
+   "pre": 3,
+   "post": 6,
+   "ctrlPost": 7.01,
+   "points": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    3,
+    0
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "VfL Wolfsburg",
+   "game": 11,
+   "out": "Paul Simonis",
+   "in": "Daniel Bauer",
+   "permanent": "Daniel Bauer",
+   "pre": 3,
+   "post": 7,
+   "ctrlPost": 7.01,
+   "points": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    1,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "season": "2025/26",
+   "club": "VfL Wolfsburg",
+   "game": 26,
+   "out": "Daniel Bauer",
+   "in": "Dieter Hecking",
+   "permanent": "Dieter Hecking",
+   "pre": 1,
+   "post": 5,
+   "ctrlPost": 6.93,
+   "points": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    3,
+    1
+   ]
+  }
+ ],
+ "claim": {
+  "question": {
+   "en": "Does changing the coach win more points?",
+   "de": "Bringt ein Trainerwechsel mehr Punkte?"
+  },
+  "no_text": {
+   "not_detectable": {
+    "en": "Teams that change coach do not differ significantly from teams in the same position that keep theirs. A relevant effect is not ruled out either.",
+    "de": "Teams mit Trainerwechsel unterscheiden sich nicht signifikant von Teams in derselben Lage, die ihren Trainer behalten. Ein relevanter Effekt ist aber auch nicht ausgeschlossen."
+   }
+  },
+  "unit": {
+   "en": "points per game",
+   "de": "Punkte pro Spiel"
+  },
+  "cases": {
+   "en": "{n} coach changes, Bundesliga 2012/13–2025/26",
+   "de": "{n} Trainerwechsel, Bundesliga 2012/13–2025/26"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 0.15,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, say Tena and Forrest (2007) for Spain's top division: results improved after a coach was dismissed, but only in home matches.",
+     "de": "Ja, sagen Tena und Forrest (2007) für die erste spanische Liga: Nach einer Entlassung wurden die Ergebnisse besser, allerdings nur in Heimspielen."
+    },
+    "source": "Tena & Forrest 2007, European Journal of Operational Research 181(1): 362–373, doi:10.1016/j.ejor.2006.05.024"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "No, say studies with a comparison group: teams in the same slump recover without a change too.",
+     "de": "Nein, sagen Studien mit Vergleichsgruppe: Teams in derselben Krise erholen sich auch ohne Wechsel."
+    },
+    "source": "Heuer et al. 2011, PLoS ONE 6(3): e17664, doi:10.1371/journal.pone.0017664; ter Weel 2011, De Economist 159(3): 279–303, doi:10.1007/s10645-010-9157-y"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "comparison",
+   "question": {
+    "en": "What do we compare with?",
+    "de": "Womit vergleichen wir?"
+   },
+   "primary": "matched",
+   "options": [
+    {
+     "id": "before",
+     "label": {
+      "en": "with the same team before the change",
+      "de": "mit dem Team vor dem Wechsel"
+     },
+     "why": {
+      "en": "Sounds logical, but teams in a slump often recover on their own.",
+      "de": "Klingt logisch, aber Teams in einem Tief erholen sich oft von allein."
+     }
+    },
+    {
+     "id": "matched",
+     "label": {
+      "en": "with teams in the same slump that kept their coach",
+      "de": "mit Teams in derselben Krise ohne Wechsel"
+     },
+     "why": {
+      "en": "The fairest comparison: same situation, only without the change.",
+      "de": "Fairster Vergleich: gleiche Lage, nur ohne Wechsel."
+     }
+    },
+    {
+     "id": "all_slumps",
+     "label": {
+      "en": "with all teams in a slump",
+      "de": "mit allen Teams in einer Krise"
+     },
+     "why": {
+      "en": "More cases to compare with, but less similar ones.",
+      "de": "Mehr Vergleichsfälle, aber nicht ganz so ähnlich."
+     }
+    }
+   ]
+  },
+  {
+   "id": "window",
+   "question": {
+    "en": "How many games afterwards?",
+    "de": "Wie viele Spiele danach?"
+   },
+   "primary": "6",
+   "options": [
+    {
+     "id": "5",
+     "label": {
+      "en": "5",
+      "de": "5"
+     },
+     "why": {
+      "en": "Short: shows the immediate effect, but varies a lot.",
+      "de": "Kurz: zeigt den Sofort-Effekt, schwankt aber stark."
+     }
+    },
+    {
+     "id": "6",
+     "label": {
+      "en": "6",
+      "de": "6"
+     },
+     "why": {
+      "en": "The length fixed before the analysis.",
+      "de": "Die Länge, die vor der Auswertung festgelegt wurde."
+     }
+    },
+    {
+     "id": "10",
+     "label": {
+      "en": "10",
+      "de": "10"
+     },
+     "why": {
+      "en": "Longer: steadier, but other things get mixed in.",
+      "de": "Länger: ruhiger, aber andere Dinge mischen sich rein."
+     }
+    }
+   ]
+  },
+  {
+   "id": "opponents",
+   "question": {
+    "en": "Does the opponents' strength count?",
+    "de": "Zählt die Stärke der Gegner?"
+   },
+   "primary": "no",
+   "options": [
+    {
+     "id": "no",
+     "label": {
+      "en": "no",
+      "de": "nein"
+     },
+     "why": {
+      "en": "Points against the top team and the bottom team count the same.",
+      "de": "Punkte gegen den Ersten und gegen den Letzten zählen gleich."
+     }
+    },
+    {
+     "id": "yes",
+     "label": {
+      "en": "yes",
+      "de": "ja"
+     },
+     "why": {
+      "en": "A win against a strong team counts for more.",
+      "de": "Ein Sieg gegen einen Starken zählt mehr."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "comparison": "before",
+    "window": "5",
+    "opponents": "no"
+   },
+   "effect": 0.687755102040816,
+   "ci_low": 0.559183673469388,
+   "ci_high": 0.818367346938776,
+   "p": 0,
+   "n": 98
+  },
+  {
+   "choices": {
+    "comparison": "before",
+    "window": "5",
+    "opponents": "yes"
+   },
+   "effect": 0.68464131326146,
+   "ci_low": 0.564533711277527,
+   "ci_high": 0.806998783892392,
+   "p": 0,
+   "n": 98
+  },
+  {
+   "choices": {
+    "comparison": "before",
+    "window": "6",
+    "opponents": "no"
+   },
+   "effect": 0.602564102564103,
+   "ci_low": 0.494505494505495,
+   "ci_high": 0.710622710622711,
+   "p": 0,
+   "n": 91
+  },
+  {
+   "choices": {
+    "comparison": "before",
+    "window": "6",
+    "opponents": "yes"
+   },
+   "effect": 0.597663767025673,
+   "ci_low": 0.500819090874217,
+   "ci_high": 0.698117918384185,
+   "p": 0,
+   "n": 91
+  },
+  {
+   "choices": {
+    "comparison": "before",
+    "window": "10",
+    "opponents": "no"
+   },
+   "effect": 0.403636363636364,
+   "ci_low": 0.272727272727273,
+   "ci_high": 0.534545454545455,
+   "p": 0,
+   "n": 55
+  },
+  {
+   "choices": {
+    "comparison": "before",
+    "window": "10",
+    "opponents": "yes"
+   },
+   "effect": 0.418873305810341,
+   "ci_low": 0.287728266159723,
+   "ci_high": 0.547555649338129,
+   "p": 0,
+   "n": 55
+  },
+  {
+   "choices": {
+    "comparison": "matched",
+    "window": "5",
+    "opponents": "no"
+   },
+   "effect": 0.0814445640954802,
+   "ci_low": -0.0578446026558475,
+   "ci_high": 0.214597722800069,
+   "p": 0.258,
+   "n": 98
+  },
+  {
+   "choices": {
+    "comparison": "matched",
+    "window": "5",
+    "opponents": "yes"
+   },
+   "effect": 0.0823387526980765,
+   "ci_low": -0.0480912757439495,
+   "ci_high": 0.207449556085668,
+   "p": 0.2206,
+   "n": 98
+  },
+  {
+   "choices": {
+    "comparison": "matched",
+    "window": "6",
+    "opponents": "no"
+   },
+   "effect": 0.0732697232117795,
+   "ci_low": -0.0519194596967132,
+   "ci_high": 0.189191061429282,
+   "p": 0.2666,
+   "n": 91
+  },
+  {
+   "choices": {
+    "comparison": "matched",
+    "window": "6",
+    "opponents": "yes"
+   },
+   "effect": 0.073760752379779,
+   "ci_low": -0.0520737305591952,
+   "ci_high": 0.186297668087083,
+   "p": 0.2462,
+   "n": 91
+  },
+  {
+   "choices": {
+    "comparison": "matched",
+    "window": "10",
+    "opponents": "no"
+   },
+   "effect": 0.0373758522282958,
+   "ci_low": -0.116184934010611,
+   "ci_high": 0.173678861246303,
+   "p": 0.67,
+   "n": 55
+  },
+  {
+   "choices": {
+    "comparison": "matched",
+    "window": "10",
+    "opponents": "yes"
+   },
+   "effect": 0.0393184678101985,
+   "ci_low": -0.110798524174444,
+   "ci_high": 0.170395142767494,
+   "p": 0.6318,
+   "n": 55
+  },
+  {
+   "choices": {
+    "comparison": "all_slumps",
+    "window": "5",
+    "opponents": "no"
+   },
+   "effect": 0.107638949102575,
+   "ci_low": -0.0871693714695597,
+   "ci_high": 0.300051271762634,
+   "p": 0.2822,
+   "n": 57
+  },
+  {
+   "choices": {
+    "comparison": "all_slumps",
+    "window": "5",
+    "opponents": "yes"
+   },
+   "effect": 0.121805186233028,
+   "ci_low": -0.0602138374779789,
+   "ci_high": 0.303431596119374,
+   "p": 0.1938,
+   "n": 57
+  },
+  {
+   "choices": {
+    "comparison": "all_slumps",
+    "window": "6",
+    "opponents": "no"
+   },
+   "effect": 0.0792643129576373,
+   "ci_low": -0.0831083651071962,
+   "ci_high": 0.229605770633978,
+   "p": 0.3426,
+   "n": 59
+  },
+  {
+   "choices": {
+    "comparison": "all_slumps",
+    "window": "6",
+    "opponents": "yes"
+   },
+   "effect": 0.0920455568633356,
+   "ci_low": -0.0562165499550331,
+   "ci_high": 0.238153867803745,
+   "p": 0.2156,
+   "n": 59
+  },
+  {
+   "choices": {
+    "comparison": "all_slumps",
+    "window": "10",
+    "opponents": "no"
+   },
+   "effect": -0.0521335807050093,
+   "ci_low": -0.294848484848485,
+   "ci_high": 0.173272727272727,
+   "p": 0.6394,
+   "n": 22
+  },
+  {
+   "choices": {
+    "comparison": "all_slumps",
+    "window": "10",
+    "opponents": "yes"
+   },
+   "effect": -0.0254635604645781,
+   "ci_low": -0.260633438644615,
+   "ci_high": 0.192210848954439,
+   "p": 0.805,
+   "n": 22
+  }
+ ]
+}
+

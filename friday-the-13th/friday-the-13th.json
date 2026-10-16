@@ -1,0 +1,954 @@
+{
+ "meta": {
+  "source": "Department for Transport, Road Safety Data (STATS19), Open Government Licence v3.0",
+  "updated": "2026-10-15",
+  "accessed": "2026-10-15",
+  "years": "1979–2025",
+  "firstYear": 1979,
+  "lastYear": 2025,
+  "bootstrap": 10000,
+  "holidaysPackage": "0.106"
+ },
+ "summary": {
+  "collisions": 9116617,
+  "ksi": 1822731,
+  "fatal": 146175,
+  "undated": 8,
+  "days": 17167,
+  "fridays13": 81,
+  "holiday13": [
+   "1979-04-13",
+   "1990-04-13",
+   "2001-04-13"
+  ],
+  "holidayControls": [
+   "1984-04-20",
+   "2007-04-06",
+   "2012-04-06"
+  ],
+  "perDayFirstYear": 698.5,
+  "perDayLastYear": 278.2,
+  "fridayVsAverage": 18.1
+ },
+ "main": {
+  "sum13": 48949,
+  "sumComparison": 49385.0,
+  "mean13": 627.6,
+  "meanComparison": 633.1,
+  "moreCount": 45,
+  "fewerCount": 33,
+  "naiveMean13": 627.6,
+  "naiveMeanComparison": 525.7
+ },
+ "example": {
+  "date": "2025-06-13",
+  "on13": 346,
+  "on6": 296,
+  "on20": 329
+ },
+ "weekdays": [
+  {
+   "weekday": "Mon",
+   "mean": 531.1,
+   "days": 354
+  },
+  {
+   "weekday": "Tue",
+   "mean": 526.4,
+   "days": 359
+  },
+  {
+   "weekday": "Wed",
+   "mean": 544.1,
+   "days": 305
+  },
+  {
+   "weekday": "Thu",
+   "mean": 568.1,
+   "days": 305
+  },
+  {
+   "weekday": "Fri",
+   "mean": 626.0,
+   "days": 231
+  },
+  {
+   "weekday": "Sat",
+   "mean": 523.4,
+   "days": 312
+  },
+  {
+   "weekday": "Sun",
+   "mean": 414.6,
+   "days": 378
+  }
+ ],
+ "points": [
+  {
+   "date": "1979-07-13",
+   "on13": 848,
+   "comparison": 836.0,
+   "pct": 1.44
+  },
+  {
+   "date": "1980-06-13",
+   "on13": 795,
+   "comparison": 832.0,
+   "pct": -4.45
+  },
+  {
+   "date": "1981-02-13",
+   "on13": 801,
+   "comparison": 735.5,
+   "pct": 8.91
+  },
+  {
+   "date": "1981-03-13",
+   "on13": 834,
+   "comparison": 773.5,
+   "pct": 7.82
+  },
+  {
+   "date": "1981-11-13",
+   "on13": 875,
+   "comparison": 851.0,
+   "pct": 2.82
+  },
+  {
+   "date": "1982-08-13",
+   "on13": 995,
+   "comparison": 836.0,
+   "pct": 19.02
+  },
+  {
+   "date": "1983-05-13",
+   "on13": 826,
+   "comparison": 772.5,
+   "pct": 6.93
+  },
+  {
+   "date": "1984-01-13",
+   "on13": 827,
+   "comparison": 747.5,
+   "pct": 10.64
+  },
+  {
+   "date": "1984-04-13",
+   "on13": 765,
+   "comparison": 829.0,
+   "pct": -7.72
+  },
+  {
+   "date": "1984-07-13",
+   "on13": 830,
+   "comparison": 806.0,
+   "pct": 2.98
+  },
+  {
+   "date": "1985-09-13",
+   "on13": 890,
+   "comparison": 842.0,
+   "pct": 5.7
+  },
+  {
+   "date": "1985-12-13",
+   "on13": 975,
+   "comparison": 1110.0,
+   "pct": -12.16
+  },
+  {
+   "date": "1986-06-13",
+   "on13": 805,
+   "comparison": 774.0,
+   "pct": 4.01
+  },
+  {
+   "date": "1987-02-13",
+   "on13": 669,
+   "comparison": 737.0,
+   "pct": -9.23
+  },
+  {
+   "date": "1987-03-13",
+   "on13": 587,
+   "comparison": 773.0,
+   "pct": -24.06
+  },
+  {
+   "date": "1987-11-13",
+   "on13": 909,
+   "comparison": 762.5,
+   "pct": 19.21
+  },
+  {
+   "date": "1988-05-13",
+   "on13": 706,
+   "comparison": 741.5,
+   "pct": -4.79
+  },
+  {
+   "date": "1989-01-13",
+   "on13": 887,
+   "comparison": 842.5,
+   "pct": 5.28
+  },
+  {
+   "date": "1989-10-13",
+   "on13": 998,
+   "comparison": 1141.5,
+   "pct": -12.57
+  },
+  {
+   "date": "1990-07-13",
+   "on13": 793,
+   "comparison": 801.5,
+   "pct": -1.06
+  },
+  {
+   "date": "1991-09-13",
+   "on13": 759,
+   "comparison": 808.5,
+   "pct": -6.12
+  },
+  {
+   "date": "1991-12-13",
+   "on13": 914,
+   "comparison": 901.5,
+   "pct": 1.39
+  },
+  {
+   "date": "1992-03-13",
+   "on13": 812,
+   "comparison": 672.5,
+   "pct": 20.74
+  },
+  {
+   "date": "1992-11-13",
+   "on13": 865,
+   "comparison": 835.0,
+   "pct": 3.59
+  },
+  {
+   "date": "1993-08-13",
+   "on13": 684,
+   "comparison": 702.5,
+   "pct": -2.63
+  },
+  {
+   "date": "1994-05-13",
+   "on13": 712,
+   "comparison": 669.5,
+   "pct": 6.35
+  },
+  {
+   "date": "1995-01-13",
+   "on13": 727,
+   "comparison": 763.0,
+   "pct": -4.72
+  },
+  {
+   "date": "1995-10-13",
+   "on13": 628,
+   "comparison": 898.0,
+   "pct": -30.07
+  },
+  {
+   "date": "1996-09-13",
+   "on13": 853,
+   "comparison": 728.5,
+   "pct": 17.09
+  },
+  {
+   "date": "1996-12-13",
+   "on13": 950,
+   "comparison": 864.5,
+   "pct": 9.89
+  },
+  {
+   "date": "1997-06-13",
+   "on13": 767,
+   "comparison": 939.5,
+   "pct": -18.36
+  },
+  {
+   "date": "1998-02-13",
+   "on13": 731,
+   "comparison": 670.5,
+   "pct": 9.02
+  },
+  {
+   "date": "1998-03-13",
+   "on13": 607,
+   "comparison": 821.5,
+   "pct": -26.11
+  },
+  {
+   "date": "1998-11-13",
+   "on13": 796,
+   "comparison": 858.0,
+   "pct": -7.23
+  },
+  {
+   "date": "1999-08-13",
+   "on13": 709,
+   "comparison": 700.0,
+   "pct": 1.29
+  },
+  {
+   "date": "2000-10-13",
+   "on13": 702,
+   "comparison": 803.0,
+   "pct": -12.58
+  },
+  {
+   "date": "2001-07-13",
+   "on13": 801,
+   "comparison": 663.0,
+   "pct": 20.81
+  },
+  {
+   "date": "2002-09-13",
+   "on13": 706,
+   "comparison": 749.5,
+   "pct": -5.8
+  },
+  {
+   "date": "2002-12-13",
+   "on13": 819,
+   "comparison": 804.5,
+   "pct": 1.8
+  },
+  {
+   "date": "2003-06-13",
+   "on13": 701,
+   "comparison": 724.5,
+   "pct": -3.24
+  },
+  {
+   "date": "2004-02-13",
+   "on13": 623,
+   "comparison": 574.5,
+   "pct": 8.44
+  },
+  {
+   "date": "2004-08-13",
+   "on13": 615,
+   "comparison": 634.0,
+   "pct": -3.0
+  },
+  {
+   "date": "2005-05-13",
+   "on13": 625,
+   "comparison": 669.5,
+   "pct": -6.65
+  },
+  {
+   "date": "2006-01-13",
+   "on13": 587,
+   "comparison": 541.5,
+   "pct": 8.4
+  },
+  {
+   "date": "2006-10-13",
+   "on13": 641,
+   "comparison": 728.0,
+   "pct": -11.95
+  },
+  {
+   "date": "2007-04-13",
+   "on13": 424,
+   "comparison": 538.0,
+   "pct": -21.19
+  },
+  {
+   "date": "2007-07-13",
+   "on13": 692,
+   "comparison": 599.0,
+   "pct": 15.53
+  },
+  {
+   "date": "2008-06-13",
+   "on13": 491,
+   "comparison": 526.5,
+   "pct": -6.74
+  },
+  {
+   "date": "2009-02-13",
+   "on13": 451,
+   "comparison": 413.5,
+   "pct": 9.07
+  },
+  {
+   "date": "2009-03-13",
+   "on13": 456,
+   "comparison": 536.0,
+   "pct": -14.93
+  },
+  {
+   "date": "2009-11-13",
+   "on13": 692,
+   "comparison": 609.0,
+   "pct": 13.63
+  },
+  {
+   "date": "2010-08-13",
+   "on13": 523,
+   "comparison": 452.0,
+   "pct": 15.71
+  },
+  {
+   "date": "2011-05-13",
+   "on13": 468,
+   "comparison": 461.5,
+   "pct": 1.41
+  },
+  {
+   "date": "2012-01-13",
+   "on13": 499,
+   "comparison": 464.5,
+   "pct": 7.43
+  },
+  {
+   "date": "2012-04-13",
+   "on13": 384,
+   "comparison": 458.0,
+   "pct": -16.16
+  },
+  {
+   "date": "2012-07-13",
+   "on13": 440,
+   "comparison": 465.0,
+   "pct": -5.38
+  },
+  {
+   "date": "2013-09-13",
+   "on13": 486,
+   "comparison": 479.0,
+   "pct": 1.46
+  },
+  {
+   "date": "2013-12-13",
+   "on13": 507,
+   "comparison": 547.5,
+   "pct": -7.4
+  },
+  {
+   "date": "2014-06-13",
+   "on13": 502,
+   "comparison": 497.0,
+   "pct": 1.01
+  },
+  {
+   "date": "2015-02-13",
+   "on13": 430,
+   "comparison": 412.0,
+   "pct": 4.37
+  },
+  {
+   "date": "2015-03-13",
+   "on13": 397,
+   "comparison": 394.5,
+   "pct": 0.63
+  },
+  {
+   "date": "2015-11-13",
+   "on13": 513,
+   "comparison": 480.0,
+   "pct": 6.88
+  },
+  {
+   "date": "2016-05-13",
+   "on13": 391,
+   "comparison": 383.5,
+   "pct": 1.96
+  },
+  {
+   "date": "2017-01-13",
+   "on13": 408,
+   "comparison": 429.0,
+   "pct": -4.9
+  },
+  {
+   "date": "2017-10-13",
+   "on13": 377,
+   "comparison": 437.5,
+   "pct": -13.83
+  },
+  {
+   "date": "2018-04-13",
+   "on13": 285,
+   "comparison": 359.5,
+   "pct": -20.72
+  },
+  {
+   "date": "2018-07-13",
+   "on13": 380,
+   "comparison": 367.5,
+   "pct": 3.4
+  },
+  {
+   "date": "2019-09-13",
+   "on13": 402,
+   "comparison": 396.0,
+   "pct": 1.52
+  },
+  {
+   "date": "2019-12-13",
+   "on13": 398,
+   "comparison": 423.5,
+   "pct": -6.02
+  },
+  {
+   "date": "2020-03-13",
+   "on13": 277,
+   "comparison": 308.5,
+   "pct": -10.21
+  },
+  {
+   "date": "2020-11-13",
+   "on13": 306,
+   "comparison": 291.0,
+   "pct": 5.15
+  },
+  {
+   "date": "2021-08-13",
+   "on13": 318,
+   "comparison": 310.0,
+   "pct": 2.58
+  },
+  {
+   "date": "2022-05-13",
+   "on13": 364,
+   "comparison": 359.0,
+   "pct": 1.39
+  },
+  {
+   "date": "2023-01-13",
+   "on13": 339,
+   "comparison": 337.0,
+   "pct": 0.59
+  },
+  {
+   "date": "2023-10-13",
+   "on13": 361,
+   "comparison": 356.5,
+   "pct": 1.26
+  },
+  {
+   "date": "2024-09-13",
+   "on13": 370,
+   "comparison": 348.0,
+   "pct": 6.32
+  },
+  {
+   "date": "2024-12-13",
+   "on13": 323,
+   "comparison": 363.5,
+   "pct": -11.14
+  },
+  {
+   "date": "2025-06-13",
+   "on13": 346,
+   "comparison": 312.5,
+   "pct": 10.72
+  }
+ ],
+ "claim": {
+  "question": {
+   "en": "Are there more road accidents on Friday the 13th?",
+   "de": "Passieren an Freitag, dem 13., mehr Verkehrsunfälle?"
+  },
+  "yes_text": {
+   "en": "Fridays the 13th have more crashes than the Fridays a week before and after.",
+   "de": "An einem Freitag, dem 13., kracht es öfter als an den Freitagen eine Woche davor und danach."
+  },
+  "no_text": {
+   "ruled_out": {
+    "en": "Fridays the 13th do not have significantly more crashes than the Fridays a week before and after. Any increase is at most {bound} per cent.",
+    "de": "An einem Freitag, dem 13., gibt es nicht signifikant mehr Unfälle als an den Freitagen eine Woche davor und danach. Ein Anstieg liegt höchstens bei {bound} Prozent."
+   },
+   "not_detectable": {
+    "en": "Fridays the 13th do not have significantly more crashes than the Fridays a week before and after. A relevant increase is not ruled out either.",
+    "de": "An einem Freitag, dem 13., gibt es nicht signifikant mehr Unfälle als an den Freitagen eine Woche davor und danach. Ein relevanter Anstieg ist aber auch nicht ausgeschlossen."
+   },
+   "opposite": {
+    "en": "Fridays the 13th have fewer crashes than the Fridays a week before and after.",
+    "de": "An einem Freitag, dem 13., kracht es seltener als an den Freitagen eine Woche davor und danach."
+   }
+  },
+  "unit": {
+   "en": "per cent",
+   "de": "Prozent"
+  },
+  "cases": {
+   "en": "{n} Fridays the 13th, Great Britain 1979–2025",
+   "de": "{n} Freitage am 13., Großbritannien 1979–2025"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 5,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, according to a 1993 paper in the British Medical Journal: in one health region south of London, 65 people were admitted to hospital after traffic accidents on Fridays the 13th, against 45 on Fridays the 6th.",
+     "de": "Ja, hieß es 1993 im British Medical Journal: In einer Gesundheitsregion südlich von London kamen an Freitagen, dem 13., 65 Menschen nach Verkehrsunfällen ins Krankenhaus, an Freitagen, dem 6., nur 45."
+    },
+    "source": "Scanlon et al. 1993, BMJ 307(6919): 1584–1586, doi:10.1136/bmj.307.6919.1584"
+   },
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes for women, found Näyhä (2002) in Finnish traffic deaths from 1971 to 1997.",
+     "de": "Ja, für Frauen, fand Näyhä (2002) in finnischen Verkehrstoten von 1971 bis 1997."
+    },
+    "source": "Näyhä 2002, American Journal of Psychiatry 159(12): 2110–2111, doi:10.1176/appi.ajp.159.12.2110"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "No, found Radun and Summala (2004) with 14 years of Finnish accident data: Fridays the 13th had no more injury crashes than the Fridays before and after.",
+     "de": "Nein, fanden Radun und Summala (2004) mit 14 Jahren finnischer Unfalldaten: An Freitagen, dem 13., gab es nicht mehr Unfälle mit Verletzten als an den Freitagen davor und danach."
+    },
+    "source": "Radun & Summala 2004, BMC Public Health 4: 54, doi:10.1186/1471-2458-4-54"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "comparison",
+   "question": {
+    "en": "What do we compare with?",
+    "de": "Womit vergleichen wir?"
+   },
+   "primary": "fridays",
+   "options": [
+    {
+     "id": "all_days",
+     "label": {
+      "en": "with all other days of the month",
+      "de": "mit allen anderen Tagen im Monat"
+     },
+     "why": {
+      "en": "How headlines compare. But weekdays differ: Friday traffic is not Sunday traffic.",
+      "de": "So rechnen Schlagzeilen. Aber Wochentage unterscheiden sich: Freitagsverkehr ist kein Sonntagsverkehr."
+     }
+    },
+    {
+     "id": "fridays",
+     "label": {
+      "en": "with the Fridays a week before and after",
+      "de": "mit den Freitagen eine Woche davor und danach"
+     },
+     "why": {
+      "en": "Same weekday, same time of year. Only the date differs.",
+      "de": "Gleicher Wochentag, gleiche Jahreszeit. Nur das Datum ist anders."
+     }
+    },
+    {
+     "id": "friday_6th",
+     "label": {
+      "en": "only with the Friday a week before",
+      "de": "nur mit dem Freitag eine Woche davor"
+     },
+     "why": {
+      "en": "As in the 1993 study. Half as many comparison days.",
+      "de": "So wie in der Studie von 1993. Halb so viele Vergleichstage."
+     }
+    }
+   ]
+  },
+  {
+   "id": "outcome",
+   "question": {
+    "en": "What do we count?",
+    "de": "Was zählen wir?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "every crash with an injured person",
+      "de": "jeden Unfall mit Verletzten"
+     },
+     "why": {
+      "en": "The most cases, so the most precise answer.",
+      "de": "Die meisten Fälle, also die genaueste Antwort."
+     }
+    },
+    {
+     "id": "ksi",
+     "label": {
+      "en": "crashes with someone killed or seriously injured",
+      "de": "Unfälle mit Toten oder Schwerverletzten"
+     },
+     "why": {
+      "en": "Fewer cases, but only the serious crashes.",
+      "de": "Weniger Fälle, dafür nur die schweren Unfälle."
+     }
+    },
+    {
+     "id": "fatal",
+     "label": {
+      "en": "only crashes with someone killed",
+      "de": "nur Unfälle mit Toten"
+     },
+     "why": {
+      "en": "As in the Finnish study of 2002. Few cases, so the numbers swing a lot.",
+      "de": "Wie in der finnischen Studie von 2002. Wenige Fälle, die Zahlen schwanken stark."
+     }
+    }
+   ]
+  },
+  {
+   "id": "holidays",
+   "question": {
+    "en": "What about public holidays?",
+    "de": "Was machen wir mit Feiertagen?"
+   },
+   "primary": "exclude",
+   "options": [
+    {
+     "id": "exclude",
+     "label": {
+      "en": "leave them out",
+      "de": "weglassen"
+     },
+     "why": {
+      "en": "Good Friday sometimes falls on the 13th. On a holiday, people drive differently.",
+      "de": "Karfreitag fällt manchmal auf den 13. An Feiertagen fahren die Leute anders."
+     }
+    },
+    {
+     "id": "keep",
+     "label": {
+      "en": "count them like any other day",
+      "de": "wie normale Tage zählen"
+     },
+     "why": {
+      "en": "Keeps every Friday the 13th, holidays included.",
+      "de": "Behält jeden Freitag, den 13., auch die Feiertage."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "comparison": "all_days",
+    "outcome": "all",
+    "holidays": "exclude"
+   },
+   "effect": 19.364668488855386,
+   "ci_low": 16.662648176592754,
+   "ci_high": 22.01824232106302,
+   "p": 0.0,
+   "n": 78
+  },
+  {
+   "choices": {
+    "comparison": "all_days",
+    "outcome": "all",
+    "holidays": "keep"
+   },
+   "effect": 19.29446570772606,
+   "ci_low": 16.28404184653769,
+   "ci_high": 22.257585075481433,
+   "p": 0.0,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "all_days",
+    "outcome": "ksi",
+    "holidays": "exclude"
+   },
+   "effect": 19.073244927070142,
+   "ci_low": 15.723203827846577,
+   "ci_high": 22.33942239313993,
+   "p": 0.0,
+   "n": 78
+  },
+  {
+   "choices": {
+    "comparison": "all_days",
+    "outcome": "ksi",
+    "holidays": "keep"
+   },
+   "effect": 19.1501951552296,
+   "ci_low": 15.650357753866452,
+   "ci_high": 22.51758879929586,
+   "p": 0.0,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "all_days",
+    "outcome": "fatal",
+    "holidays": "exclude"
+   },
+   "effect": 18.199537823993307,
+   "ci_low": 8.39787369123053,
+   "ci_high": 27.779745332133675,
+   "p": 0.0004,
+   "n": 78
+  },
+  {
+   "choices": {
+    "comparison": "all_days",
+    "outcome": "fatal",
+    "holidays": "keep"
+   },
+   "effect": 18.8881374153667,
+   "ci_low": 9.247347446484167,
+   "ci_high": 28.453199086791138,
+   "p": 0.0,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "fridays",
+    "outcome": "all",
+    "holidays": "exclude"
+   },
+   "effect": -0.8828591677634945,
+   "ci_low": -3.61117107922988,
+   "ci_high": 1.7987270546997447,
+   "p": 0.5258,
+   "n": 78
+  },
+  {
+   "choices": {
+    "comparison": "fridays",
+    "outcome": "all",
+    "holidays": "keep"
+   },
+   "effect": -0.9154455850954979,
+   "ci_low": -3.6424345143251546,
+   "ci_high": 1.78017801780177,
+   "p": 0.5278,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "fridays",
+    "outcome": "ksi",
+    "holidays": "exclude"
+   },
+   "effect": -0.9591474245115417,
+   "ci_low": -4.161470601819772,
+   "ci_high": 2.3260398186477405,
+   "p": 0.5634,
+   "n": 78
+  },
+  {
+   "choices": {
+    "comparison": "fridays",
+    "outcome": "ksi",
+    "holidays": "keep"
+   },
+   "effect": -0.8883063928935453,
+   "ci_low": -4.023984634843303,
+   "ci_high": 2.304147465437789,
+   "p": 0.5806,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "fridays",
+    "outcome": "fatal",
+    "holidays": "exclude"
+   },
+   "effect": 2.5099075297225992,
+   "ci_low": -6.4398541919805545,
+   "ci_high": 11.994609164420478,
+   "p": 0.5868,
+   "n": 78
+  },
+  {
+   "choices": {
+    "comparison": "fridays",
+    "outcome": "fatal",
+    "holidays": "keep"
+   },
+   "effect": 2.6959247648902895,
+   "ci_low": -6.090373280943028,
+   "ci_high": 11.814073595868301,
+   "p": 0.5446,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "friday_6th",
+    "outcome": "all",
+    "holidays": "exclude"
+   },
+   "effect": -0.09546143150642727,
+   "ci_low": -3.6064798391864716,
+   "ci_high": 3.358136525396316,
+   "p": 0.9944,
+   "n": 76
+  },
+  {
+   "choices": {
+    "comparison": "friday_6th",
+    "outcome": "all",
+    "holidays": "keep"
+   },
+   "effect": -0.7616146230007614,
+   "ci_low": -4.357399466913892,
+   "ci_high": 2.8086019763486236,
+   "p": 0.6834,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "friday_6th",
+    "outcome": "ksi",
+    "holidays": "exclude"
+   },
+   "effect": 0.2808404410234999,
+   "ci_low": -3.5517807161470905,
+   "ci_high": 4.226736566186107,
+   "p": 0.89,
+   "n": 76
+  },
+  {
+   "choices": {
+    "comparison": "friday_6th",
+    "outcome": "ksi",
+    "holidays": "keep"
+   },
+   "effect": -0.2442837600156289,
+   "ci_low": -3.9113056718690475,
+   "ci_high": 3.544120686092178,
+   "p": 0.8756,
+   "n": 81
+  },
+  {
+   "choices": {
+    "comparison": "friday_6th",
+    "outcome": "fatal",
+    "holidays": "exclude"
+   },
+   "effect": 3.7940379403794022,
+   "ci_low": -6.618531889290013,
+   "ci_high": 15.463917525773185,
+   "p": 0.5164,
+   "n": 76
+  },
+  {
+   "choices": {
+    "comparison": "friday_6th",
+    "outcome": "fatal",
+    "holidays": "keep"
+   },
+   "effect": 3.539823008849563,
+   "ci_low": -6.2937062937062915,
+   "ci_high": 14.540816326530614,
+   "p": 0.501,
+   "n": 81
+  }
+ ]
+}

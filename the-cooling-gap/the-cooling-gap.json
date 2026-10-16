@@ -1,0 +1,2075 @@
+{
+ "meta": {
+  "source": "Pavanello et al. (2021), Nature Communications 12, 6460 — replication output data",
+  "doi": "10.1038/s41467-021-26592-2",
+  "repo": "https://github.com/Energy-a/comparative_paper_natcomms",
+  "commit": "69a012536c17f47ad0235257241c64a9ade8a9d8",
+  "license": "GPL-3.0 (replication repository); paper CC BY 4.0",
+  "updated": "2026-10-14",
+  "projectionYear": 2040,
+  "mainScenario": "rcp45_SSP2",
+  "hotThresholdCdd": 100,
+  "cddNote": "Cooling degree days, wet-bulb temperature, 24 °C base; state means 1970–2016 (today) and 2021–2060 (projection)",
+  "spendNote": "Household expenditure in 2011 US dollars"
+ },
+ "states": [
+  {
+   "country": "Brazil",
+   "state": "Acre",
+   "surveyYear": 2017,
+   "cdd": 324.7,
+   "spendPc": 6769,
+   "ac": 29.7,
+   "householdsM": 0.179,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Alagoas",
+   "surveyYear": 2017,
+   "cdd": 83.9,
+   "spendPc": 4909,
+   "ac": 9.1,
+   "householdsM": 0.751,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Amapá",
+   "surveyYear": 2017,
+   "cdd": 514.2,
+   "spendPc": 7747,
+   "ac": 50.7,
+   "householdsM": 0.159,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Amazonas",
+   "surveyYear": 2017,
+   "cdd": 964.6,
+   "spendPc": 5792,
+   "ac": 61.7,
+   "householdsM": 0.832,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Bahia",
+   "surveyYear": 2017,
+   "cdd": 71.6,
+   "spendPc": 7318,
+   "ac": 11.2,
+   "householdsM": 3.257,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Ceará",
+   "surveyYear": 2017,
+   "cdd": 156.1,
+   "spendPc": 5572,
+   "ac": 9.0,
+   "householdsM": 1.833,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Distrito Federal",
+   "surveyYear": 2017,
+   "cdd": 0.4,
+   "spendPc": 18952,
+   "ac": 12.8,
+   "householdsM": 0.923,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Espírito Santo",
+   "surveyYear": 2017,
+   "cdd": 110.9,
+   "spendPc": 9636,
+   "ac": 24.7,
+   "householdsM": 0.66,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Goiás",
+   "surveyYear": 2017,
+   "cdd": 118.2,
+   "spendPc": 10325,
+   "ac": 18.2,
+   "householdsM": 1.81,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Maranhão",
+   "surveyYear": 2017,
+   "cdd": 477.9,
+   "spendPc": 4961,
+   "ac": 10.5,
+   "householdsM": 1.28,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Mato Grosso",
+   "surveyYear": 2017,
+   "cdd": 392.1,
+   "spendPc": 9376,
+   "ac": 36.6,
+   "householdsM": 0.85,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Mato Grosso do Sul",
+   "surveyYear": 2017,
+   "cdd": 168.2,
+   "spendPc": 10375,
+   "ac": 27.8,
+   "householdsM": 0.822,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Minas Gerais",
+   "surveyYear": 2017,
+   "cdd": 41.9,
+   "spendPc": 9247,
+   "ac": 4.8,
+   "householdsM": 5.321,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Paraná",
+   "surveyYear": 2017,
+   "cdd": 22.2,
+   "spendPc": 10792,
+   "ac": 15.2,
+   "householdsM": 3.033,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Paraíba",
+   "surveyYear": 2017,
+   "cdd": 90.8,
+   "spendPc": 5670,
+   "ac": 10.9,
+   "householdsM": 0.806,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Pará",
+   "surveyYear": 2017,
+   "cdd": 658.7,
+   "spendPc": 5677,
+   "ac": 17.0,
+   "householdsM": 1.454,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Pernambuco",
+   "surveyYear": 2017,
+   "cdd": 99.9,
+   "spendPc": 7122,
+   "ac": 17.2,
+   "householdsM": 0.544,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Piauí",
+   "surveyYear": 2017,
+   "cdd": 315.4,
+   "spendPc": 5485,
+   "ac": 20.2,
+   "householdsM": 0.636,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Rio Grande do Norte",
+   "surveyYear": 2017,
+   "cdd": 202.1,
+   "spendPc": 7576,
+   "ac": 14.7,
+   "householdsM": 0.707,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Rio Grande do Sul",
+   "surveyYear": 2017,
+   "cdd": 39.6,
+   "spendPc": 11744,
+   "ac": 42.8,
+   "householdsM": 2.633,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Rio de Janeiro",
+   "surveyYear": 2017,
+   "cdd": 46.0,
+   "spendPc": 9954,
+   "ac": 45.5,
+   "householdsM": 3.78,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Rondônia",
+   "surveyYear": 2017,
+   "cdd": 367.4,
+   "spendPc": 6459,
+   "ac": 35.8,
+   "householdsM": 0.426,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Roraima",
+   "surveyYear": 2017,
+   "cdd": 661.9,
+   "spendPc": 5722,
+   "ac": 54.2,
+   "householdsM": 0.115,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Brazil",
+   "state": "Santa Catarina",
+   "surveyYear": 2017,
+   "cdd": 30.7,
+   "spendPc": 10583,
+   "ac": 41.8,
+   "householdsM": 1.968,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Sergipe",
+   "surveyYear": 2017,
+   "cdd": 142.8,
+   "spendPc": 8116,
+   "ac": 11.5,
+   "householdsM": 0.478,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "São Paulo",
+   "surveyYear": 2017,
+   "cdd": 46.6,
+   "spendPc": 13258,
+   "ac": 14.5,
+   "householdsM": 11.938,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Brazil",
+   "state": "Tocantins",
+   "surveyYear": 2017,
+   "cdd": 440.2,
+   "spendPc": 5117,
+   "ac": 25.4,
+   "householdsM": 0.397,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "A & N Island",
+   "surveyYear": 2012,
+   "cdd": 66.1,
+   "spendPc": 3572,
+   "ac": 1.6,
+   "householdsM": 0.062,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Andhra Pradesh",
+   "surveyYear": 2012,
+   "cdd": 269.6,
+   "spendPc": 1805,
+   "ac": 14.3,
+   "householdsM": 22.13,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Arunachal Pradesh",
+   "surveyYear": 2012,
+   "cdd": 399.1,
+   "spendPc": 1632,
+   "ac": 2.1,
+   "householdsM": 0.154,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Assam",
+   "surveyYear": 2012,
+   "cdd": 618.5,
+   "spendPc": 1117,
+   "ac": 0.5,
+   "householdsM": 3.132,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Bihar",
+   "surveyYear": 2012,
+   "cdd": 598.4,
+   "spendPc": 1015,
+   "ac": 0.9,
+   "householdsM": 5.53,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Chandigarh",
+   "surveyYear": 2012,
+   "cdd": 261.9,
+   "spendPc": 3004,
+   "ac": 48.6,
+   "householdsM": 0.23,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Chattisgarh",
+   "surveyYear": 2012,
+   "cdd": 221.7,
+   "spendPc": 1085,
+   "ac": 17.7,
+   "householdsM": 4.378,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "D & N Haveli",
+   "surveyYear": 2012,
+   "cdd": 219.9,
+   "spendPc": 1842,
+   "ac": 5.5,
+   "householdsM": 0.075,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Daman & Diu",
+   "surveyYear": 2012,
+   "cdd": 196.0,
+   "spendPc": 2049,
+   "ac": 1.9,
+   "householdsM": 0.057,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Delhi",
+   "surveyYear": 2012,
+   "cdd": 285.5,
+   "spendPc": 3024,
+   "ac": 60.1,
+   "householdsM": 3.15,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Goa",
+   "surveyYear": 2012,
+   "cdd": 190.4,
+   "spendPc": 2557,
+   "ac": 14.5,
+   "householdsM": 0.325,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Gujarat",
+   "surveyYear": 2012,
+   "cdd": 263.2,
+   "spendPc": 1796,
+   "ac": 4.2,
+   "householdsM": 11.993,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Hariyana",
+   "surveyYear": 2012,
+   "cdd": 257.4,
+   "spendPc": 2358,
+   "ac": 45.3,
+   "householdsM": 4.97,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Himachal Pradesh",
+   "surveyYear": 2012,
+   "cdd": 82.5,
+   "spendPc": 1979,
+   "ac": 5.1,
+   "householdsM": 1.5,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Jammu & Kashmir",
+   "surveyYear": 2012,
+   "cdd": 65.7,
+   "spendPc": 1703,
+   "ac": 21.5,
+   "householdsM": 1.857,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Jharkhand",
+   "surveyYear": 2012,
+   "cdd": 389.0,
+   "spendPc": 1183,
+   "ac": 4.2,
+   "householdsM": 3.687,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Karnataka",
+   "surveyYear": 2012,
+   "cdd": 85.1,
+   "spendPc": 1992,
+   "ac": 2.9,
+   "householdsM": 12.536,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Kerala",
+   "surveyYear": 2012,
+   "cdd": 242.9,
+   "spendPc": 2505,
+   "ac": 4.5,
+   "householdsM": 7.555,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Madhya Pradesh",
+   "surveyYear": 2012,
+   "cdd": 182.4,
+   "spendPc": 1264,
+   "ac": 19.4,
+   "householdsM": 11.736,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Maharashtra",
+   "surveyYear": 2012,
+   "cdd": 174.5,
+   "spendPc": 2123,
+   "ac": 15.3,
+   "householdsM": 23.646,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Maniupur",
+   "surveyYear": 2012,
+   "cdd": 125.4,
+   "spendPc": 1330,
+   "ac": 0.8,
+   "householdsM": 0.412,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Meghalaya",
+   "surveyYear": 2012,
+   "cdd": 170.4,
+   "spendPc": 1518,
+   "ac": 0.4,
+   "householdsM": 0.445,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Mizoram",
+   "surveyYear": 2012,
+   "cdd": 86.8,
+   "spendPc": 1717,
+   "ac": 1.3,
+   "householdsM": 0.185,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Nagaland",
+   "surveyYear": 2012,
+   "cdd": 159.6,
+   "spendPc": 1867,
+   "ac": 0.9,
+   "householdsM": 0.195,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Orissa",
+   "surveyYear": 2012,
+   "cdd": 340.4,
+   "spendPc": 992,
+   "ac": 6.5,
+   "householdsM": 6.439,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Puducherry",
+   "surveyYear": 2012,
+   "cdd": 482.1,
+   "spendPc": 2567,
+   "ac": 11.5,
+   "householdsM": 0.332,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Punjab",
+   "surveyYear": 2012,
+   "cdd": 278.6,
+   "spendPc": 2236,
+   "ac": 45.2,
+   "householdsM": 5.128,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Rajasthan",
+   "surveyYear": 2012,
+   "cdd": 141.5,
+   "spendPc": 1645,
+   "ac": 26.0,
+   "householdsM": 10.334,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Sikkim",
+   "surveyYear": 2012,
+   "cdd": 30.0,
+   "spendPc": 1652,
+   "ac": 0.0,
+   "householdsM": 0.135,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Tamil Nadu",
+   "surveyYear": 2012,
+   "cdd": 369.9,
+   "spendPc": 1851,
+   "ac": 5.4,
+   "householdsM": 18.077,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "India",
+   "state": "Tripura",
+   "surveyYear": 2012,
+   "cdd": 469.6,
+   "spendPc": 1261,
+   "ac": 0.8,
+   "householdsM": 0.723,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Uttar Pradesh",
+   "surveyYear": 2012,
+   "cdd": 436.9,
+   "spendPc": 1304,
+   "ac": 11.9,
+   "householdsM": 17.563,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "Uttarakhand",
+   "surveyYear": 2012,
+   "cdd": 118.5,
+   "spendPc": 1762,
+   "ac": 15.3,
+   "householdsM": 1.961,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "India",
+   "state": "West Bengal",
+   "surveyYear": 2012,
+   "cdd": 625.1,
+   "spendPc": 1446,
+   "ac": 2.5,
+   "householdsM": 15.44,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Aguascalientes",
+   "surveyYear": 2016,
+   "cdd": 0.0,
+   "spendPc": 4761,
+   "ac": 1.0,
+   "householdsM": 0.341,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Baja California",
+   "surveyYear": 2016,
+   "cdd": 1.6,
+   "spendPc": 6059,
+   "ac": 33.2,
+   "householdsM": 1.044,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Baja California Sur",
+   "surveyYear": 2016,
+   "cdd": 57.2,
+   "spendPc": 5932,
+   "ac": 47.7,
+   "householdsM": 0.234,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Campeche",
+   "surveyYear": 2016,
+   "cdd": 370.2,
+   "spendPc": 4302,
+   "ac": 27.8,
+   "householdsM": 0.25,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Chiapas",
+   "surveyYear": 2016,
+   "cdd": 91.2,
+   "spendPc": 2524,
+   "ac": 2.9,
+   "householdsM": 1.305,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Chihuahua",
+   "surveyYear": 2016,
+   "cdd": 1.9,
+   "spendPc": 4290,
+   "ac": 41.9,
+   "householdsM": 1.075,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Coahuila de Zaragoza",
+   "surveyYear": 2016,
+   "cdd": 47.1,
+   "spendPc": 4804,
+   "ac": 29.9,
+   "householdsM": 0.824,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Colima",
+   "surveyYear": 2016,
+   "cdd": 301.4,
+   "spendPc": 5150,
+   "ac": 11.3,
+   "householdsM": 0.215,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Distrito Federal",
+   "surveyYear": 2016,
+   "cdd": 0.0,
+   "spendPc": 8483,
+   "ac": 0.6,
+   "householdsM": 2.734,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Durango",
+   "surveyYear": 2016,
+   "cdd": 12.8,
+   "spendPc": 4283,
+   "ac": 10.0,
+   "householdsM": 0.48,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Guanajuato",
+   "surveyYear": 2016,
+   "cdd": 0.0,
+   "spendPc": 4645,
+   "ac": 1.2,
+   "householdsM": 1.495,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Guerrero",
+   "surveyYear": 2016,
+   "cdd": 189.7,
+   "spendPc": 3191,
+   "ac": 4.5,
+   "householdsM": 0.985,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Hidalgo",
+   "surveyYear": 2016,
+   "cdd": 67.2,
+   "spendPc": 3292,
+   "ac": 0.2,
+   "householdsM": 0.767,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Jalisco",
+   "surveyYear": 2016,
+   "cdd": 8.0,
+   "spendPc": 5233,
+   "ac": 2.3,
+   "householdsM": 2.145,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Michoacán de Ocampo",
+   "surveyYear": 2016,
+   "cdd": 50.5,
+   "spendPc": 3881,
+   "ac": 1.6,
+   "householdsM": 1.255,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "México",
+   "surveyYear": 2016,
+   "cdd": 2.7,
+   "spendPc": 4165,
+   "ac": 0.5,
+   "householdsM": 4.409,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Nayarit",
+   "surveyYear": 2016,
+   "cdd": 199.5,
+   "spendPc": 4314,
+   "ac": 9.5,
+   "householdsM": 0.346,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Nuevo León",
+   "surveyYear": 2016,
+   "cdd": 156.8,
+   "spendPc": 5609,
+   "ac": 41.9,
+   "householdsM": 1.404,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Oaxaca",
+   "surveyYear": 2016,
+   "cdd": 195.2,
+   "spendPc": 2875,
+   "ac": 2.0,
+   "householdsM": 1.069,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Puebla",
+   "surveyYear": 2016,
+   "cdd": 21.7,
+   "spendPc": 3881,
+   "ac": 0.2,
+   "householdsM": 1.648,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Querétaro Arteaga",
+   "surveyYear": 2016,
+   "cdd": 5.4,
+   "spendPc": 5480,
+   "ac": 1.8,
+   "householdsM": 0.549,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Quintana Roo",
+   "surveyYear": 2016,
+   "cdd": 267.4,
+   "spendPc": 5889,
+   "ac": 31.3,
+   "householdsM": 0.482,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "San Luis Potosí",
+   "surveyYear": 2016,
+   "cdd": 146.7,
+   "spendPc": 4108,
+   "ac": 5.3,
+   "householdsM": 0.743,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Sinaloa",
+   "surveyYear": 2016,
+   "cdd": 341.2,
+   "spendPc": 4368,
+   "ac": 76.5,
+   "householdsM": 0.812,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Sonora",
+   "surveyYear": 2016,
+   "cdd": 23.9,
+   "spendPc": 5106,
+   "ac": 72.4,
+   "householdsM": 0.849,
+   "hot": false,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Tabasco",
+   "surveyYear": 2016,
+   "cdd": 500.2,
+   "spendPc": 3623,
+   "ac": 37.8,
+   "householdsM": 0.643,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Tamaulipas",
+   "surveyYear": 2016,
+   "cdd": 329.5,
+   "spendPc": 4485,
+   "ac": 47.1,
+   "householdsM": 1.044,
+   "hot": true,
+   "rich": true
+  },
+  {
+   "country": "Mexico",
+   "state": "Tlaxcala",
+   "surveyYear": 2016,
+   "cdd": 0.0,
+   "spendPc": 3475,
+   "ac": 0.2,
+   "householdsM": 0.32,
+   "hot": false,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Veracruz de Ignacio de la Llave",
+   "surveyYear": 2016,
+   "cdd": 270.0,
+   "spendPc": 3670,
+   "ac": 13.5,
+   "householdsM": 2.273,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Yucatán",
+   "surveyYear": 2016,
+   "cdd": 287.5,
+   "spendPc": 4103,
+   "ac": 22.8,
+   "householdsM": 0.581,
+   "hot": true,
+   "rich": false
+  },
+  {
+   "country": "Mexico",
+   "state": "Zacatecas",
+   "surveyYear": 2016,
+   "cdd": 0.0,
+   "spendPc": 3614,
+   "ac": 0.7,
+   "householdsM": 0.424,
+   "hot": false,
+   "rich": false
+  }
+ ],
+ "heatCurve": {
+  "India": [
+   {
+    "cdd": 0,
+    "p": 9.7,
+    "lo": 7.6,
+    "hi": 11.8
+   },
+   {
+    "cdd": 125,
+    "p": 12.1,
+    "lo": 10.9,
+    "hi": 13.3
+   },
+   {
+    "cdd": 250,
+    "p": 14.7,
+    "lo": 13.6,
+    "hi": 15.8
+   },
+   {
+    "cdd": 375,
+    "p": 17.6,
+    "lo": 15.1,
+    "hi": 20.1
+   },
+   {
+    "cdd": 500,
+    "p": 20.6,
+    "lo": 16.3,
+    "hi": 24.9
+   },
+   {
+    "cdd": 625,
+    "p": 23.8,
+    "lo": 17.5,
+    "hi": 30.1
+   },
+   {
+    "cdd": 750,
+    "p": 27.1,
+    "lo": 18.6,
+    "hi": 35.6
+   },
+   {
+    "cdd": 875,
+    "p": 30.5,
+    "lo": 19.8,
+    "hi": 41.2
+   },
+   {
+    "cdd": 1000,
+    "p": 33.9,
+    "lo": 21.1,
+    "hi": 46.8
+   },
+   {
+    "cdd": 1125,
+    "p": 37.3,
+    "lo": 22.4,
+    "hi": 52.3
+   },
+   {
+    "cdd": 1250,
+    "p": 40.7,
+    "lo": 23.7,
+    "hi": 57.7
+   }
+  ],
+  "Brazil": [
+   {
+    "cdd": 0,
+    "p": 11.4,
+    "lo": 11.1,
+    "hi": 11.7
+   },
+   {
+    "cdd": 125,
+    "p": 15.0,
+    "lo": 14.8,
+    "hi": 15.3
+   },
+   {
+    "cdd": 250,
+    "p": 19.2,
+    "lo": 18.9,
+    "hi": 19.5
+   },
+   {
+    "cdd": 375,
+    "p": 23.9,
+    "lo": 23.5,
+    "hi": 24.4
+   },
+   {
+    "cdd": 500,
+    "p": 29.0,
+    "lo": 28.3,
+    "hi": 29.7
+   },
+   {
+    "cdd": 625,
+    "p": 34.3,
+    "lo": 33.4,
+    "hi": 35.3
+   },
+   {
+    "cdd": 750,
+    "p": 39.8,
+    "lo": 38.6,
+    "hi": 41.0
+   },
+   {
+    "cdd": 875,
+    "p": 45.3,
+    "lo": 43.8,
+    "hi": 46.8
+   },
+   {
+    "cdd": 1000,
+    "p": 50.7,
+    "lo": 48.9,
+    "hi": 52.4
+   },
+   {
+    "cdd": 1125,
+    "p": 55.9,
+    "lo": 53.9,
+    "hi": 57.8
+   },
+   {
+    "cdd": 1250,
+    "p": 60.8,
+    "lo": 58.6,
+    "hi": 62.9
+   }
+  ],
+  "Mexico": [
+   {
+    "cdd": 0,
+    "p": 13.2,
+    "lo": 10.4,
+    "hi": 16.0
+   },
+   {
+    "cdd": 125,
+    "p": 16.8,
+    "lo": 14.2,
+    "hi": 19.5
+   },
+   {
+    "cdd": 250,
+    "p": 20.8,
+    "lo": 18.0,
+    "hi": 23.5
+   },
+   {
+    "cdd": 375,
+    "p": 25.0,
+    "lo": 21.8,
+    "hi": 28.2
+   },
+   {
+    "cdd": 500,
+    "p": 29.4,
+    "lo": 25.3,
+    "hi": 33.6
+   },
+   {
+    "cdd": 625,
+    "p": 34.0,
+    "lo": 28.6,
+    "hi": 39.3
+   },
+   {
+    "cdd": 750,
+    "p": 38.5,
+    "lo": 31.9,
+    "hi": 45.2
+   },
+   {
+    "cdd": 875,
+    "p": 43.1,
+    "lo": 35.1,
+    "hi": 51.1
+   },
+   {
+    "cdd": 1000,
+    "p": 47.5,
+    "lo": 38.2,
+    "hi": 56.8
+   },
+   {
+    "cdd": 1125,
+    "p": 51.7,
+    "lo": 41.2,
+    "hi": 62.2
+   },
+   {
+    "cdd": 1250,
+    "p": 55.7,
+    "lo": 44.2,
+    "hi": 67.2
+   }
+  ]
+ },
+ "heatEffect": {
+  "India": [
+   {
+    "lnSpend": 6.0,
+    "spend": 400,
+    "pp": -0.03,
+    "lo": -0.08,
+    "hi": 0.02
+   },
+   {
+    "lnSpend": 6.5,
+    "spend": 670,
+    "pp": -0.02,
+    "lo": -0.12,
+    "hi": 0.09
+   },
+   {
+    "lnSpend": 7.0,
+    "spend": 1100,
+    "pp": 0.06,
+    "lo": -0.16,
+    "hi": 0.28
+   },
+   {
+    "lnSpend": 7.5,
+    "spend": 1810,
+    "pp": 0.33,
+    "lo": -0.13,
+    "hi": 0.79
+   },
+   {
+    "lnSpend": 8.0,
+    "spend": 2980,
+    "pp": 1.0,
+    "lo": 0.14,
+    "hi": 1.86
+   },
+   {
+    "lnSpend": 8.5,
+    "spend": 4910,
+    "pp": 2.23,
+    "lo": 0.79,
+    "hi": 3.67
+   },
+   {
+    "lnSpend": 9.0,
+    "spend": 8100,
+    "pp": 3.93,
+    "lo": 1.89,
+    "hi": 5.96
+   },
+   {
+    "lnSpend": 9.5,
+    "spend": 13360,
+    "pp": 5.7,
+    "lo": 3.19,
+    "hi": 8.2
+   },
+   {
+    "lnSpend": 10.0,
+    "spend": 22030,
+    "pp": 7.07,
+    "lo": 4.3,
+    "hi": 9.84
+   },
+   {
+    "lnSpend": 10.5,
+    "spend": 36320,
+    "pp": 7.63,
+    "lo": 4.86,
+    "hi": 10.4
+   },
+   {
+    "lnSpend": 11.0,
+    "spend": 59870,
+    "pp": 7.16,
+    "lo": 4.67,
+    "hi": 9.66
+   },
+   {
+    "lnSpend": 11.5,
+    "spend": 98720,
+    "pp": 5.95,
+    "lo": 3.83,
+    "hi": 8.08
+   },
+   {
+    "lnSpend": 12.0,
+    "spend": 162750,
+    "pp": 4.55,
+    "lo": 2.73,
+    "hi": 6.37
+   }
+  ],
+  "Brazil": [
+   {
+    "lnSpend": 6.0,
+    "spend": 400,
+    "pp": 0.01,
+    "lo": 0.0,
+    "hi": 0.02
+   },
+   {
+    "lnSpend": 6.5,
+    "spend": 670,
+    "pp": 0.03,
+    "lo": 0.02,
+    "hi": 0.05
+   },
+   {
+    "lnSpend": 7.0,
+    "spend": 1100,
+    "pp": 0.09,
+    "lo": 0.06,
+    "hi": 0.12
+   },
+   {
+    "lnSpend": 7.5,
+    "spend": 1810,
+    "pp": 0.21,
+    "lo": 0.16,
+    "hi": 0.26
+   },
+   {
+    "lnSpend": 8.0,
+    "spend": 2980,
+    "pp": 0.47,
+    "lo": 0.4,
+    "hi": 0.54
+   },
+   {
+    "lnSpend": 8.5,
+    "spend": 4910,
+    "pp": 0.96,
+    "lo": 0.87,
+    "hi": 1.05
+   },
+   {
+    "lnSpend": 9.0,
+    "spend": 8100,
+    "pp": 1.77,
+    "lo": 1.66,
+    "hi": 1.88
+   },
+   {
+    "lnSpend": 9.5,
+    "spend": 13360,
+    "pp": 2.96,
+    "lo": 2.81,
+    "hi": 3.1
+   },
+   {
+    "lnSpend": 10.0,
+    "spend": 22030,
+    "pp": 4.46,
+    "lo": 4.24,
+    "hi": 4.69
+   },
+   {
+    "lnSpend": 10.5,
+    "spend": 36320,
+    "pp": 6.09,
+    "lo": 5.76,
+    "hi": 6.42
+   },
+   {
+    "lnSpend": 11.0,
+    "spend": 59870,
+    "pp": 7.49,
+    "lo": 7.05,
+    "hi": 7.94
+   },
+   {
+    "lnSpend": 11.5,
+    "spend": 98720,
+    "pp": 8.29,
+    "lo": 7.74,
+    "hi": 8.85
+   },
+   {
+    "lnSpend": 12.0,
+    "spend": 162750,
+    "pp": 8.28,
+    "lo": 7.64,
+    "hi": 8.93
+   }
+  ],
+  "Mexico": [
+   {
+    "lnSpend": 6.0,
+    "spend": 400,
+    "pp": -0.53,
+    "lo": -1.32,
+    "hi": 0.27
+   },
+   {
+    "lnSpend": 6.5,
+    "spend": 670,
+    "pp": -0.47,
+    "lo": -1.29,
+    "hi": 0.35
+   },
+   {
+    "lnSpend": 7.0,
+    "spend": 1100,
+    "pp": -0.28,
+    "lo": -1.12,
+    "hi": 0.56
+   },
+   {
+    "lnSpend": 7.5,
+    "spend": 1810,
+    "pp": 0.1,
+    "lo": -0.74,
+    "hi": 0.93
+   },
+   {
+    "lnSpend": 8.0,
+    "spend": 2980,
+    "pp": 0.71,
+    "lo": -0.11,
+    "hi": 1.53
+   },
+   {
+    "lnSpend": 8.5,
+    "spend": 4910,
+    "pp": 1.6,
+    "lo": 0.76,
+    "hi": 2.44
+   },
+   {
+    "lnSpend": 9.0,
+    "spend": 8100,
+    "pp": 2.77,
+    "lo": 1.84,
+    "hi": 3.71
+   },
+   {
+    "lnSpend": 9.5,
+    "spend": 13360,
+    "pp": 4.15,
+    "lo": 3.01,
+    "hi": 5.3
+   },
+   {
+    "lnSpend": 10.0,
+    "spend": 22030,
+    "pp": 5.57,
+    "lo": 4.15,
+    "hi": 6.99
+   },
+   {
+    "lnSpend": 10.5,
+    "spend": 36320,
+    "pp": 6.78,
+    "lo": 5.13,
+    "hi": 8.43
+   },
+   {
+    "lnSpend": 11.0,
+    "spend": 59870,
+    "pp": 7.62,
+    "lo": 5.84,
+    "hi": 9.41
+   },
+   {
+    "lnSpend": 11.5,
+    "spend": 98720,
+    "pp": 8.13,
+    "lo": 6.28,
+    "hi": 9.98
+   },
+   {
+    "lnSpend": 12.0,
+    "spend": 162750,
+    "pp": 8.47,
+    "lo": 6.59,
+    "hi": 10.35
+   }
+  ]
+ },
+ "deciles": {
+  "meta": {
+   "n_states": {
+    "India": 35,
+    "Brazil": 27,
+    "Mexico": 31
+   }
+  },
+  "series": {
+   "India": [
+    {
+     "decile": 1,
+     "today": 0.8,
+     "main": 8.0,
+     "lo": 0.5,
+     "hi": 27.1
+    },
+    {
+     "decile": 2,
+     "today": 0.8,
+     "main": 21.3,
+     "lo": 11.1,
+     "hi": 50.0
+    },
+    {
+     "decile": 3,
+     "today": 1.1,
+     "main": 37.6,
+     "lo": 17.4,
+     "hi": 55.7
+    },
+    {
+     "decile": 4,
+     "today": 2.4,
+     "main": 42.9,
+     "lo": 28.3,
+     "hi": 72.4
+    },
+    {
+     "decile": 5,
+     "today": 1.9,
+     "main": 54.4,
+     "lo": 42.6,
+     "hi": 78.8
+    },
+    {
+     "decile": 6,
+     "today": 3.9,
+     "main": 71.4,
+     "lo": 46.2,
+     "hi": 86.0
+    },
+    {
+     "decile": 7,
+     "today": 3.4,
+     "main": 80.3,
+     "lo": 60.8,
+     "hi": 91.8
+    },
+    {
+     "decile": 8,
+     "today": 7.4,
+     "main": 90.1,
+     "lo": 76.9,
+     "hi": 97.2
+    },
+    {
+     "decile": 9,
+     "today": 13.2,
+     "main": 95.0,
+     "lo": 86.9,
+     "hi": 99.9
+    },
+    {
+     "decile": 10,
+     "today": 24.4,
+     "main": 99.3,
+     "lo": 98.2,
+     "hi": 100.0
+    }
+   ],
+   "Brazil": [
+    {
+     "decile": 1,
+     "today": 2.6,
+     "main": 2.3,
+     "lo": 0.4,
+     "hi": 41.0
+    },
+    {
+     "decile": 2,
+     "today": 7.8,
+     "main": 30.4,
+     "lo": 14.3,
+     "hi": 84.7
+    },
+    {
+     "decile": 3,
+     "today": 9.3,
+     "main": 62.9,
+     "lo": 41.7,
+     "hi": 96.6
+    },
+    {
+     "decile": 4,
+     "today": 14.0,
+     "main": 74.7,
+     "lo": 63.5,
+     "hi": 100.0
+    },
+    {
+     "decile": 5,
+     "today": 18.3,
+     "main": 88.5,
+     "lo": 78.6,
+     "hi": 100.0
+    },
+    {
+     "decile": 6,
+     "today": 27.8,
+     "main": 96.7,
+     "lo": 91.4,
+     "hi": 100.0
+    },
+    {
+     "decile": 7,
+     "today": 31.4,
+     "main": 97.9,
+     "lo": 96.4,
+     "hi": 100.0
+    },
+    {
+     "decile": 8,
+     "today": 42.9,
+     "main": 100.0,
+     "lo": 100.0,
+     "hi": 100.0
+    },
+    {
+     "decile": 9,
+     "today": 62.9,
+     "main": 100.0,
+     "lo": 100.0,
+     "hi": 100.0
+    },
+    {
+     "decile": 10,
+     "today": 77.0,
+     "main": 100.0,
+     "lo": 100.0,
+     "hi": 100.0
+    }
+   ],
+   "Mexico": [
+    {
+     "decile": 1,
+     "today": 1.0,
+     "main": 0.5,
+     "lo": 0.0,
+     "hi": 2.9
+    },
+    {
+     "decile": 2,
+     "today": 1.2,
+     "main": 5.2,
+     "lo": 1.8,
+     "hi": 11.9
+    },
+    {
+     "decile": 3,
+     "today": 2.7,
+     "main": 9.5,
+     "lo": 7.4,
+     "hi": 19.2
+    },
+    {
+     "decile": 4,
+     "today": 4.9,
+     "main": 15.2,
+     "lo": 10.6,
+     "hi": 25.4
+    },
+    {
+     "decile": 5,
+     "today": 3.2,
+     "main": 22.2,
+     "lo": 17.4,
+     "hi": 32.9
+    },
+    {
+     "decile": 6,
+     "today": 5.9,
+     "main": 27.0,
+     "lo": 20.0,
+     "hi": 30.5
+    },
+    {
+     "decile": 7,
+     "today": 7.3,
+     "main": 30.6,
+     "lo": 28.9,
+     "hi": 35.5
+    },
+    {
+     "decile": 8,
+     "today": 10.5,
+     "main": 31.0,
+     "lo": 27.9,
+     "hi": 41.9
+    },
+    {
+     "decile": 9,
+     "today": 14.9,
+     "main": 46.6,
+     "lo": 45.5,
+     "hi": 46.6
+    },
+    {
+     "decile": 10,
+     "today": 26.5,
+     "main": 51.1,
+     "lo": 42.2,
+     "hi": 53.3
+    }
+   ]
+  }
+ },
+ "electricity": {
+  "India": [
+   {
+    "decile": 1,
+    "growth": 152.2
+   },
+   {
+    "decile": 2,
+    "growth": 148.8
+   },
+   {
+    "decile": 3,
+    "growth": 153.3
+   },
+   {
+    "decile": 4,
+    "growth": 144.5
+   },
+   {
+    "decile": 5,
+    "growth": 153.9
+   },
+   {
+    "decile": 6,
+    "growth": 144.8
+   },
+   {
+    "decile": 7,
+    "growth": 134.7
+   },
+   {
+    "decile": 8,
+    "growth": 142.0
+   },
+   {
+    "decile": 9,
+    "growth": 137.5
+   },
+   {
+    "decile": 10,
+    "growth": 130.4
+   }
+  ],
+  "Brazil": [
+   {
+    "decile": 1,
+    "growth": 40.5
+   },
+   {
+    "decile": 2,
+    "growth": 31.8
+   },
+   {
+    "decile": 3,
+    "growth": 25.8
+   },
+   {
+    "decile": 4,
+    "growth": 26.5
+   },
+   {
+    "decile": 5,
+    "growth": 27.4
+   },
+   {
+    "decile": 6,
+    "growth": 33.4
+   },
+   {
+    "decile": 7,
+    "growth": 37.3
+   },
+   {
+    "decile": 8,
+    "growth": 39.6
+   },
+   {
+    "decile": 9,
+    "growth": 45.6
+   },
+   {
+    "decile": 10,
+    "growth": 48.5
+   }
+  ],
+  "Mexico": [
+   {
+    "decile": 1,
+    "growth": 17.9
+   },
+   {
+    "decile": 2,
+    "growth": 25.2
+   },
+   {
+    "decile": 3,
+    "growth": 38.3
+   },
+   {
+    "decile": 4,
+    "growth": 37.1
+   },
+   {
+    "decile": 5,
+    "growth": 44.0
+   },
+   {
+    "decile": 6,
+    "growth": 37.8
+   },
+   {
+    "decile": 7,
+    "growth": 41.1
+   },
+   {
+    "decile": 8,
+    "growth": 53.2
+   },
+   {
+    "decile": 9,
+    "growth": 45.0
+   },
+   {
+    "decile": 10,
+    "growth": 50.3
+   }
+  ]
+ },
+ "withoutAc": {
+  "India": {
+   "surveyYear": 2012,
+   "households": 196.1,
+   "today": 167.2,
+   "todayHot": 151.8,
+   "scenarios": {
+    "rcp45_SSP1": 64.3,
+    "rcp45_SSP2": 84.4,
+    "rcp45_SSP3": 121.9,
+    "rcp45_SSP4": 103.0,
+    "rcp45_SSP5": 54.7,
+    "rcp85_SSP1": 55.9,
+    "rcp85_SSP2": 75.1,
+    "rcp85_SSP3": 110.1,
+    "rcp85_SSP4": 93.1,
+    "rcp85_SSP5": 48.1
+   },
+   "scenariosHot": {
+    "rcp45_SSP1": 62.2,
+    "rcp45_SSP2": 81.7,
+    "rcp45_SSP3": 118.4,
+    "rcp45_SSP4": 100.0,
+    "rcp45_SSP5": 52.9,
+    "rcp85_SSP1": 53.9,
+    "rcp85_SSP2": 72.6,
+    "rcp85_SSP3": 106.7,
+    "rcp85_SSP4": 90.3,
+    "rcp85_SSP5": 46.3
+   }
+  },
+  "Brazil": {
+   "surveyYear": 2017,
+   "households": 47.6,
+   "today": 36.7,
+   "todayHot": 9.3,
+   "scenarios": {
+    "rcp45_SSP1": 17.5,
+    "rcp45_SSP2": 20.5,
+    "rcp45_SSP3": 24.8,
+    "rcp45_SSP4": 22.6,
+    "rcp45_SSP5": 15.6,
+    "rcp85_SSP1": 12.9,
+    "rcp85_SSP2": 15.3,
+    "rcp85_SSP3": 18.7,
+    "rcp85_SSP4": 17.1,
+    "rcp85_SSP5": 11.5
+   },
+   "scenariosHot": {
+    "rcp45_SSP1": 2.5,
+    "rcp45_SSP2": 3.0,
+    "rcp45_SSP3": 3.8,
+    "rcp45_SSP4": 3.5,
+    "rcp45_SSP5": 2.2,
+    "rcp85_SSP1": 4.0,
+    "rcp85_SSP2": 4.7,
+    "rcp85_SSP3": 5.8,
+    "rcp85_SSP4": 5.3,
+    "rcp85_SSP5": 3.6
+   }
+  },
+  "Mexico": {
+   "surveyYear": 2016,
+   "households": 32.7,
+   "today": 28.0,
+   "todayHot": 8.1,
+   "scenarios": {
+    "rcp45_SSP1": 27.0,
+    "rcp45_SSP2": 29.5,
+    "rcp45_SSP3": 33.9,
+    "rcp45_SSP4": 28.4,
+    "rcp45_SSP5": 25.5,
+    "rcp85_SSP1": 26.5,
+    "rcp85_SSP2": 28.9,
+    "rcp85_SSP3": 33.1,
+    "rcp85_SSP4": 27.8,
+    "rcp85_SSP5": 25.0
+   },
+   "scenariosHot": {
+    "rcp45_SSP1": 6.4,
+    "rcp45_SSP2": 7.1,
+    "rcp45_SSP3": 8.4,
+    "rcp45_SSP4": 7.1,
+    "rcp45_SSP5": 5.9,
+    "rcp85_SSP1": 6.0,
+    "rcp85_SSP2": 6.7,
+    "rcp85_SSP3": 7.8,
+    "rcp85_SSP4": 6.7,
+    "rcp85_SSP5": 5.6
+   }
+  }
+ },
+ "stats": {
+  "n_states": 92,
+  "by_country": {
+   "India": {
+    "heat": {
+     "r": -0.08,
+     "p": 0.6551244516787463,
+     "n": 34
+    },
+    "spend": {
+     "r": 0.44,
+     "p": 0.009341695345938206,
+     "n": 34
+    }
+   },
+   "Brazil": {
+    "heat": {
+     "r": 0.54,
+     "p": 0.0037667870501611597,
+     "n": 27
+    },
+    "spend": {
+     "r": 0.01,
+     "p": 0.9517626762390137,
+     "n": 27
+    }
+   },
+   "Mexico": {
+    "heat": {
+     "r": 0.38,
+     "p": 0.03371374293966895,
+     "n": 31
+    },
+    "spend": {
+     "r": 0.29,
+     "p": 0.1169772520661354,
+     "n": 31
+    }
+   }
+  },
+  "regression": {
+   "beta_heat": 0.41,
+   "beta_spend": 0.41,
+   "p_heat": 0.00010813976461689897,
+   "p_spend": 9.105542748496613e-05,
+   "r2": 0.21,
+   "beta_interaction": 0.21,
+   "p_interaction": 0.05377823198404086
+  },
+  "quadrants": {
+   "cool_poor": {
+    "states": 20,
+    "households_m": 46.4,
+    "ac_share": 16.4
+   },
+   "cool_rich": {
+    "states": 27,
+    "households_m": 81.2,
+    "ac_share": 15.2
+   },
+   "hot_poor": {
+    "states": 27,
+    "households_m": 69.1,
+    "ac_share": 8.2
+   },
+   "hot_rich": {
+    "states": 18,
+    "households_m": 79.7,
+    "ac_share": 17.7
+   }
+  },
+  "hot_poor_vs_hot_rich_mannwhitney_p": 0.009149144403636456,
+  "without_ac": {
+   "households_today_m": 276.4,
+   "today_m": 231.8,
+   "today_share": 83.9,
+   "today_hot_m": 169.1,
+   "main_m": 134.4,
+   "min_m": 84.6,
+   "min_scenario": "rcp85_SSP5",
+   "max_m": 180.5,
+   "max_scenario": "rcp45_SSP3",
+   "hot_main_m": 91.8,
+   "hot_min_m": 55.4,
+   "hot_max_m": 130.6,
+   "hot_main_india_share": 89.0,
+   "totals": {
+    "rcp45_SSP1": 108.8,
+    "rcp45_SSP2": 134.4,
+    "rcp45_SSP3": 180.5,
+    "rcp45_SSP4": 154.0,
+    "rcp45_SSP5": 95.9,
+    "rcp85_SSP1": 95.3,
+    "rcp85_SSP2": 119.3,
+    "rcp85_SSP3": 162.0,
+    "rcp85_SSP4": 138.1,
+    "rcp85_SSP5": 84.6
+   },
+   "totalsHot": {
+    "rcp45_SSP1": 71.1,
+    "rcp45_SSP2": 91.8,
+    "rcp45_SSP3": 130.6,
+    "rcp45_SSP4": 110.7,
+    "rcp45_SSP5": 61.0,
+    "rcp85_SSP1": 64.0,
+    "rcp85_SSP2": 84.0,
+    "rcp85_SSP3": 120.4,
+    "rcp85_SSP4": 102.3,
+    "rcp85_SSP5": 55.4
+   }
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+	"claim": {
+		"question": {
+			"en": "Are there more road accidents on Friday the 13th?",
+			"de": "Passieren an Freitag, dem 13., mehr Verkehrsunfälle?"
+		},
+		"yes_text": {
+			"en": "Fridays the 13th have more crashes than the Fridays a week before and after.",
+			"de": "An einem Freitag, dem 13., kracht es öfter als an den Freitagen eine Woche davor und danach."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "Fridays the 13th do not have significantly more crashes than the Fridays a week before and after. Any increase is at most {bound} per cent.",
+				"de": "An einem Freitag, dem 13., gibt es nicht signifikant mehr Unfälle als an den Freitagen eine Woche davor und danach. Ein Anstieg liegt höchstens bei {bound} Prozent."
+			},
+			"not_detectable": {
+				"en": "Fridays the 13th do not have significantly more crashes than the Fridays a week before and after. A relevant increase is not ruled out either.",
+				"de": "An einem Freitag, dem 13., gibt es nicht signifikant mehr Unfälle als an den Freitagen eine Woche davor und danach. Ein relevanter Anstieg ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "Fridays the 13th have fewer crashes than the Fridays a week before and after.",
+				"de": "An einem Freitag, dem 13., kracht es seltener als an den Freitagen eine Woche davor und danach."
+			}
+		},
+		"unit": {
+			"en": "per cent",
+			"de": "Prozent"
+		},
+		"cases": {
+			"en": "{n} Fridays the 13th, Great Britain 1979–2025",
+			"de": "{n} Freitage am 13., Großbritannien 1979–2025"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 5,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, according to a 1993 paper in the British Medical Journal: in one health region south of London, 65 people were admitted to hospital after traffic accidents on Fridays the 13th, against 45 on Fridays the 6th.",
+					"de": "Ja, hieß es 1993 im British Medical Journal: In einer Gesundheitsregion südlich von London kamen an Freitagen, dem 13., 65 Menschen nach Verkehrsunfällen ins Krankenhaus, an Freitagen, dem 6., nur 45."
+				},
+				"source": "Scanlon et al. 1993, BMJ 307(6919): 1584–1586, doi:10.1136/bmj.307.6919.1584"
+			},
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes for women, found Näyhä (2002) in Finnish traffic deaths from 1971 to 1997.",
+					"de": "Ja, für Frauen, fand Näyhä (2002) in finnischen Verkehrstoten von 1971 bis 1997."
+				},
+				"source": "Näyhä 2002, American Journal of Psychiatry 159(12): 2110–2111, doi:10.1176/appi.ajp.159.12.2110"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "No, found Radun and Summala (2004) with 14 years of Finnish accident data: Fridays the 13th had no more injury crashes than the Fridays before and after.",
+					"de": "Nein, fanden Radun und Summala (2004) mit 14 Jahren finnischer Unfalldaten: An Freitagen, dem 13., gab es nicht mehr Unfälle mit Verletzten als an den Freitagen davor und danach."
+				},
+				"source": "Radun & Summala 2004, BMC Public Health 4: 54, doi:10.1186/1471-2458-4-54"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "comparison",
+			"question": {
+				"en": "What do we compare with?",
+				"de": "Womit vergleichen wir?"
+			},
+			"primary": "fridays",
+			"options": [
+				{
+					"id": "all_days",
+					"label": {
+						"en": "with all other days of the month",
+						"de": "mit allen anderen Tagen im Monat"
+					},
+					"why": {
+						"en": "How headlines compare. But weekdays differ: Friday traffic is not Sunday traffic.",
+						"de": "So rechnen Schlagzeilen. Aber Wochentage unterscheiden sich: Freitagsverkehr ist kein Sonntagsverkehr."
+					}
+				},
+				{
+					"id": "fridays",
+					"label": {
+						"en": "with the Fridays a week before and after",
+						"de": "mit den Freitagen eine Woche davor und danach"
+					},
+					"why": {
+						"en": "Same weekday, same time of year. Only the date differs.",
+						"de": "Gleicher Wochentag, gleiche Jahreszeit. Nur das Datum ist anders."
+					}
+				},
+				{
+					"id": "friday_6th",
+					"label": {
+						"en": "only with the Friday a week before",
+						"de": "nur mit dem Freitag eine Woche davor"
+					},
+					"why": {
+						"en": "As in the 1993 study. Half as many comparison days.",
+						"de": "So wie in der Studie von 1993. Halb so viele Vergleichstage."
+					}
+				}
+			]
+		},
+		{
+			"id": "outcome",
+			"question": {
+				"en": "What do we count?",
+				"de": "Was zählen wir?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "every crash with an injured person",
+						"de": "jeden Unfall mit Verletzten"
+					},
+					"why": {
+						"en": "The most cases, so the most precise answer.",
+						"de": "Die meisten Fälle, also die genaueste Antwort."
+					}
+				},
+				{
+					"id": "ksi",
+					"label": {
+						"en": "crashes with someone killed or seriously injured",
+						"de": "Unfälle mit Toten oder Schwerverletzten"
+					},
+					"why": {
+						"en": "Fewer cases, but only the serious crashes.",
+						"de": "Weniger Fälle, dafür nur die schweren Unfälle."
+					}
+				},
+				{
+					"id": "fatal",
+					"label": {
+						"en": "only crashes with someone killed",
+						"de": "nur Unfälle mit Toten"
+					},
+					"why": {
+						"en": "As in the Finnish study of 2002. Few cases, so the numbers swing a lot.",
+						"de": "Wie in der finnischen Studie von 2002. Wenige Fälle, die Zahlen schwanken stark."
+					}
+				}
+			]
+		},
+		{
+			"id": "holidays",
+			"question": {
+				"en": "What about public holidays?",
+				"de": "Was machen wir mit Feiertagen?"
+			},
+			"primary": "exclude",
+			"options": [
+				{
+					"id": "exclude",
+					"label": {
+						"en": "leave them out",
+						"de": "weglassen"
+					},
+					"why": {
+						"en": "Good Friday sometimes falls on the 13th. On a holiday, people drive differently.",
+						"de": "Karfreitag fällt manchmal auf den 13. An Feiertagen fahren die Leute anders."
+					}
+				},
+				{
+					"id": "keep",
+					"label": {
+						"en": "count them like any other day",
+						"de": "wie normale Tage zählen"
+					},
+					"why": {
+						"en": "Keeps every Friday the 13th, holidays included.",
+						"de": "Behält jeden Freitag, den 13., auch die Feiertage."
+					}
+				}
+			]
+		}
+	]
+}

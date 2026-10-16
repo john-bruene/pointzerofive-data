@@ -1,0 +1,15 @@
+city,region,province_code,population_2023,osm_crosswalk_count,source
+Bolzano,Trentino-Alto Adige,BZ,108245,632,OSM+ISTAT
+Trento,Trentino-Alto Adige,TN,120216,616,OSM+ISTAT
+Milano,Lombardia,MI,1371498,5719,OSM+ISTAT
+Bologna,Emilia-Romagna,BO,416490,1620,OSM+ISTAT
+Firenze,Toscana,FI,358079,1228,OSM+ISTAT
+Torino,Piemonte,TO,870456,2611,OSM+ISTAT
+Venezia,Veneto,VE,254951,663,OSM+ISTAT
+Roma,Lazio,RM,2860009,6035,OSM+ISTAT
+Napoli,Campania,NA,909048,1345,OSM+ISTAT
+Bari,Puglia,BA,316242,569,OSM+ISTAT
+Palermo,Sicilia,PA,659433,739,OSM+ISTAT
+Catania,Sicilia,CT,295159,310,OSM+ISTAT
+Reggio Calabria,Calabria,RC,172987,157,OSM+ISTAT
+Crotone,Calabria,KR,62415,46,OSM+ISTAT
