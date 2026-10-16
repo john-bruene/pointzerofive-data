@@ -58,6 +58,27 @@ bootstrap <- function(d, b, chunk = 1000) {
   reps
 }
 
+# Treated mean, comparison mean and their difference (points per game) for the same weights
+# as effects(); the difference is effects() itself. For the result table (estimation_table.R).
+parts <- function(d, u, w) {
+  cp <- (w %*% d$s) / (w %*% d$c)
+  cpi <- cp[, d$bins, drop = FALSE]
+  valid <- is.finite(cpi)
+  cpi[!valid] <- 0
+  nu <- rowSums(u * valid)
+  treated <- rowSums(u * valid * matrix(d$y, nrow(cpi), ncol(cpi), byrow = TRUE)) / nu / d$k
+  comparison <- rowSums(u * cpi) / nu / d$k
+  cbind(treated = treated, comparison = comparison, effect = effects(d, u, w))
+}
+
+# parts() per replicate, from the current random stream; same draws as bootstrap().
+bootstrap_parts <- function(d, b, chunk = 1000) {
+  do.call(rbind, lapply(seq(1, b, by = chunk), function(start) {
+    dw <- draw_weights(length(d$y), nrow(d$s), min(chunk, b - start + 1))
+    parts(d, dw$u, dw$w)
+  }))
+}
+
 # 95% range from order statistics and the matching two-sided bootstrap p-value.
 # With m = alpha/2 * B, the range is the m-th to the (B + 1 - m)-th smallest replicate and
 # p = 2 * min(#{<= 0}, #{>= 0}) / B. Then p < alpha exactly when the range excludes 0.

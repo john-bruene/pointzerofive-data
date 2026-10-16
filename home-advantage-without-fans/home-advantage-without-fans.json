@@ -329,6 +329,178 @@
    }
   }
  ],
+ "estimation": {
+  "run": "2026-10-16T11:42:00Z",
+  "dependent": {
+   "en": "Home points − away points per match",
+   "de": "Heimpunkte − Auswärtspunkte je Spiel"
+  },
+  "method": {
+   "en": "Cluster bootstrap, B = 10,000 (clusters: matchday × group)",
+   "de": "Cluster-Bootstrap, B = 10.000 (Cluster: Spieltag × Gruppe)"
+  },
+  "sample": {
+   "en": "Bundesliga 2012/13–2025/26",
+   "de": "Bundesliga 2012/13–2025/26"
+  },
+  "observations": 3959,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "Full stadiums",
+     "de": "Volle Stadien"
+    },
+    "values": [
+     0.42654028436019,
+     0.0447484651712111,
+     0.337144450641383,
+     0.514214046822743,
+     0
+    ]
+   },
+   {
+    "name": {
+     "en": "Ghost games",
+     "de": "Geisterspiele"
+    },
+    "values": [
+     0.161290322580645,
+     0.152295340488464,
+     -0.134564643799472,
+     0.461538461538462,
+     0.2904
+    ]
+   },
+   {
+    "name": {
+     "en": "Difference (full − ghost)",
+     "de": "Differenz (voll − Geister)"
+    },
+    "values": [
+     0.265249961779544,
+     0.15876073339179,
+     -0.0469367382098636,
+     0.572802197802198,
+     0.0966
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "Mean dependent var",
+      "de": "Mittelwert abh. Variable"
+     },
+     "value": 0.401616569840869,
+     "digits": 6
+    },
+    {
+     "label": {
+      "en": "S.D. dependent var",
+      "de": "Std.-Abw. abh. Variable"
+     },
+     "value": 2.57369548552985,
+     "digits": 6
+    },
+    {
+     "label": {
+      "en": "Observations, full",
+      "de": "Beobachtungen, voll"
+     },
+     "value": 3587,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Observations, ghost",
+      "de": "Beobachtungen, Geister"
+     },
+     "value": 372,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Clusters, full",
+      "de": "Cluster, voll"
+     },
+     "value": 399,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Clusters, ghost",
+      "de": "Cluster, Geister"
+     },
+     "value": 53,
+     "digits": 0
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "Bootstrap replicates",
+      "de": "Bootstrap-Wiederholungen"
+     },
+     "value": 10000,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Seed",
+      "de": "Seed"
+     },
+     "value": 6001,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect",
+      "de": "Kleinster relevanter Effekt"
+     },
+     "value": 0.1,
+     "digits": 2
+    }
+   ]
+  }
+ },
  "claim": {
   "question": {
    "en": "Does home advantage shrink without fans?",

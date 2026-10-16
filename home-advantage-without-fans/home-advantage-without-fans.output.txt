@@ -1,6 +1,4 @@
-R version 4.3.3 (2024-02-29), run on 2026-10-16 05:12 UTC
-
-prep: 25241 league matches; 1364 Bundesliga match dates agree with openfootball
+R version 4.3.3 (2024-02-29), run on 2026-10-16 11:42 UTC
 
 Matches per league and group (dropped: missing attendance outside the ghost rule):
      
@@ -31,6 +29,28 @@ Calculation paths (effect = comparison − ghost games, points per match):
   leagues=top5|ghost=season2021|comparison=before: n=1671, +0.367 [+0.246, +0.485] p=0.0000
   leagues=top5|ghost=season2021|comparison=any_crowd: n=1671, +0.327 [+0.208, +0.443] p=0.0000
 
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Home points − away points per match
+Method: Cluster bootstrap, B = 10,000 (clusters: matchday × group)
+Date: 2026-10-16   Time: 11:42 UTC
+Sample: Bundesliga 2012/13–2025/26
+Included observations: 3959
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+Full stadiums                 0.426540    0.044748    0.337144    0.514214      0.0000
+Ghost games                   0.161290    0.152295   -0.134565    0.461538      0.2904
+Difference (full − ghost)     0.265250    0.158761   -0.046937    0.572802      0.0966
+--------------------------------------------------------------------------------------
+Mean dependent var               0.401617  Bootstrap replicates                10000
+S.D. dependent var               2.573695  Seed                                 6001
+Observations, full                   3587  Significance level                   0.05
+Observations, ghost                   372  Smallest relevant effect             0.10
+Clusters, full                        399
+Clusters, ghost                        53
+======================================================================================
+
 Wrote data/home-advantage-without-fans.json
   Bundesliga: 3587 full, 325 restricted, 372 ghost games
   restart 2019/20: before 95-48-78 (H-D-A), after 27-19-37
@@ -58,4 +78,7 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1]
+[1] jsonlite_1.8.8
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3

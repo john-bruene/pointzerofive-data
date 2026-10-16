@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "transfermarkt-datasets (games, CC0 1.0; data from Transfermarkt.de); openfootball/deutschland (CC0 1.0)",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "seasons": "2012/13–2025/26",
   "window": 6,
   "bootstrap": 10000
@@ -2447,6 +2447,162 @@
    ]
   }
  ],
+ "estimation": {
+  "run": "2026-10-16T11:46:00Z",
+  "dependent": {
+   "en": "Points per game in the 6 games after",
+   "de": "Punkte je Spiel in den 6 Spielen danach"
+  },
+  "method": {
+   "en": "Matched comparison, cluster bootstrap, B = 10,000",
+   "de": "Gematchter Vergleich, Cluster-Bootstrap, B = 10.000"
+  },
+  "sample": {
+   "en": "Bundesliga 2012/13–2025/26",
+   "de": "Bundesliga 2012/13–2025/26"
+  },
+  "observations": 91,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "After a coach change",
+     "de": "Nach Trainerwechsel"
+    },
+    "values": [
+     1.28205128205128,
+     0.0525549400675225,
+     1.18131868131868,
+     1.38644688644689,
+     0
+    ]
+   },
+   {
+    "name": {
+     "en": "Matched controls",
+     "de": "Gematchte Vergleichsfälle"
+    },
+    "values": [
+     1.2087815588395,
+     0.0398121228471094,
+     1.13698040668042,
+     1.29348833464892,
+     0
+    ]
+   },
+   {
+    "name": {
+     "en": "Difference",
+     "de": "Differenz"
+    },
+    "values": [
+     0.0732697232117795,
+     0.0617996258042602,
+     -0.0519194596967132,
+     0.189191061429282,
+     0.2666
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "Coach changes",
+      "de": "Trainerwechsel"
+     },
+     "value": 91,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Control windows",
+      "de": "Vergleichsfenster"
+     },
+     "value": 4779,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Club-seasons (clusters)",
+      "de": "Klub-Saisons (Cluster)"
+     },
+     "value": 250,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Window (games)",
+      "de": "Fenster (Spiele)"
+     },
+     "value": 6,
+     "digits": 0
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "Bootstrap replicates",
+      "de": "Bootstrap-Wiederholungen"
+     },
+     "value": 10000,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Seed",
+      "de": "Seed"
+     },
+     "value": 4009,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect",
+      "de": "Kleinster relevanter Effekt"
+     },
+     "value": 0.15,
+     "digits": 2
+    }
+   ]
+  }
+ },
  "claim": {
   "question": {
    "en": "Does changing the coach win more points?",

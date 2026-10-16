@@ -1,4 +1,4 @@
-R version 4.3.3 (2024-02-29), run on 2026-10-15 19:43 UTC
+R version 4.3.3 (2024-02-29), run on 2026-10-16 11:46 UTC
 
 Calculation paths:
   comparison=before|window=5|opponents=no: n=98, +0.688 [+0.559, +0.818] p=0.0000
@@ -19,6 +19,27 @@ Calculation paths:
   comparison=all_slumps|window=6|opponents=yes: n=59, +0.092 [-0.056, +0.238] p=0.2156
   comparison=all_slumps|window=10|opponents=no: n=22, -0.052 [-0.295, +0.173] p=0.6394
   comparison=all_slumps|window=10|opponents=yes: n=22, -0.025 [-0.261, +0.192] p=0.8050
+
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Points per game in the 6 games after
+Method: Matched comparison, cluster bootstrap, B = 10,000
+Date: 2026-10-16   Time: 11:46 UTC
+Sample: Bundesliga 2012/13–2025/26
+Included observations: 91
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+After a coach change          1.282051    0.052555    1.181319    1.386447      0.0000
+Matched controls              1.208782    0.039812    1.136980    1.293488      0.0000
+Difference                    0.073270    0.061800   -0.051919    0.189191      0.2666
+--------------------------------------------------------------------------------------
+Coach changes                          91  Bootstrap replicates                10000
+Control windows                      4779  Seed                                 4009
+Club-seasons (clusters)               250  Significance level                   0.05
+Window (games)                          6  Smallest relevant effect             0.15
+======================================================================================
+
 Wrote data/does-firing-the-coach-work.json
   116 changes (10 stand-ins excluded), 91 with full ±6 windows
   before 0.679 → after 1.282 ppg; matched controls → 1.209

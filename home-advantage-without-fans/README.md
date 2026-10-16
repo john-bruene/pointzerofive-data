@@ -18,6 +18,7 @@ File | Contents
 `claim.json` | Texts of the claim and of the forks, English and German
 `pitch.md` | The pitch: question, dispute, main calculation and forks, fixed before the analysis
 `home_advantage_pipeline.R` | Builds `games_top5.csv` and the published results
+`estimation_table.R` | Builds and prints the result table of the main calculation (key `estimation` in the JSON)
 
 The notebook runs in this folder as it is. The pipeline script expects the folder layout of the
 website's repository (`notebooks/raw/home_advantage/`, `data/`). Requires base R and `jsonlite`.

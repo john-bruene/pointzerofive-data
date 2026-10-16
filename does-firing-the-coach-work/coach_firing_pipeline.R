@@ -13,6 +13,8 @@
 #   data/does-firing-the-coach-work.json
 #   data/does-firing-the-coach-work.output.txt   (this script's console output via sink(),
 #                                                 with sessionInfo(); not edited afterwards)
+#   The result table of the main calculation (key `estimation`) is built with
+#   notebooks/estimation_table.R.
 #
 # Run from project root, in a UTF-8 locale:
 #     LANG=C.UTF-8 Rscript notebooks/coach_firing_pipeline.R
@@ -36,6 +38,7 @@
 if (!isTRUE(l10n_info()[["UTF-8"]])) stop("Run in a UTF-8 locale, e.g. LANG=C.UTF-8 Rscript …")
 library(jsonlite)
 source(file.path("notebooks", "coach_firing_stats.R"))
+source(file.path("notebooks", "estimation_table.R"))
 
 INCOMING <- file.path("content", "incoming", "coach-changes", "games.csv.gz")
 RAW <- file.path("notebooks", "raw", "bundesliga", "coach_games_L1.csv")
@@ -47,6 +50,7 @@ CLAIM <- file.path("notebooks", "claims", "does-firing-the-coach-work.json")
 K <- 6L          # window length in games (main specification)
 B <- 10000L      # bootstrap replicates per calculation path (spec §7.1)
 SEED <- 4L       # path i (1..18, fork order) uses set.seed(SEED * 1000 + i)
+RUN_TIME <- Sys.time()
 FORK_OPTIONS <- list(
   comparison = c("before", "matched", "all_slumps"),
   window = c("5", "6", "10"),
@@ -267,6 +271,49 @@ trajectories <- function(tg, treated, control, k) {
 
 season_label <- function(s) sprintf("%d/%s", s, substr(s + 1, 3, 4))
 
+# The result table of the main calculation (estimation_table.R). Path i gets the same seed and
+# random stream as in compute_specs(), so the difference row is the main result.
+estimation <- function(tg, i, spec, sre) {
+  sp <- split_windows(tg, find_changes(tg, K)$changes, K)
+  d <- build_designs(sp$treated, sp$control, K)[["matched|no"]]
+  set.seed(SEED * 1000L + i)
+  reps <- bootstrap_parts(d, B)
+  set.seed(SEED * 1000L + i)
+  stopifnot(isTRUE(all.equal(reps[, "effect"], bootstrap(d, B))))
+  point <- parts(d, matrix(1, 1, length(d$y)), matrix(1, 1, nrow(d$s)))
+  diff <- est_values(point[, "effect"], reps[, "effect"])
+  stopifnot(abs(diff[1] - spec$effect) < 1e-12,
+            isTRUE(all.equal(diff[3:5], c(spec$ci_low, spec$ci_high, spec$p))))
+  seasons <- sprintf("%s–%s", season_label(min(tg$season)), season_label(max(tg$season)))
+  est_table(RUN_TIME,
+    dependent = txt(sprintf("Points per game in the %d games after", K),
+                    sprintf("Punkte je Spiel in den %d Spielen danach", K)),
+    method = txt("Matched comparison, cluster bootstrap, B = 10,000",
+                 "Gematchter Vergleich, Cluster-Bootstrap, B = 10.000"),
+    sample = txt(sprintf("Bundesliga %s", seasons)),
+    observations = length(d$y),
+    rows = list(
+      est_row("After a coach change", "Nach Trainerwechsel",
+              est_values(point[, "treated"], reps[, "treated"])),
+      est_row("Matched controls", "Gematchte Vergleichsfälle",
+              est_values(point[, "comparison"], reps[, "comparison"])),
+      est_row("Difference", "Differenz", diff)
+    ),
+    left = list(
+      est_stat("Coach changes", "Trainerwechsel", length(d$y), 0),
+      est_stat("Control windows", "Vergleichsfenster", nrow(sp$control), 0),
+      est_stat("Club-seasons (clusters)", "Klub-Saisons (Cluster)", nrow(d$s), 0),
+      est_stat("Window (games)", "Fenster (Spiele)", K, 0)
+    ),
+    right = list(
+      est_stat("Bootstrap replicates", "Bootstrap-Wiederholungen", B, 0),
+      est_stat("Seed", "Seed", SEED * 1000L + i, 0),
+      est_stat("Significance level", "Signifikanzniveau", ALPHA, 2),
+      est_stat("Smallest relevant effect", "Kleinster relevanter Effekt", sre, 2)
+    )
+  )
+}
+
 main <- function() {
   if (file.exists(INCOMING)) prep()
   tg <- team_games()
@@ -299,8 +346,13 @@ main <- function() {
   names(primary) <- vapply(claim_file$forks, function(f) f$id, "")
   stopifnot(identical(primary, list(comparison = "matched", window = as.character(K),
                                     opponents = "no")))
-  main_spec <- Filter(function(s) identical(s$choices, primary), specs)[[1]]
+  main_i <- which(vapply(specs, function(s) identical(s$choices, primary), TRUE))
+  main_spec <- specs[[main_i]]
   stopifnot(abs(main_spec$effect - eff) < 1e-12)
+  est <- estimation(tg, main_i, main_spec, claim_file$claim$smallest_relevant_effect)
+  cat("\nResult table of the main calculation:\n")
+  print_est_table(est)
+  cat("\n")
 
   points_of <- function(row) lapply(row, function(v) if (is.na(v)) NULL else as.integer(v))
   data <- list(
@@ -354,6 +406,7 @@ main <- function() {
            post = as.integer(r$post), ctrlPost = round(r$ctrl_post, 2),
            points = points_of(traj$t[i, ]))
     }),
+    estimation = est,
     claim = claim_file$claim,
     forks = claim_file$forks,
     specs = specs
@@ -374,7 +427,7 @@ main <- function() {
 
 if (sys.nframe() == 0L) {
   sink(LOG, split = TRUE)
-  cat(sprintf("%s, run on %s\n\n", R.version.string, format(Sys.time(), "%Y-%m-%d %H:%M %Z")))
+  cat(sprintf("%s, run on %s\n\n", R.version.string, format(RUN_TIME, "%Y-%m-%d %H:%M %Z", tz = "UTC")))
   main()
   cat("\n")
   print(sessionInfo())

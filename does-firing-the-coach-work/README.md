@@ -19,6 +19,7 @@ File | Contents
 `bundesliga_matches_pipeline.R` | Builds `matches.csv` from openfootball
 `coach_firing_pipeline.R` | Builds `coach_games_L1.csv` and the published results
 `coach_firing_stats.R` | Estimators and cluster bootstrap
+`estimation_table.R` | Builds and prints the result table of the main calculation (key `estimation` in the JSON)
 
 The notebook runs in this folder as it is. The pipeline scripts expect the folder layout of the
 website's repository (`notebooks/raw/bundesliga/`, `data/`). Requires base R and `jsonlite`.

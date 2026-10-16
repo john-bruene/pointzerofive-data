@@ -16,6 +16,8 @@
 #   data/home-advantage-without-fans.json
 #   data/home-advantage-without-fans.output.txt  (this script's console output via sink(),
 #                                                 with sessionInfo(); not edited afterwards)
+#   The result table of the main calculation (key `estimation`) is built with
+#   notebooks/estimation_table.R.
 #
 # Run from project root, in a UTF-8 locale:
 #     LANG=C.UTF-8 Rscript notebooks/home_advantage_pipeline.R
@@ -34,6 +36,7 @@
 # ──────────────────────────────────────────────────────────────────────
 
 suppressPackageStartupMessages(library(jsonlite))
+source(file.path("notebooks", "estimation_table.R"))
 if (!isTRUE(l10n_info()[["UTF-8"]])) stop("Run in a UTF-8 locale, e.g. LANG=C.UTF-8 Rscript …")
 
 INCOMING <- file.path("content", "incoming", "home-advantage", "games.csv.gz")
@@ -51,6 +54,7 @@ WINDOW_END <- as.Date("2022-06-30")
 B <- 10000L      # bootstrap replicates per calculation path
 SEED <- 6000L    # path i (1..18, fork order) uses set.seed(SEED + i)
 ALPHA <- 0.05
+RUN_TIME <- Sys.time()
 
 FORK_OPTIONS <- list(
   leagues = c("bundesliga", "top5"),
@@ -202,6 +206,48 @@ group_mean <- function(d, seed) {
        awayWin = round(mean(d$y < 0), 3))
 }
 
+# The result table of the main calculation (estimation_table.R). Path i gets the same seed and
+# random stream as in compute_specs(), so the difference row is the main result.
+estimation <- function(m, primary, i, spec, sre) {
+  pg <- path_groups(m, primary$leagues, primary$ghost, primary$comparison)
+  cg <- clusters(pg$ghost)
+  cc <- clusters(pg$comparison)
+  set.seed(SEED + i)
+  rg <- boot_means(cg, B)
+  rc <- boot_means(cc, B)
+  diff <- est_values(spec$effect, rc - rg)
+  stopifnot(isTRUE(all.equal(diff[3:5], c(spec$ci_low, spec$ci_high, spec$p))))
+  y <- c(pg$comparison$y, pg$ghost$y)
+  est_table(RUN_TIME,
+    dependent = txt("Home points − away points per match",
+                    "Heimpunkte − Auswärtspunkte je Spiel"),
+    method = txt("Cluster bootstrap, B = 10,000 (clusters: matchday × group)",
+                 "Cluster-Bootstrap, B = 10.000 (Cluster: Spieltag × Gruppe)"),
+    sample = txt(sprintf("Bundesliga %s–%s", season_label(min(SEASONS)),
+                         season_label(max(SEASONS)))),
+    observations = length(y),
+    rows = list(
+      est_row("Full stadiums", "Volle Stadien", est_values(mean(pg$comparison$y), rc)),
+      est_row("Ghost games", "Geisterspiele", est_values(mean(pg$ghost$y), rg)),
+      est_row("Difference (full − ghost)", "Differenz (voll − Geister)", diff)
+    ),
+    left = list(
+      est_stat("Mean dependent var", "Mittelwert abh. Variable", mean(y), 6),
+      est_stat("S.D. dependent var", "Std.-Abw. abh. Variable", sd(y), 6),
+      est_stat("Observations, full", "Beobachtungen, voll", nrow(pg$comparison), 0),
+      est_stat("Observations, ghost", "Beobachtungen, Geister", nrow(pg$ghost), 0),
+      est_stat("Clusters, full", "Cluster, voll", length(cc$s), 0),
+      est_stat("Clusters, ghost", "Cluster, Geister", length(cg$s), 0)
+    ),
+    right = list(
+      est_stat("Bootstrap replicates", "Bootstrap-Wiederholungen", B, 0),
+      est_stat("Seed", "Seed", SEED + i, 0),
+      est_stat("Significance level", "Signifikanzniveau", ALPHA, 2),
+      est_stat("Smallest relevant effect", "Kleinster relevanter Effekt", sre, 2)
+    )
+  )
+}
+
 season_label <- function(s) sprintf("%d/%s", s, substr(s + 1, 3, 4))
 
 main <- function() {
@@ -220,7 +266,11 @@ main <- function() {
   primary <- lapply(claim_file$forks, function(f) f$primary)
   names(primary) <- vapply(claim_file$forks, function(f) f$id, "")
   stopifnot(identical(primary, list(leagues = "bundesliga", ghost = "all", comparison = "full")))
-  main_spec <- Filter(function(s) identical(s$choices, primary), specs)[[1]]
+  main_i <- which(vapply(specs, function(s) identical(s$choices, primary), TRUE))
+  main_spec <- specs[[main_i]]
+  est <- estimation(m, primary, main_i, main_spec, claim_file$claim$smallest_relevant_effect)
+  cat("\nResult table of the main calculation:\n")
+  print_est_table(est)
 
   # Group means per league and for the five leagues together (figure 2)
   seed <- 7000L
@@ -273,6 +323,7 @@ main <- function() {
     restart = restart,
     seasons = seasons,
     groups = groups,
+    estimation = est,
     claim = claim_file$claim,
     forks = claim_file$forks,
     specs = specs
@@ -294,7 +345,7 @@ main <- function() {
 
 if (sys.nframe() == 0L) {
   sink(LOG, split = TRUE)
-  cat(sprintf("%s, run on %s\n\n", R.version.string, format(Sys.time(), "%Y-%m-%d %H:%M %Z")))
+  cat(sprintf("%s, run on %s\n\n", R.version.string, format(RUN_TIME, "%Y-%m-%d %H:%M %Z", tz = "UTC")))
   main()
   cat("\n")
   print(sessionInfo())
