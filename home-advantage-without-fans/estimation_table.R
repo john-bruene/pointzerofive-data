@@ -40,6 +40,14 @@ est_values <- function(estimate, reps, alpha = 0.05) {
   unname(c(estimate, sd(reps), s[m], s[b + 1 - m], p))
 }
 
+# The same columns for an estimate with a t distribution (e.g. an OLS coefficient): interval
+# estimate ± t(1 - alpha/2, df) × se and the two-sided p-value of the t-test.
+est_values_t <- function(estimate, se, df, alpha = 0.05) {
+  q <- qt(1 - alpha / 2, df)
+  unname(c(estimate, se, estimate - q * se, estimate + q * se,
+           2 * pt(-abs(estimate / se), df)))
+}
+
 est_table <- function(run, dependent, method, sample, observations, rows, left, right) {
   list(run = format(run, "%Y-%m-%dT%H:%M:00Z", tz = "UTC"), dependent = dependent,
        method = method, sample = sample, observations = as.integer(observations),

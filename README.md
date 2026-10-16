@@ -7,6 +7,7 @@ folder.
 
 Story | Data
 ---|---
+[Does the gingerbread season start earlier every year?](https://pointzerofive.net/2026/10/gingerbread-earlier-every-year) | [gingerbread-earlier-every-year](gingerbread-earlier-every-year/)
 [Does home advantage shrink without fans?](https://pointzerofive.net/2026/09/home-advantage-without-fans) | [home-advantage-without-fans](home-advantage-without-fans/)
 [Are there more road accidents on Friday the 13th?](https://pointzerofive.net/2026/09/friday-the-13th) | [friday-the-13th](friday-the-13th/)
 [Does changing the coach win more points?](https://pointzerofive.net/2026/09/does-firing-the-coach-work) | [does-firing-the-coach-work](does-firing-the-coach-work/)

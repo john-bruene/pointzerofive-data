@@ -1,0 +1,185 @@
+{
+	"claim": {
+		"question": {
+			"en": "Does the gingerbread season start earlier every year?",
+			"de": "Beginnt die Lebkuchensaison jedes Jahr früher?"
+		},
+		"yes_text": {
+			"en": "The gingerbread season starts significantly earlier from year to year.",
+			"de": "Die Lebkuchensaison beginnt von Jahr zu Jahr signifikant früher."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "The gingerbread season does not start significantly earlier from year to year. Any shift is at most {bound} days per year.",
+				"de": "Die Lebkuchensaison beginnt von Jahr zu Jahr nicht signifikant früher. Eine Verschiebung liegt höchstens bei {bound} Tagen pro Jahr."
+			},
+			"not_detectable": {
+				"en": "The gingerbread season does not start significantly earlier from year to year. A relevant shift is not ruled out either.",
+				"de": "Die Lebkuchensaison beginnt von Jahr zu Jahr nicht signifikant früher. Eine relevante Verschiebung ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "The gingerbread season starts significantly later from year to year.",
+				"de": "Die Lebkuchensaison beginnt von Jahr zu Jahr signifikant später."
+			}
+		},
+		"unit": {
+			"en": "days earlier per year",
+			"de": "Tage früher pro Jahr"
+		},
+		"cases": {
+			"en": "{n} seasons of Google searches",
+			"de": "{n} Saisons Google-Suchen"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 0.5,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, says the common feeling. \"It feels as if the Christmas sweets move into the shelves earlier every year,\" wrote the Nordkurier in September 2024.",
+					"de": "Ja, sagt das Gefühl. „Gefühlt beginnt der Einzug der Weihnachtsleckereien in die Regale jedes Jahr früher“, schrieb der Nordkurier im September 2024."
+				},
+				"source": "Dominic Schmidt, Nordkurier, 14 September 2024, https://www.nordkurier.de/regional/mecklenburg-vorpommern/wieso-ist-jetzt-schon-wieder-weihnachten-2879827"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "No, says the food retail association: according to its managing director Philipp Hennerkes, the start of sales has not moved in 25 years.",
+					"de": "Nein, sagt der Handelsverband Lebensmittel: Laut Geschäftsführer Philipp Hennerkes hat sich der Verkaufsstart seit 25 Jahren nicht verändert."
+				},
+				"source": "Philipp Hennerkes (Bundesverband des Deutschen Lebensmittelhandels) to BR24, quoted in Sonntagsblatt, 24 November 2024, https://www.sonntagsblatt.de/artikel/kultur/lebkuchen-gibt-es-seit-august-im-supermarkt-wann-weihnachtsgebaeck-wirklich-gekauft"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "treat",
+			"question": {
+				"en": "Which treat?",
+				"de": "Welches Gebäck?"
+			},
+			"primary": "lebkuchen",
+			"options": [
+				{
+					"id": "lebkuchen",
+					"label": {
+						"en": "Lebkuchen",
+						"de": "Lebkuchen"
+					},
+					"why": {
+						"en": "The word in the saying.",
+						"de": "Das Wort aus dem Spruch."
+					}
+				},
+				{
+					"id": "spekulatius",
+					"label": {
+						"en": "Spekulatius",
+						"de": "Spekulatius"
+					},
+					"why": {
+						"en": "The other early arrival on the shelf.",
+						"de": "Der andere frühe Gast im Regal."
+					}
+				},
+				{
+					"id": "all",
+					"label": {
+						"en": "all three together",
+						"de": "alle drei zusammen"
+					},
+					"why": {
+						"en": "Lebkuchen, Spekulatius and Dominosteine, searches added up.",
+						"de": "Lebkuchen, Spekulatius und Dominosteine, Suchen zusammengezählt."
+					}
+				}
+			]
+		},
+		{
+			"id": "threshold",
+			"question": {
+				"en": "When has the season started?",
+				"de": "Ab wann hat die Saison begonnen?"
+			},
+			"primary": "20",
+			"options": [
+				{
+					"id": "10",
+					"label": {
+						"en": "at 10% of the peak",
+						"de": "bei 10 % des Höhepunkts"
+					},
+					"why": {
+						"en": "The first stirrings.",
+						"de": "Die ersten Regungen."
+					}
+				},
+				{
+					"id": "20",
+					"label": {
+						"en": "at 20% of the peak",
+						"de": "bei 20 % des Höhepunkts"
+					},
+					"why": {
+						"en": "Clearly under way.",
+						"de": "Deutlich angelaufen."
+					}
+				},
+				{
+					"id": "30",
+					"label": {
+						"en": "at 30% of the peak",
+						"de": "bei 30 % des Höhepunkts"
+					},
+					"why": {
+						"en": "In full swing.",
+						"de": "In vollem Gang."
+					}
+				}
+			]
+		},
+		{
+			"id": "years",
+			"question": {
+				"en": "Which years?",
+				"de": "Welche Jahre?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "2004 to 2025",
+						"de": "2004 bis 2025"
+					},
+					"why": {
+						"en": "Everything Google has.",
+						"de": "Alles, was Google hat."
+					}
+				},
+				{
+					"id": "from2011",
+					"label": {
+						"en": "from 2011",
+						"de": "ab 2011"
+					},
+					"why": {
+						"en": "After Google changed how it collects the data on 1 January 2011.",
+						"de": "Nach Googles Umstellung der Datenerhebung am 1. Januar 2011."
+					}
+				},
+				{
+					"id": "from2016",
+					"label": {
+						"en": "from 2016",
+						"de": "ab 2016"
+					},
+					"why": {
+						"en": "After the next change on 1 January 2016.",
+						"de": "Nach der nächsten Umstellung am 1. Januar 2016."
+					}
+				}
+			]
+		}
+	]
+}

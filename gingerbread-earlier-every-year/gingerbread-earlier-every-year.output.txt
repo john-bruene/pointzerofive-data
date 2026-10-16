@@ -1,0 +1,107 @@
+R version 4.3.3 (2024-02-29), run on 2026-10-16 15:03 UTC
+
+Google Trends: 22 seasons, 3 terms, 14124 daily values; downloaded 2026-10-16T14:47:22Z to 2026-10-16T15:00:56Z UTC
+
+Calculation paths (effect = days earlier per year):
+  treat=lebkuchen|threshold=10|years=all: n=22, +1.544 [+0.656, +2.433] p=0.0017
+  treat=lebkuchen|threshold=10|years=from2011: n=15, +0.107 [-0.835, +1.049] p=0.8097
+  treat=lebkuchen|threshold=10|years=from2016: n=10, +0.812 [-1.239, +2.863] p=0.3878
+  treat=lebkuchen|threshold=20|years=all: n=22, +0.835 [+0.295, +1.374] p=0.0042
+  treat=lebkuchen|threshold=20|years=from2011: n=15, +0.982 [+0.259, +1.705] p=0.0116
+  treat=lebkuchen|threshold=20|years=from2016: n=10, +1.570 [+0.043, +3.096] p=0.0452
+  treat=lebkuchen|threshold=30|years=all: n=22, +0.054 [-0.410, +0.518] p=0.8119
+  treat=lebkuchen|threshold=30|years=from2011: n=15, +0.275 [-0.250, +0.800] p=0.2785
+  treat=lebkuchen|threshold=30|years=from2016: n=10, +0.545 [-0.589, +1.680] p=0.2999
+  treat=spekulatius|threshold=10|years=all: n=22, +1.196 [+0.076, +2.316] p=0.0375
+  treat=spekulatius|threshold=10|years=from2011: n=15, -0.414 [-1.070, +0.241] p=0.1951
+  treat=spekulatius|threshold=10|years=from2016: n=10, -0.521 [-1.961, +0.918] p=0.4280
+  treat=spekulatius|threshold=20|years=all: n=22, -0.125 [-1.065, +0.814] p=0.7837
+  treat=spekulatius|threshold=20|years=from2011: n=15, -0.646 [-1.114, -0.179] p=0.0105
+  treat=spekulatius|threshold=20|years=from2016: n=10, -0.048 [-0.589, +0.492] p=0.8412
+  treat=spekulatius|threshold=30|years=all: n=22, -0.787 [-1.683, +0.110] p=0.0823
+  treat=spekulatius|threshold=30|years=from2011: n=15, -0.854 [-1.312, -0.395] p=0.0014
+  treat=spekulatius|threshold=30|years=from2016: n=10, -0.158 [-0.473, +0.158] p=0.2826
+  treat=all|threshold=10|years=all: n=22, +1.020 [+0.225, +1.814] p=0.0145
+  treat=all|threshold=10|years=from2011: n=15, +0.000 [-0.708, +0.708] p=1.0000
+  treat=all|threshold=10|years=from2016: n=10, +0.921 [-0.447, +2.290] p=0.1592
+  treat=all|threshold=20|years=all: n=22, +0.002 [-0.478, +0.482] p=0.9923
+  treat=all|threshold=20|years=from2011: n=15, -0.307 [-0.786, +0.171] p=0.1888
+  treat=all|threshold=20|years=from2016: n=10, +0.085 [-0.898, +1.067] p=0.8471
+  treat=all|threshold=30|years=all: n=22, -0.220 [-0.528, +0.087] p=0.1508
+  treat=all|threshold=30|years=from2011: n=15, -0.314 [-0.699, +0.070] p=0.1008
+  treat=all|threshold=30|years=from2016: n=10, +0.285 [-0.221, +0.791] p=0.2306
+
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Onset of the season, days after 1 June
+Method: Least squares, t-test of the slope
+Date: 2026-10-16   Time: 15:03 UTC
+Sample: Seasons 2004–2025, Google Trends, Germany
+Included observations: 22
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+Onset in 2004 (C)           142.308300    3.172972  135.689596  148.927005      0.0000
+Days earlier per year         0.834557    0.258641    0.295040    1.374073      0.0042
+--------------------------------------------------------------------------------------
+R-squared                        0.342355  Mean dependent var             133.545455
+Adjusted R-squared               0.309473  S.D. dependent var               9.261941
+S.E. of regression               7.696483  Threshold (share of peak)            0.20
+Durbin-Watson stat               1.441565  Smallest relevant effect             0.50
+======================================================================================
+
+Not preregistered: without 2004 +0.525 [+0.095, +0.955] p=0.0194, n=21
+
+Wrote data/gingerbread-earlier-every-year.json
+Onset per season (Lebkuchen, 20% of peak):
+ season days_after_1_june  date
+   2004               164 11-12
+   2005               140 10-19
+   2006               137 10-16
+   2007               132 10-11
+   2008               133 10-12
+   2009               125 10-04
+   2010               135 10-14
+   2011               135 10-14
+   2012               138 10-17
+   2013               129 10-08
+   2014               140 10-19
+   2015               135 10-14
+   2016               133 10-12
+   2017               129 10-08
+   2018               140 10-19
+   2019               130 10-09
+   2020               138 10-17
+   2021               133 10-12
+   2022               120 09-29
+   2023               132 10-11
+   2024               122 10-01
+   2025               118 09-27
+  main: +0.835 days earlier per year, 95% CI [+0.295, +1.374], p = 0.0042, n = 22
+  yes paths: 6 of 27
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] jsonlite_1.8.8
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3
