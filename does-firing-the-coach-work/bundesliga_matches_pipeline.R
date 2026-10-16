@@ -1,6 +1,6 @@
 # bundesliga_matches_pipeline.R
 # ──────────────────────────────────────────────────────────────────────
-# Data pipeline (part 1 of 2) for story #004 "Does changing the coach win more points?":
+# Data pipeline (part 1 of 2) for story #001 "Does changing the coach win more points?":
 # every Bundesliga result 2010/11–2025/26.
 #
 # Input:  openfootball/deutschland (CC0 1.0), fetched from GitHub:

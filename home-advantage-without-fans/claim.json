@@ -1,0 +1,174 @@
+{
+	"claim": {
+		"question": {
+			"en": "Does home advantage shrink without fans?",
+			"de": "Schrumpft der Heimvorteil ohne Zuschauer?"
+		},
+		"yes_text": {
+			"en": "Without spectators, home teams lose a significant part of their advantage.",
+			"de": "Ohne Zuschauer verlieren Heimteams einen signifikanten Teil ihres Vorteils."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "Without spectators, home advantage is not significantly smaller than in full stadiums. Any reduction is at most {bound} points per match.",
+				"de": "Ohne Zuschauer ist der Heimvorteil nicht signifikant kleiner als in vollen Stadien. Eine Abnahme liegt höchstens bei {bound} Punkten pro Spiel."
+			},
+			"not_detectable": {
+				"en": "Without spectators, home advantage is not significantly smaller than in full stadiums. A relevant reduction is not ruled out either.",
+				"de": "Ohne Zuschauer ist der Heimvorteil nicht signifikant kleiner als in vollen Stadien. Eine relevante Abnahme ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "Without spectators, home advantage is significantly larger than in full stadiums.",
+				"de": "Ohne Zuschauer ist der Heimvorteil signifikant größer als in vollen Stadien."
+			}
+		},
+		"unit": {
+			"en": "points per match",
+			"de": "Punkte pro Spiel"
+		},
+		"cases": {
+			"en": "{n} matches without spectators, 2020–2022",
+			"de": "{n} Spiele ohne Zuschauer, 2020–2022"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 0.1,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, found McCarrick and colleagues (2021) in 4,844 matches from 15 European leagues: without crowds, home teams scored fewer goals and took fewer points.",
+					"de": "Ja, fanden McCarrick und Kollegen (2021) in 4.844 Spielen aus 15 europäischen Ligen: Ohne Publikum schossen Heimteams weniger Tore und holten weniger Punkte."
+				},
+				"source": "McCarrick, Bilalic, Neave & Wolfson 2021, Psychology of Sport and Exercise 56: 102013, doi:10.1016/j.psychsport.2021.102013"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "No, found Schank, Voigt and Orthey (2024) for the Bundesliga: in 2020/21, a season almost entirely without fans, home advantage was about as large as in 2018/19.",
+					"de": "Nein, fanden Schank, Voigt und Orthey (2024) für die Bundesliga: In der Saison 2020/21, fast komplett ohne Fans, war der Heimvorteil etwa so groß wie 2018/19."
+				},
+				"source": "Schank, Voigt & Orthey 2024, arXiv:2411.12509 (preprint)"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "leagues",
+			"question": {
+				"en": "Which leagues?",
+				"de": "Welche Ligen?"
+			},
+			"primary": "bundesliga",
+			"options": [
+				{
+					"id": "bundesliga",
+					"label": {
+						"en": "only the Bundesliga",
+						"de": "nur die Bundesliga"
+					},
+					"why": {
+						"en": "The league the question is usually asked about.",
+						"de": "Die Liga, um die es bei der Frage meistens geht."
+					}
+				},
+				{
+					"id": "top5",
+					"label": {
+						"en": "the five big leagues together",
+						"de": "die fünf großen Ligen zusammen"
+					},
+					"why": {
+						"en": "Bundesliga, Premier League, LaLiga, Serie A and Ligue 1: five times as many matches.",
+						"de": "Bundesliga, Premier League, LaLiga, Serie A und Ligue 1: fünfmal so viele Spiele."
+					}
+				}
+			]
+		},
+		{
+			"id": "ghost",
+			"question": {
+				"en": "Which ghost games count?",
+				"de": "Welche Geisterspiele zählen?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "all matches without spectators",
+						"de": "alle Spiele ohne Zuschauer"
+					},
+					"why": {
+						"en": "Every match played in an empty stadium between 2020 and 2022.",
+						"de": "Jedes Spiel, das zwischen 2020 und 2022 vor leeren Rängen stattfand."
+					}
+				},
+				{
+					"id": "restart",
+					"label": {
+						"en": "only the restart in 2020",
+						"de": "nur der Neustart 2020"
+					},
+					"why": {
+						"en": "The first weeks without fans, when empty stadiums were new to everyone.",
+						"de": "Die ersten Wochen ohne Fans, als leere Stadien für alle neu waren."
+					}
+				},
+				{
+					"id": "season2021",
+					"label": {
+						"en": "only the season 2020/21",
+						"de": "nur die Saison 2020/21"
+					},
+					"why": {
+						"en": "A whole season without fans. Teams had time to get used to it.",
+						"de": "Eine ganze Saison ohne Fans. Die Teams hatten Zeit, sich daran zu gewöhnen."
+					}
+				}
+			]
+		},
+		{
+			"id": "comparison",
+			"question": {
+				"en": "What do we compare with?",
+				"de": "Womit vergleichen wir?"
+			},
+			"primary": "full",
+			"options": [
+				{
+					"id": "full",
+					"label": {
+						"en": "full stadiums before and after",
+						"de": "volle Stadien davor und danach"
+					},
+					"why": {
+						"en": "All matches with normal crowds, 2012/13 to 2025/26.",
+						"de": "Alle Spiele mit normalem Publikum, 2012/13 bis 2025/26."
+					}
+				},
+				{
+					"id": "before",
+					"label": {
+						"en": "only full stadiums before the pandemic",
+						"de": "nur volle Stadien vor der Pandemie"
+					},
+					"why": {
+						"en": "Only the years before March 2020, in case football changed afterwards.",
+						"de": "Nur die Jahre vor März 2020, falls sich der Fußball danach verändert hat."
+					}
+				},
+				{
+					"id": "any_crowd",
+					"label": {
+						"en": "every match with spectators",
+						"de": "jedes Spiel mit Zuschauern"
+					},
+					"why": {
+						"en": "Also the matches with limited crowds during the pandemic.",
+						"de": "Auch die Spiele mit begrenztem Publikum während der Pandemie."
+					}
+				}
+			]
+		}
+	]
+}

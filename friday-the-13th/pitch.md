@@ -1,5 +1,7 @@
 # Story Pitch — Are there more road accidents on Friday the 13th?
 
+> Renumbered on 16 October 2026: this story was #005 and is now #002; the three pre-relaunch stories were removed. The text below is unchanged.
+
 > Standards: `content/story-standards.md`; rules: `content/no-slop.md`.
 > Targets: 1,500–2,500 words per language, one core dataset, 2–4 figures.
 

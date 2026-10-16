@@ -1,0 +1,723 @@
+{
+ "meta": {
+  "source": "transfermarkt-datasets (games, CC0 1.0; data from Transfermarkt.de); openfootball/deutschland (CC0 1.0)",
+  "updated": "2026-10-16",
+  "seasons": "2012/13–2025/26",
+  "bootstrap": 10000,
+  "windowStart": "2020-03-08",
+  "windowEnd": "2022-06-30"
+ },
+ "summary": {
+  "matches": 25241,
+  "dropped": 49,
+  "bundesliga": {
+   "full": 3587,
+   "restricted": 325,
+   "ghost": 372
+  },
+  "top5": {
+   "full": 21137,
+   "restricted": 1950,
+   "ghost": 2105
+  }
+ },
+ "restart": {
+  "before": {
+   "n": 221,
+   "homeWins": 95,
+   "draws": 48,
+   "awayWins": 78,
+   "ha": 0.231,
+   "homeGoals": 1.75,
+   "awayGoals": 1.52
+  },
+  "after": {
+   "n": 83,
+   "homeWins": 27,
+   "draws": 19,
+   "awayWins": 37,
+   "ha": -0.361,
+   "homeGoals": 1.43,
+   "awayGoals": 1.66
+  }
+ },
+ "seasons": [
+  {
+   "season": "2012/13",
+   "n": 306,
+   "ha": 0.314,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2013/14",
+   "n": 306,
+   "ha": 0.471,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2014/15",
+   "n": 306,
+   "ha": 0.647,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2015/16",
+   "n": 306,
+   "ha": 0.343,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2016/17",
+   "n": 306,
+   "ha": 0.667,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2017/18",
+   "n": 306,
+   "ha": 0.539,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2018/19",
+   "n": 306,
+   "ha": 0.422,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2019/20",
+   "n": 223,
+   "ha": 0.242,
+   "nGhost": 83,
+   "haGhost": -0.361
+  },
+  {
+   "season": "2020/21",
+   "n": 35,
+   "ha": 0.514,
+   "nGhost": 271,
+   "haGhost": 0.299
+  },
+  {
+   "season": "2021/22",
+   "n": 288,
+   "ha": 0.521,
+   "nGhost": 18,
+   "haGhost": 0.5
+  },
+  {
+   "season": "2022/23",
+   "n": 306,
+   "ha": 0.578,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2023/24",
+   "n": 306,
+   "ha": 0.422,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2024/25",
+   "n": 306,
+   "ha": 0.069,
+   "nGhost": 0,
+   "haGhost": null
+  },
+  {
+   "season": "2025/26",
+   "n": 306,
+   "ha": 0.363,
+   "nGhost": 0,
+   "haGhost": null
+  }
+ ],
+ "groups": [
+  {
+   "id": "L1",
+   "name": "Bundesliga",
+   "full": {
+    "n": 3587,
+    "ha": 0.427,
+    "lo": 0.337,
+    "hi": 0.514,
+    "homeWin": 0.448,
+    "draw": 0.246,
+    "awayWin": 0.306
+   },
+   "restricted": {
+    "n": 325,
+    "ha": 0.526,
+    "lo": 0.268,
+    "hi": 0.781,
+    "homeWin": 0.465,
+    "draw": 0.246,
+    "awayWin": 0.289
+   },
+   "ghost": {
+    "n": 372,
+    "ha": 0.161,
+    "lo": -0.149,
+    "hi": 0.459,
+    "homeWin": 0.401,
+    "draw": 0.253,
+    "awayWin": 0.347
+   }
+  },
+  {
+   "id": "GB1",
+   "name": "Premier League",
+   "full": {
+    "n": 4465,
+    "ha": 0.435,
+    "lo": 0.362,
+    "hi": 0.509,
+    "homeWin": 0.452,
+    "draw": 0.241,
+    "awayWin": 0.307
+   },
+   "restricted": {
+    "n": 400,
+    "ha": 0.42,
+    "lo": 0.154,
+    "hi": 0.687,
+    "homeWin": 0.458,
+    "draw": 0.225,
+    "awayWin": 0.318
+   },
+   "ghost": {
+    "n": 441,
+    "ha": -0.02,
+    "lo": -0.225,
+    "hi": 0.182,
+    "homeWin": 0.385,
+    "draw": 0.222,
+    "awayWin": 0.392
+   }
+  },
+  {
+   "id": "ES1",
+   "name": "LaLiga",
+   "full": {
+    "n": 4443,
+    "ha": 0.55,
+    "lo": 0.479,
+    "hi": 0.621,
+    "homeWin": 0.468,
+    "draw": 0.247,
+    "awayWin": 0.285
+   },
+   "restricted": {
+    "n": 390,
+    "ha": 0.485,
+    "lo": 0.207,
+    "hi": 0.756,
+    "homeWin": 0.436,
+    "draw": 0.29,
+    "awayWin": 0.274
+   },
+   "ghost": {
+    "n": 486,
+    "ha": 0.321,
+    "lo": 0.144,
+    "hi": 0.498,
+    "homeWin": 0.412,
+    "draw": 0.284,
+    "awayWin": 0.305
+   }
+  },
+  {
+   "id": "IT1",
+   "name": "Serie A",
+   "full": {
+    "n": 4425,
+    "ha": 0.377,
+    "lo": 0.305,
+    "hi": 0.45,
+    "homeWin": 0.433,
+    "draw": 0.259,
+    "awayWin": 0.308
+   },
+   "restricted": {
+    "n": 397,
+    "ha": 0.128,
+    "lo": -0.075,
+    "hi": 0.329,
+    "homeWin": 0.395,
+    "draw": 0.252,
+    "awayWin": 0.353
+   },
+   "ghost": {
+    "n": 493,
+    "ha": 0.237,
+    "lo": 0.037,
+    "hi": 0.439,
+    "homeWin": 0.416,
+    "draw": 0.247,
+    "awayWin": 0.337
+   }
+  },
+  {
+   "id": "FR1",
+   "name": "Ligue 1",
+   "full": {
+    "n": 4217,
+    "ha": 0.47,
+    "lo": 0.393,
+    "hi": 0.545,
+    "homeWin": 0.449,
+    "draw": 0.258,
+    "awayWin": 0.293
+   },
+   "restricted": {
+    "n": 438,
+    "ha": 0.397,
+    "lo": 0.147,
+    "hi": 0.645,
+    "homeWin": 0.432,
+    "draw": 0.269,
+    "awayWin": 0.299
+   },
+   "ghost": {
+    "n": 313,
+    "ha": -0.105,
+    "lo": -0.34,
+    "hi": 0.136,
+    "homeWin": 0.358,
+    "draw": 0.249,
+    "awayWin": 0.393
+   }
+  },
+  {
+   "id": "top5",
+   "name": "top5",
+   "full": {
+    "n": 21137,
+    "ha": 0.452,
+    "lo": 0.418,
+    "hi": 0.486,
+    "homeWin": 0.45,
+    "draw": 0.25,
+    "awayWin": 0.299
+   },
+   "restricted": {
+    "n": 1950,
+    "ha": 0.386,
+    "lo": 0.275,
+    "hi": 0.502,
+    "homeWin": 0.436,
+    "draw": 0.257,
+    "awayWin": 0.307
+   },
+   "ghost": {
+    "n": 2105,
+    "ha": 0.138,
+    "lo": 0.035,
+    "hi": 0.238,
+    "homeWin": 0.397,
+    "draw": 0.252,
+    "awayWin": 0.351
+   }
+  }
+ ],
+ "claim": {
+  "question": {
+   "en": "Does home advantage shrink without fans?",
+   "de": "Schrumpft der Heimvorteil ohne Zuschauer?"
+  },
+  "yes_text": {
+   "en": "Without spectators, home teams lose a significant part of their advantage.",
+   "de": "Ohne Zuschauer verlieren Heimteams einen signifikanten Teil ihres Vorteils."
+  },
+  "no_text": {
+   "ruled_out": {
+    "en": "Without spectators, home advantage is not significantly smaller than in full stadiums. Any reduction is at most {bound} points per match.",
+    "de": "Ohne Zuschauer ist der Heimvorteil nicht signifikant kleiner als in vollen Stadien. Eine Abnahme liegt höchstens bei {bound} Punkten pro Spiel."
+   },
+   "not_detectable": {
+    "en": "Without spectators, home advantage is not significantly smaller than in full stadiums. A relevant reduction is not ruled out either.",
+    "de": "Ohne Zuschauer ist der Heimvorteil nicht signifikant kleiner als in vollen Stadien. Eine relevante Abnahme ist aber auch nicht ausgeschlossen."
+   },
+   "opposite": {
+    "en": "Without spectators, home advantage is significantly larger than in full stadiums.",
+    "de": "Ohne Zuschauer ist der Heimvorteil signifikant größer als in vollen Stadien."
+   }
+  },
+  "unit": {
+   "en": "points per match",
+   "de": "Punkte pro Spiel"
+  },
+  "cases": {
+   "en": "{n} matches without spectators, 2020–2022",
+   "de": "{n} Spiele ohne Zuschauer, 2020–2022"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 0.1,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, found McCarrick and colleagues (2021) in 4,844 matches from 15 European leagues: without crowds, home teams scored fewer goals and took fewer points.",
+     "de": "Ja, fanden McCarrick und Kollegen (2021) in 4.844 Spielen aus 15 europäischen Ligen: Ohne Publikum schossen Heimteams weniger Tore und holten weniger Punkte."
+    },
+    "source": "McCarrick, Bilalic, Neave & Wolfson 2021, Psychology of Sport and Exercise 56: 102013, doi:10.1016/j.psychsport.2021.102013"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "No, found Schank, Voigt and Orthey (2024) for the Bundesliga: in 2020/21, a season almost entirely without fans, home advantage was about as large as in 2018/19.",
+     "de": "Nein, fanden Schank, Voigt und Orthey (2024) für die Bundesliga: In der Saison 2020/21, fast komplett ohne Fans, war der Heimvorteil etwa so groß wie 2018/19."
+    },
+    "source": "Schank, Voigt & Orthey 2024, arXiv:2411.12509 (preprint)"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "leagues",
+   "question": {
+    "en": "Which leagues?",
+    "de": "Welche Ligen?"
+   },
+   "primary": "bundesliga",
+   "options": [
+    {
+     "id": "bundesliga",
+     "label": {
+      "en": "only the Bundesliga",
+      "de": "nur die Bundesliga"
+     },
+     "why": {
+      "en": "The league the question is usually asked about.",
+      "de": "Die Liga, um die es bei der Frage meistens geht."
+     }
+    },
+    {
+     "id": "top5",
+     "label": {
+      "en": "the five big leagues together",
+      "de": "die fünf großen Ligen zusammen"
+     },
+     "why": {
+      "en": "Bundesliga, Premier League, LaLiga, Serie A and Ligue 1: five times as many matches.",
+      "de": "Bundesliga, Premier League, LaLiga, Serie A und Ligue 1: fünfmal so viele Spiele."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ghost",
+   "question": {
+    "en": "Which ghost games count?",
+    "de": "Welche Geisterspiele zählen?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "all matches without spectators",
+      "de": "alle Spiele ohne Zuschauer"
+     },
+     "why": {
+      "en": "Every match played in an empty stadium between 2020 and 2022.",
+      "de": "Jedes Spiel, das zwischen 2020 und 2022 vor leeren Rängen stattfand."
+     }
+    },
+    {
+     "id": "restart",
+     "label": {
+      "en": "only the restart in 2020",
+      "de": "nur der Neustart 2020"
+     },
+     "why": {
+      "en": "The first weeks without fans, when empty stadiums were new to everyone.",
+      "de": "Die ersten Wochen ohne Fans, als leere Stadien für alle neu waren."
+     }
+    },
+    {
+     "id": "season2021",
+     "label": {
+      "en": "only the season 2020/21",
+      "de": "nur die Saison 2020/21"
+     },
+     "why": {
+      "en": "A whole season without fans. Teams had time to get used to it.",
+      "de": "Eine ganze Saison ohne Fans. Die Teams hatten Zeit, sich daran zu gewöhnen."
+     }
+    }
+   ]
+  },
+  {
+   "id": "comparison",
+   "question": {
+    "en": "What do we compare with?",
+    "de": "Womit vergleichen wir?"
+   },
+   "primary": "full",
+   "options": [
+    {
+     "id": "full",
+     "label": {
+      "en": "full stadiums before and after",
+      "de": "volle Stadien davor und danach"
+     },
+     "why": {
+      "en": "All matches with normal crowds, 2012/13 to 2025/26.",
+      "de": "Alle Spiele mit normalem Publikum, 2012/13 bis 2025/26."
+     }
+    },
+    {
+     "id": "before",
+     "label": {
+      "en": "only full stadiums before the pandemic",
+      "de": "nur volle Stadien vor der Pandemie"
+     },
+     "why": {
+      "en": "Only the years before March 2020, in case football changed afterwards.",
+      "de": "Nur die Jahre vor März 2020, falls sich der Fußball danach verändert hat."
+     }
+    },
+    {
+     "id": "any_crowd",
+     "label": {
+      "en": "every match with spectators",
+      "de": "jedes Spiel mit Zuschauern"
+     },
+     "why": {
+      "en": "Also the matches with limited crowds during the pandemic.",
+      "de": "Auch die Spiele mit begrenztem Publikum während der Pandemie."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "all",
+    "comparison": "full"
+   },
+   "effect": 0.265249961779544,
+   "ci_low": -0.0469367382098636,
+   "ci_high": 0.572802197802198,
+   "p": 0.0966,
+   "n": 372
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "all",
+    "comparison": "before"
+   },
+   "effect": 0.300834095531924,
+   "ci_low": -0.0176189174412247,
+   "ci_high": 0.609756010787041,
+   "p": 0.0618,
+   "n": 372
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "all",
+    "comparison": "any_crowd"
+   },
+   "effect": 0.2735256283396,
+   "ci_low": -0.0287776870323934,
+   "ci_high": 0.587320328542094,
+   "p": 0.0754,
+   "n": 372
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "restart",
+    "comparison": "full"
+   },
+   "effect": 0.78798606749272,
+   "ci_low": 0.194381769332423,
+   "ci_high": 1.34963788300836,
+   "p": 0.0098,
+   "n": 83
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "restart",
+    "comparison": "before"
+   },
+   "effect": 0.823570201245099,
+   "ci_low": 0.219069170081341,
+   "ci_high": 1.41024555461473,
+   "p": 0.0084,
+   "n": 83
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "restart",
+    "comparison": "any_crowd"
+   },
+   "effect": 0.796261734052776,
+   "ci_low": 0.203312101910828,
+   "ci_high": 1.38632006889973,
+   "p": 0.0082,
+   "n": 83
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "season2021",
+    "comparison": "full"
+   },
+   "effect": 0.1276472954303,
+   "ci_low": -0.221211569947244,
+   "ci_high": 0.479203426532204,
+   "p": 0.48,
+   "n": 271
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "season2021",
+    "comparison": "before"
+   },
+   "effect": 0.163231429182679,
+   "ci_low": -0.191184851548856,
+   "ci_high": 0.537016471900193,
+   "p": 0.364,
+   "n": 271
+  },
+  {
+   "choices": {
+    "leagues": "bundesliga",
+    "ghost": "season2021",
+    "comparison": "any_crowd"
+   },
+   "effect": 0.135922961990356,
+   "ci_low": -0.20969387755102,
+   "ci_high": 0.494856530627782,
+   "p": 0.461,
+   "n": 271
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "all",
+    "comparison": "full"
+   },
+   "effect": 0.314234419341212,
+   "ci_low": 0.205560250215874,
+   "ci_high": 0.421194928764638,
+   "p": 0,
+   "n": 2105
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "all",
+    "comparison": "before"
+   },
+   "effect": 0.349276388372955,
+   "ci_low": 0.241120114430882,
+   "ci_high": 0.457614685025174,
+   "p": 0,
+   "n": 2105
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "all",
+    "comparison": "any_crowd"
+   },
+   "effect": 0.308632584357404,
+   "ci_low": 0.205017716623313,
+   "ci_high": 0.416341250231499,
+   "p": 0,
+   "n": 2105
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "restart",
+    "comparison": "full"
+   },
+   "effect": 0.257765161164709,
+   "ci_low": 0.0315236742071014,
+   "ci_high": 0.495534237816306,
+   "p": 0.0266,
+   "n": 416
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "restart",
+    "comparison": "before"
+   },
+   "effect": 0.292807130196452,
+   "ci_low": 0.0634169184670028,
+   "ci_high": 0.521819498786336,
+   "p": 0.0126,
+   "n": 416
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "restart",
+    "comparison": "any_crowd"
+   },
+   "effect": 0.252163326180901,
+   "ci_low": 0.0298179674790034,
+   "ci_high": 0.487461796662865,
+   "p": 0.0266,
+   "n": 416
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "season2021",
+    "comparison": "full"
+   },
+   "effect": 0.332189446484417,
+   "ci_low": 0.213028616015308,
+   "ci_high": 0.45242565407936,
+   "p": 0,
+   "n": 1671
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "season2021",
+    "comparison": "before"
+   },
+   "effect": 0.367231415516159,
+   "ci_low": 0.24607118272517,
+   "ci_high": 0.485222750247687,
+   "p": 0,
+   "n": 1671
+  },
+  {
+   "choices": {
+    "leagues": "top5",
+    "ghost": "season2021",
+    "comparison": "any_crowd"
+   },
+   "effect": 0.326587611500608,
+   "ci_low": 0.207682217727364,
+   "ci_high": 0.44255452278813,
+   "p": 0,
+   "n": 1671
+  }
+ ]
+}
+

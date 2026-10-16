@@ -1,16 +1,16 @@
 # Does changing the coach win more points?
 
 Data and code behind the story
-[Does changing the coach win more points?](https://pointzerofive.net/2026/10/does-firing-the-coach-work)
-(#004, 14 October 2026; German:
-[Bringt ein Trainerwechsel mehr Punkte?](https://pointzerofive.net/de/2026/10/does-firing-the-coach-work)).
+[Does changing the coach win more points?](https://pointzerofive.net/2026/09/does-firing-the-coach-work)
+(#001, 10 September 2026; German:
+[Bringt ein Trainerwechsel mehr Punkte?](https://pointzerofive.net/de/2026/09/does-firing-the-coach-work)).
 
-[Open the notebook in Colab](https://colab.research.google.com/github/john-bruene/pointzerofive-data/blob/main/does-firing-the-coach-work/story_004_coach_firing.ipynb)
+[Open the notebook in Colab](https://colab.research.google.com/github/john-bruene/pointzerofive-data/blob/main/does-firing-the-coach-work/story_001_coach_firing.ipynb)
 (choose the R runtime).
 
 File | Contents
 ---|---
-`story_004_coach_firing.ipynb` | R notebook that reproduces every number in the story, including all 18 calculation paths
+`story_001_coach_firing.ipynb` | R notebook that reproduces every number in the story, including all 18 calculation paths
 `does-firing-the-coach-work.json` | Published results: main calculation, the 18 calculation paths (`specs`), chart data
 `does-firing-the-coach-work.output.txt` | Console output of the pipeline run, unedited, ending with R and package versions
 `coach_games_L1.csv` | Every Bundesliga match from 2012/13 to 2025/26 with the coach of each team

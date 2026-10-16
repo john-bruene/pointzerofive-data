@@ -1,6 +1,6 @@
 # coach_firing_pipeline.R
 # ──────────────────────────────────────────────────────────────────────
-# Data pipeline (part 2 of 2) for story #004 "Does changing the coach win more points?".
+# Data pipeline (part 2 of 2) for story #001 "Does changing the coach win more points?".
 #
 # Inputs:
 #   content/incoming/coach-changes/games.csv.gz   (only needed once, see prep())

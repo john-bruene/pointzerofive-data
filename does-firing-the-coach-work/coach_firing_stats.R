@@ -1,6 +1,6 @@
 # coach_firing_stats.R
 # ──────────────────────────────────────────────────────────────────────
-# Estimators and the cluster bootstrap for story #004 (relaunch spec §7.1). The pipeline and the
+# Estimators and the cluster bootstrap for story #001 (relaunch spec §7.1). The pipeline and the
 # notebook use the same procedure and the same seeds, so they produce identical numbers.
 #
 # All three comparisons share one formula. For treated rows i with outcome y_i and match bin b_i,

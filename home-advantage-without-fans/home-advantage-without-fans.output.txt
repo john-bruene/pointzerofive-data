@@ -1,0 +1,61 @@
+R version 4.3.3 (2024-02-29), run on 2026-10-16 05:12 UTC
+
+prep: 25241 league matches; 1364 Bundesliga match dates agree with openfootball
+
+Matches per league and group (dropped: missing attendance outside the ghost rule):
+     
+      dropped full ghost restricted
+  L1        0 3587   372        325
+  GB1      14 4465   441        400
+  ES1       1 4443   486        390
+  IT1       5 4425   493        397
+  FR1      29 4217   313        438
+
+Calculation paths (effect = comparison − ghost games, points per match):
+  leagues=bundesliga|ghost=all|comparison=full: n=372, +0.265 [-0.047, +0.573] p=0.0966
+  leagues=bundesliga|ghost=all|comparison=before: n=372, +0.301 [-0.018, +0.610] p=0.0618
+  leagues=bundesliga|ghost=all|comparison=any_crowd: n=372, +0.274 [-0.029, +0.587] p=0.0754
+  leagues=bundesliga|ghost=restart|comparison=full: n=83, +0.788 [+0.194, +1.350] p=0.0098
+  leagues=bundesliga|ghost=restart|comparison=before: n=83, +0.824 [+0.219, +1.410] p=0.0084
+  leagues=bundesliga|ghost=restart|comparison=any_crowd: n=83, +0.796 [+0.203, +1.386] p=0.0082
+  leagues=bundesliga|ghost=season2021|comparison=full: n=271, +0.128 [-0.221, +0.479] p=0.4800
+  leagues=bundesliga|ghost=season2021|comparison=before: n=271, +0.163 [-0.191, +0.537] p=0.3640
+  leagues=bundesliga|ghost=season2021|comparison=any_crowd: n=271, +0.136 [-0.210, +0.495] p=0.4610
+  leagues=top5|ghost=all|comparison=full: n=2105, +0.314 [+0.206, +0.421] p=0.0000
+  leagues=top5|ghost=all|comparison=before: n=2105, +0.349 [+0.241, +0.458] p=0.0000
+  leagues=top5|ghost=all|comparison=any_crowd: n=2105, +0.309 [+0.205, +0.416] p=0.0000
+  leagues=top5|ghost=restart|comparison=full: n=416, +0.258 [+0.032, +0.496] p=0.0266
+  leagues=top5|ghost=restart|comparison=before: n=416, +0.293 [+0.063, +0.522] p=0.0126
+  leagues=top5|ghost=restart|comparison=any_crowd: n=416, +0.252 [+0.030, +0.487] p=0.0266
+  leagues=top5|ghost=season2021|comparison=full: n=1671, +0.332 [+0.213, +0.452] p=0.0000
+  leagues=top5|ghost=season2021|comparison=before: n=1671, +0.367 [+0.246, +0.485] p=0.0000
+  leagues=top5|ghost=season2021|comparison=any_crowd: n=1671, +0.327 [+0.208, +0.443] p=0.0000
+
+Wrote data/home-advantage-without-fans.json
+  Bundesliga: 3587 full, 325 restricted, 372 ghost games
+  restart 2019/20: before 95-48-78 (H-D-A), after 27-19-37
+  main: +0.265 points per match, 95% CI [-0.047, +0.573], p = 0.0966, n = 372
+  yes paths: 12 of 18
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1]

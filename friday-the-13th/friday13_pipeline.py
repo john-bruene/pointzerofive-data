@@ -1,7 +1,7 @@
 """
 friday13_pipeline.py
 ──────────────────────────────────────────────────────────────────────
-Data pipeline for story #005 "Are there more road accidents on Friday the 13th?".
+Data pipeline for story #002 "Are there more road accidents on Friday the 13th?".
 
 Inputs:
   STATS19 collisions 1979 to the latest published year (Department for Transport, Road Safety
@@ -19,7 +19,7 @@ Run from project root:
 
 Requires: pandas, numpy, holidays
 
-Method (pitch content/pitches/005-friday-the-13th.md, fixed before the analysis)
+Method (pitch content/pitches/002-friday-the-13th.md, fixed before the analysis)
   One row per calendar day in Great Britain: collisions with at least one injured person, split
   by severity. Every Friday the 13th is compared with days of the same month (fork comparison),
   for all collisions, killed-or-seriously-injured collisions or fatal collisions (fork outcome),
@@ -47,7 +47,7 @@ DAILY_META = DAILY.with_suffix(".meta.json")
 CLAIM = ROOT / "notebooks" / "claims" / "friday-the-13th.json"
 OUT = ROOT / "data" / "friday-the-13th.json"
 
-B = 10_000  # bootstrap replicates per calculation path (as in #004)
+B = 10_000  # bootstrap replicates per calculation path (as in #001)
 SEED = 5
 FORK_OPTIONS = {
     "comparison": ["all_days", "fridays", "friday_6th"],

@@ -7,12 +7,9 @@ folder.
 
 Story | Data
 ---|---
-[Are there more road accidents on Friday the 13th?](https://pointzerofive.net/2026/10/friday-the-13th) | [friday-the-13th](friday-the-13th/)
-[Does changing the coach win more points?](https://pointzerofive.net/2026/10/does-firing-the-coach-work) | [does-firing-the-coach-work](does-firing-the-coach-work/)
-
-The folders [crosswalks-italy](crosswalks-italy/), [greek-life-in-america](greek-life-in-america/) and
-[the-cooling-gap](the-cooling-gap/) belong to the three stories from before the relaunch of
-15 October 2026.
+[Does home advantage shrink without fans?](https://pointzerofive.net/2026/09/home-advantage-without-fans) | [home-advantage-without-fans](home-advantage-without-fans/)
+[Are there more road accidents on Friday the 13th?](https://pointzerofive.net/2026/09/friday-the-13th) | [friday-the-13th](friday-the-13th/)
+[Does changing the coach win more points?](https://pointzerofive.net/2026/09/does-firing-the-coach-work) | [does-firing-the-coach-work](does-firing-the-coach-work/)
 
 ## Rights
 

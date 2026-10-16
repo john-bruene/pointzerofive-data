@@ -1,7 +1,7 @@
 """
 friday13_stats.py
 ──────────────────────────────────────────────────────────────────────
-Comparison days, the effect and the month bootstrap for story #005 (pitch 005, §1b). The
+Comparison days, the effect and the month bootstrap for story #002 (pitch 002, §1b). The
 pipeline and the notebook use the same procedure and the same random streams, so they produce
 identical numbers.
 
@@ -11,8 +11,8 @@ per comparison day in the same month:
     effect = 100 * (sum_i y_i / sum_i c_i - 1)        (per cent)
 
 A bootstrap draw resamples the months with replacement and is stored as count weights. The 95%
-confidence interval and p come from summarize(), the procedure of story #004 (moved here from
-coach_firing_stats.py when #004 was ported to R).
+confidence interval and p come from summarize(), the procedure of story #001 (moved here from
+coach_firing_stats.py when #001 was ported to R).
 
   all_days:    every other day of the month
   fridays:     the 6th and the 20th (the Fridays a week before and after)
