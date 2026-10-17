@@ -1,0 +1,163 @@
+{
+	"claim": {
+		"question": {
+			"en": "Are Abitur grades getting better every year?",
+			"de": "Werden die Abiturnoten immer besser?"
+		},
+		"yes_text": {
+			"en": "The average Abitur grade gets significantly better from year to year.",
+			"de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr signifikant besser."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "The average Abitur grade does not get significantly better from year to year. Any improvement is at most {bound} grade points per year.",
+				"de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr nicht signifikant besser. Eine Verbesserung liegt höchstens bei {bound} Notenpunkten pro Jahr."
+			},
+			"not_detectable": {
+				"en": "The average Abitur grade does not get significantly better from year to year. A relevant improvement is not ruled out either.",
+				"de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr nicht signifikant besser. Eine relevante Verbesserung ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "The average Abitur grade gets significantly worse from year to year.",
+				"de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr signifikant schlechter."
+			}
+		},
+		"unit": {
+			"en": "grade points better per year",
+			"de": "Notenpunkte besser pro Jahr"
+		},
+		"cases": {
+			"en": "{n} state-years, 2014–2025",
+			"de": "{n} Länder-Jahre, 2014–2025"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 0.01,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, says the president of the Deutscher Lehrerverband, Stefan Düll: \"Compared with earlier years there is a flood of straight-A Abiturs.\"",
+					"de": "Ja, sagt der Präsident des Deutschen Lehrerverbands, Stefan Düll: „Im Vergleich zu früheren Jahren gibt es eine Flut an Einser-Abis.“"
+				},
+				"source": "Stefan Düll to the Rheinische Post, quoted in the taz, 28 July 2025, https://taz.de/!6099298/"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "No, wrote the taz in the same week: the latest KMK statistics show no clear trend towards more averages between 1.0 and 1.9.",
+					"de": "Nein, schrieb die taz in derselben Woche: Die jüngste KMK-Statistik zeige keine eindeutige Tendenz hin zu mehr Abiturabschlüssen zwischen 1,0 und 1,9."
+				},
+				"source": "taz, 28 July 2025, https://taz.de/!6099298/"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "years",
+			"question": {
+				"en": "Which years?",
+				"de": "Welche Jahre?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "2014 to 2025",
+						"de": "2014 bis 2025"
+					},
+					"why": {
+						"en": "Every year the KMK has online.",
+						"de": "Alle Jahre, die die KMK online hat."
+					}
+				},
+				{
+					"id": "nocorona",
+					"label": {
+						"en": "without 2020 and 2021",
+						"de": "ohne 2020 und 2021"
+					},
+					"why": {
+						"en": "The exams under Corona rules left out.",
+						"de": "Ohne die Prüfungen unter Corona-Regeln."
+					}
+				},
+				{
+					"id": "precorona",
+					"label": {
+						"en": "2014 to 2019",
+						"de": "2014 bis 2019"
+					},
+					"why": {
+						"en": "Only the years before Corona.",
+						"de": "Nur die Jahre vor Corona."
+					}
+				}
+			]
+		},
+		{
+			"id": "weight",
+			"question": {
+				"en": "How much does each state count?",
+				"de": "Wie viel zählt jedes Land?"
+			},
+			"primary": "equal",
+			"options": [
+				{
+					"id": "equal",
+					"label": {
+						"en": "every state the same",
+						"de": "jedes Land gleich"
+					},
+					"why": {
+						"en": "Bremen counts as much as Bayern.",
+						"de": "Bremen zählt so viel wie Bayern."
+					}
+				},
+				{
+					"id": "exams",
+					"label": {
+						"en": "by number of exams",
+						"de": "nach Zahl der Prüfungen"
+					},
+					"why": {
+						"en": "Large states count more, as in the national average.",
+						"de": "Große Länder zählen mehr, wie im Bundesdurchschnitt."
+					}
+				}
+			]
+		},
+		{
+			"id": "cohorts",
+			"question": {
+				"en": "Which cohorts?",
+				"de": "Welche Jahrgänge?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "all",
+						"de": "alle"
+					},
+					"why": {
+						"en": "Every state-year with new figures.",
+						"de": "Jedes Länder-Jahr mit neuen Zahlen."
+					}
+				},
+				{
+					"id": "regular",
+					"label": {
+						"en": "without unusual cohorts",
+						"de": "ohne ungewöhnliche Jahrgänge"
+					},
+					"why": {
+						"en": "Without state-years with far fewer or far more exams than usual, as after a switch between G8 and G9.",
+						"de": "Ohne Länder-Jahre mit weit weniger oder weit mehr Prüfungen als sonst, etwa nach einem Wechsel zwischen G8 und G9."
+					}
+				}
+			]
+		}
+	]
+}

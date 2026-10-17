@@ -1,0 +1,1194 @@
+{
+ "meta": {
+  "source": "Deutsche Bahn Timetables API via piebro/deutsche-bahn-data (CC BY 4.0); opentransportdata.swiss Ist-Daten",
+  "updated": "2026-10-17",
+  "period": "September 2026",
+  "runs": {
+   "de": 1023383,
+   "ch": 418805
+  },
+  "patterns": {
+   "de": 65644,
+   "ch": 21297
+  }
+ },
+ "example": {
+  "day": "2026-09-01",
+  "train_type": "ICE",
+  "n_stops": 15,
+  "delay_a": 26,
+  "delay_end": 51
+ },
+ "byDelay": [
+  {
+   "country": "de",
+   "bins": [
+    {
+     "delayA": -2,
+     "n": 510,
+     "extra": 4.776
+    },
+    {
+     "delayA": -1,
+     "n": 838,
+     "extra": 1.72
+    },
+    {
+     "delayA": 0,
+     "n": 328365,
+     "extra": 1.065
+    },
+    {
+     "delayA": 1,
+     "n": 236678,
+     "extra": 0.492
+    },
+    {
+     "delayA": 2,
+     "n": 115293,
+     "extra": 0.289
+    },
+    {
+     "delayA": 3,
+     "n": 72392,
+     "extra": 0.148
+    },
+    {
+     "delayA": 4,
+     "n": 51663,
+     "extra": 0.068
+    },
+    {
+     "delayA": 5,
+     "n": 38463,
+     "extra": 0.009
+    },
+    {
+     "delayA": 6,
+     "n": 28918,
+     "extra": 0.002
+    },
+    {
+     "delayA": 7,
+     "n": 22068,
+     "extra": 0.056
+    },
+    {
+     "delayA": 8,
+     "n": 17220,
+     "extra": 0.192
+    },
+    {
+     "delayA": 9,
+     "n": 13529,
+     "extra": 0.272
+    },
+    {
+     "delayA": 10,
+     "n": 10933,
+     "extra": 0.534
+    },
+    {
+     "delayA": 11,
+     "n": 8871,
+     "extra": 0.545
+    },
+    {
+     "delayA": 12,
+     "n": 7151,
+     "extra": 0.476
+    },
+    {
+     "delayA": 13,
+     "n": 6025,
+     "extra": 0.682
+    },
+    {
+     "delayA": 14,
+     "n": 5172,
+     "extra": 0.978
+    },
+    {
+     "delayA": 15,
+     "n": 4374,
+     "extra": 0.63
+    },
+    {
+     "delayA": 16,
+     "n": 3596,
+     "extra": 0.707
+    },
+    {
+     "delayA": 17,
+     "n": 3098,
+     "extra": 0.812
+    },
+    {
+     "delayA": 18,
+     "n": 2835,
+     "extra": 0.963
+    },
+    {
+     "delayA": 19,
+     "n": 2491,
+     "extra": 1.257
+    },
+    {
+     "delayA": 20,
+     "n": 2179,
+     "extra": 0.984
+    },
+    {
+     "delayA": 21,
+     "n": 1883,
+     "extra": 1.481
+    },
+    {
+     "delayA": 22,
+     "n": 1698,
+     "extra": 1.042
+    },
+    {
+     "delayA": 23,
+     "n": 1482,
+     "extra": 1.101
+    },
+    {
+     "delayA": 24,
+     "n": 1361,
+     "extra": 1.41
+    },
+    {
+     "delayA": 25,
+     "n": 1170,
+     "extra": 1.347
+    },
+    {
+     "delayA": 26,
+     "n": 1111,
+     "extra": 1.15
+    },
+    {
+     "delayA": 27,
+     "n": 1004,
+     "extra": 1.297
+    },
+    {
+     "delayA": 28,
+     "n": 983,
+     "extra": 2.089
+    },
+    {
+     "delayA": 29,
+     "n": 864,
+     "extra": 1.867
+    },
+    {
+     "delayA": 30,
+     "n": 10665,
+     "extra": 1.771
+    }
+   ]
+  },
+  {
+   "country": "ch",
+   "bins": [
+    {
+     "delayA": -2,
+     "n": 721,
+     "extra": 2.515
+    },
+    {
+     "delayA": -1,
+     "n": 5239,
+     "extra": 0.053
+    },
+    {
+     "delayA": 0,
+     "n": 202681,
+     "extra": -0.446
+    },
+    {
+     "delayA": 1,
+     "n": 116487,
+     "extra": -1.173
+    },
+    {
+     "delayA": 2,
+     "n": 45679,
+     "extra": -1.659
+    },
+    {
+     "delayA": 3,
+     "n": 17324,
+     "extra": -1.979
+    },
+    {
+     "delayA": 4,
+     "n": 8189,
+     "extra": -2.323
+    },
+    {
+     "delayA": 5,
+     "n": 5498,
+     "extra": -2.287
+    },
+    {
+     "delayA": 6,
+     "n": 2767,
+     "extra": -2.787
+    },
+    {
+     "delayA": 7,
+     "n": 1513,
+     "extra": -2.391
+    },
+    {
+     "delayA": 8,
+     "n": 1096,
+     "extra": -2.519
+    },
+    {
+     "delayA": 9,
+     "n": 755,
+     "extra": -2.419
+    },
+    {
+     "delayA": 10,
+     "n": 799,
+     "extra": -1.857
+    },
+    {
+     "delayA": 11,
+     "n": 392,
+     "extra": -1.956
+    },
+    {
+     "delayA": 12,
+     "n": 326,
+     "extra": -1.877
+    },
+    {
+     "delayA": 13,
+     "n": 239,
+     "extra": -2.162
+    },
+    {
+     "delayA": 14,
+     "n": 227,
+     "extra": -1.468
+    },
+    {
+     "delayA": 15,
+     "n": 306,
+     "extra": -1.488
+    },
+    {
+     "delayA": 16,
+     "n": 133,
+     "extra": -2.086
+    },
+    {
+     "delayA": 17,
+     "n": 103,
+     "extra": -2.302
+    },
+    {
+     "delayA": 18,
+     "n": 108,
+     "extra": -2.774
+    },
+    {
+     "delayA": 19,
+     "n": 90,
+     "extra": -2.89
+    },
+    {
+     "delayA": 20,
+     "n": 150,
+     "extra": -0.983
+    },
+    {
+     "delayA": 21,
+     "n": 82,
+     "extra": -2.37
+    },
+    {
+     "delayA": 22,
+     "n": 58,
+     "extra": -1.082
+    },
+    {
+     "delayA": 23,
+     "n": 59,
+     "extra": 20.782
+    },
+    {
+     "delayA": 24,
+     "n": 36,
+     "extra": -6.201
+    },
+    {
+     "delayA": 25,
+     "n": 67,
+     "extra": -0.436
+    },
+    {
+     "delayA": 26,
+     "n": 34,
+     "extra": -5.749
+    },
+    {
+     "delayA": 27,
+     "n": 30,
+     "extra": 1.989
+    },
+    {
+     "delayA": 28,
+     "n": 27,
+     "extra": -2.35
+    },
+    {
+     "delayA": 29,
+     "n": 34,
+     "extra": -3.578
+    },
+    {
+     "delayA": 30,
+     "n": 479,
+     "extra": -1.604
+    }
+   ]
+  }
+ ],
+ "cancelRate": [
+  {
+   "country": "de",
+   "late": 0.057,
+   "ontime": 0.0103
+  },
+  {
+   "country": "ch",
+   "late": 0.062,
+   "ontime": 0.0152
+  }
+ ],
+ "estimation": {
+  "run": "2026-10-17T12:32:00Z",
+  "dependent": {
+   "en": "Additional delay from stop A to the final stop, minutes",
+   "de": "Zusätzliche Verspätung von Halt A bis zum Endhalt, Minuten"
+  },
+  "method": {
+   "en": "Linear mixed model (REML), random intercepts for train pattern and day, t-test (Satterthwaite)",
+   "de": "Lineares gemischtes Modell (REML), zufällige Konstanten je Zuglauf und Tag, t-Test (Satterthwaite)"
+  },
+  "sample": {
+   "en": "Deutsche Bahn, all trains, September 2026",
+   "de": "Deutsche Bahn, alle Züge, September 2026"
+  },
+  "observations": 1004883,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "Constant (on time at A)",
+     "de": "Konstante (pünktlich an A)"
+    },
+    "values": [
+     0.784722016782623,
+     0.0394434938788565,
+     0.704501122395322,
+     0.864942911169925,
+     4.68082251366147e-20
+    ]
+   },
+   {
+    "name": {
+     "en": "Late at A (≥ 6 min)",
+     "de": "Verspätet an A (ab 6 Min.)"
+    },
+    "values": [
+     -0.627577825585134,
+     0.0146574568814993,
+     -0.656305947799227,
+     -0.598849703371042,
+     0
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "Runs late at A",
+      "de": "Fahrten verspätet an A"
+     },
+     "value": 160681,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Runs on time at A",
+      "de": "Fahrten pünktlich an A"
+     },
+     "value": 844202,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Train patterns with stop A",
+      "de": "Zugläufe mit Halt A"
+     },
+     "value": 81723,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Mean delay at A, late runs",
+      "de": "Mittlere Verspätung an A, verspätet"
+     },
+     "value": 13.2435944511174,
+     "digits": 6
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "S.D. train pattern effect",
+      "de": "Std.-Abw. Zuglauf-Effekt"
+     },
+     "value": 2.55726295138584,
+     "digits": 6
+    },
+    {
+     "label": {
+      "en": "S.D. day effect",
+      "de": "Std.-Abw. Tages-Effekt"
+     },
+     "value": 0.206666574579222,
+     "digits": 6
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect",
+      "de": "Kleinster relevanter Effekt"
+     },
+     "value": 1,
+     "digits": 2
+    }
+   ]
+  }
+ },
+ "claim": {
+  "question": {
+   "en": "Does a late train get even later?",
+   "de": "Sammelt ein verspäteter Zug noch mehr Verspätung?"
+  },
+  "yes_text": {
+   "en": "On the rest of their route, trains that are late lose significantly more time than the same trains on days they are on time.",
+   "de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt signifikant mehr Zeit als dieselben Züge an Tagen, an denen sie pünktlich sind."
+  },
+  "no_text": {
+   "ruled_out": {
+    "en": "Late trains do not lose significantly more time on the rest of their route than the same trains on time. Any extra loss is at most {bound} minutes.",
+    "de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt nicht signifikant mehr Zeit als dieselben Züge, wenn sie pünktlich sind. Ein zusätzlicher Verlust liegt höchstens bei {bound} Minuten."
+   },
+   "not_detectable": {
+    "en": "Late trains do not lose significantly more time on the rest of their route than the same trains on time. A relevant extra loss is not ruled out either.",
+    "de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt nicht signifikant mehr Zeit als dieselben Züge, wenn sie pünktlich sind. Ein relevanter zusätzlicher Verlust ist aber auch nicht ausgeschlossen."
+   },
+   "opposite": {
+    "en": "Late trains lose significantly less time on the rest of their route than the same trains on time: they make some of it up.",
+    "de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt signifikant weniger Zeit als dieselben Züge, wenn sie pünktlich sind: Sie holen einen Teil auf."
+   }
+  },
+  "unit": {
+   "en": "minutes",
+   "de": "Minuten"
+  },
+  "cases": {
+   "en": "{n} train runs, September 2026",
+   "de": "{n} Zugfahrten, September 2026"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 1,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, says the transport researcher Gernot Liedtke (TU Berlin, DLR): small delays can be absorbed by the timetable, larger ones \"build up in the train itself\".",
+     "de": "Ja, sagt der Verkehrsforscher Gernot Liedtke (TU Berlin, DLR): Kleine Verspätungen fange der Fahrplan ab, bei größeren „schaukeln die sich auf im Zug selber“."
+    },
+    "source": "Gernot Liedtke, Science Media Center, press briefing \"Wie wird die Bahn wieder pünktlich?\", 20 August 2025, transcript: https://media.sciencemediacenter.de/stories/689c8f43377426fbee4df964/Transkript_Wie-wird-die-Bahn-wieder-pnktlich-wie-knnte-Lutz-Nachfolger-die-drngendsten-Probleme-lsen_SMC-Press-Briefing_2025-08-20.pdf"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "No, says the railway engineer Markus Hecht (TU Berlin): departure delays of seven to nine minutes are often made up on the way.",
+     "de": "Nein, sagt der Bahntechniker Markus Hecht (TU Berlin): Abfahrtsverspätungen von sieben bis neun Minuten würden unterwegs oft wieder aufgeholt."
+    },
+    "source": "Markus Hecht, Science Media Center, press briefing \"Wie wird die Bahn wieder pünktlich?\", 20 August 2025, transcript: https://media.sciencemediacenter.de/stories/689c8f43377426fbee4df964/Transkript_Wie-wird-die-Bahn-wieder-pnktlich-wie-knnte-Lutz-Nachfolger-die-drngendsten-Probleme-lsen_SMC-Press-Briefing_2025-08-20.pdf"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "country",
+   "question": {
+    "en": "Which country?",
+    "de": "Welches Land?"
+   },
+   "primary": "de",
+   "options": [
+    {
+     "id": "de",
+     "label": {
+      "en": "Germany",
+      "de": "Deutschland"
+     },
+     "why": {
+      "en": "Deutsche Bahn and the other operators on German track.",
+      "de": "Deutsche Bahn und die anderen Betreiber auf deutschen Gleisen."
+     }
+    },
+    {
+     "id": "ch",
+     "label": {
+      "en": "Switzerland",
+      "de": "Schweiz"
+     },
+     "why": {
+      "en": "A tighter network with smaller delays.",
+      "de": "Ein dichteres Netz mit kleineren Verspätungen."
+     }
+    }
+   ]
+  },
+  {
+   "id": "trains",
+   "question": {
+    "en": "Which trains?",
+    "de": "Welche Züge?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "all trains",
+      "de": "alle Züge"
+     },
+     "why": {
+      "en": "Long distance, regional and S-Bahn.",
+      "de": "Fern-, Regional- und S-Bahn-Verkehr."
+     }
+    },
+    {
+     "id": "long",
+     "label": {
+      "en": "long distance",
+      "de": "Fernverkehr"
+     },
+     "why": {
+      "en": "ICE, IC, EC and other long-distance trains with long runs.",
+      "de": "ICE, IC, EC und andere Fernzüge mit langen Läufen."
+     }
+    },
+    {
+     "id": "regional",
+     "label": {
+      "en": "regional and S-Bahn",
+      "de": "Regional- und S-Bahn"
+     },
+     "why": {
+      "en": "Short runs on often busy lines.",
+      "de": "Kurze Läufe auf oft vollen Strecken."
+     }
+    }
+   ]
+  },
+  {
+   "id": "threshold",
+   "question": {
+    "en": "From how many minutes is a train late?",
+    "de": "Ab wie vielen Minuten ist ein Zug verspätet?"
+   },
+   "primary": "6",
+   "options": [
+    {
+     "id": "6",
+     "label": {
+      "en": "from 6 minutes",
+      "de": "ab 6 Minuten"
+     },
+     "why": {
+      "en": "Deutsche Bahn's own line between on time and late.",
+      "de": "Die Grenze, ab der die Bahn selbst von verspätet spricht."
+     }
+    },
+    {
+     "id": "11",
+     "label": {
+      "en": "from 11 minutes",
+      "de": "ab 11 Minuten"
+     },
+     "why": {
+      "en": "Clearly late.",
+      "de": "Deutlich verspätet."
+     }
+    },
+    {
+     "id": "16",
+     "label": {
+      "en": "from 16 minutes",
+      "de": "ab 16 Minuten"
+     },
+     "why": {
+      "en": "Badly late; often a breakdown or a closed track.",
+      "de": "Stark verspätet, oft wegen einer Störung oder Sperrung."
+     }
+    }
+   ]
+  },
+  {
+   "id": "cancel",
+   "question": {
+    "en": "What about cancellations?",
+    "de": "Was ist mit Ausfällen?"
+   },
+   "primary": "drop",
+   "options": [
+    {
+     "id": "drop",
+     "label": {
+      "en": "runs with a cancellation left out",
+      "de": "Fahrten mit Ausfall weglassen"
+     },
+     "why": {
+      "en": "Only trains that ran to their final stop.",
+      "de": "Nur Züge, die bis zum Endhalt gefahren sind."
+     }
+    },
+    {
+     "id": "lastserved",
+     "label": {
+      "en": "last stop served counts",
+      "de": "letzter bedienter Halt zählt"
+     },
+     "why": {
+      "en": "A train cut short ends where it last stopped.",
+      "de": "Ein vorzeitig gewendeter Zug endet an seinem letzten Halt."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "country": "de",
+    "trains": "all",
+    "threshold": "6",
+    "cancel": "drop"
+   },
+   "effect": -0.627577825585134,
+   "ci_low": -0.656305947799227,
+   "ci_high": -0.598849703371042,
+   "p": 0,
+   "n": 1004883
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "all",
+    "threshold": "6",
+    "cancel": "lastserved"
+   },
+   "effect": -0.494999360719002,
+   "ci_low": -0.524934031558478,
+   "ci_high": -0.465064689879525,
+   "p": 2.60130621492273e-230,
+   "n": 1023277
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "all",
+    "threshold": "11",
+    "cancel": "drop"
+   },
+   "effect": -0.443062741668492,
+   "ci_low": -0.483775415246871,
+   "ci_high": -0.402350068090113,
+   "p": 6.3753274041897e-101,
+   "n": 912215
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "all",
+    "threshold": "11",
+    "cancel": "lastserved"
+   },
+   "effect": -0.21670062066778,
+   "ci_low": -0.258185927104057,
+   "ci_high": -0.175215314231503,
+   "p": 1.34402092887462e-24,
+   "n": 928331
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "all",
+    "threshold": "16",
+    "cancel": "drop"
+   },
+   "effect": -0.359798087271005,
+   "ci_low": -0.412711142528652,
+   "ci_high": -0.306885032013358,
+   "p": 1.61899374581968e-40,
+   "n": 880622
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "all",
+    "threshold": "16",
+    "cancel": "lastserved"
+   },
+   "effect": -0.0584773536754162,
+   "ci_low": -0.111252158941981,
+   "ci_high": -0.00570254840885159,
+   "p": 0.0298748170100861,
+   "n": 894969
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "long",
+    "threshold": "6",
+    "cancel": "drop"
+   },
+   "effect": -1.92154845838098,
+   "ci_low": -2.34565651697854,
+   "ci_high": -1.49744039978342,
+   "p": 7.07636964119437e-19,
+   "n": 25557
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "long",
+    "threshold": "6",
+    "cancel": "lastserved"
+   },
+   "effect": -1.77249505125071,
+   "ci_low": -2.220825219234,
+   "ci_high": -1.32416488326742,
+   "p": 9.57728779462481e-15,
+   "n": 26816
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "long",
+    "threshold": "11",
+    "cancel": "drop"
+   },
+   "effect": -2.23111967511441,
+   "ci_low": -2.70786389835092,
+   "ci_high": -1.75437545187789,
+   "p": 5.00920144643278e-20,
+   "n": 21484
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "long",
+    "threshold": "11",
+    "cancel": "lastserved"
+   },
+   "effect": -2.00832529078155,
+   "ci_low": -2.51113852401611,
+   "ci_high": -1.50551205754698,
+   "p": 5.140913674937e-15,
+   "n": 22592
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "long",
+    "threshold": "16",
+    "cancel": "drop"
+   },
+   "effect": -2.23903538735524,
+   "ci_low": -2.75771288862745,
+   "ci_high": -1.72035788608304,
+   "p": 2.83452129329438e-17,
+   "n": 19052
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "long",
+    "threshold": "16",
+    "cancel": "lastserved"
+   },
+   "effect": -1.99764110295337,
+   "ci_low": -2.54193087013278,
+   "ci_high": -1.45335133577397,
+   "p": 6.52443903196822e-13,
+   "n": 20064
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "regional",
+    "threshold": "6",
+    "cancel": "drop"
+   },
+   "effect": -0.661764162154541,
+   "ci_low": -0.687442639433014,
+   "ci_high": -0.636085684876068,
+   "p": 0,
+   "n": 979326
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "regional",
+    "threshold": "6",
+    "cancel": "lastserved"
+   },
+   "effect": -0.540952129113331,
+   "ci_low": -0.567429894899484,
+   "ci_high": -0.514474363327178,
+   "p": 0,
+   "n": 996461
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "regional",
+    "threshold": "11",
+    "cancel": "drop"
+   },
+   "effect": -0.486917361224217,
+   "ci_low": -0.524183303336297,
+   "ci_high": -0.449651419112136,
+   "p": 1.36860371620029e-144,
+   "n": 890731
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "regional",
+    "threshold": "11",
+    "cancel": "lastserved"
+   },
+   "effect": -0.278582473943847,
+   "ci_low": -0.316059140451149,
+   "ci_high": -0.241105807436545,
+   "p": 4.45327402334229e-48,
+   "n": 905739
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "regional",
+    "threshold": "16",
+    "cancel": "drop"
+   },
+   "effect": -0.431965914915921,
+   "ci_low": -0.481995907537117,
+   "ci_high": -0.381935922294725,
+   "p": 3.13892477916212e-64,
+   "n": 861570
+  },
+  {
+   "choices": {
+    "country": "de",
+    "trains": "regional",
+    "threshold": "16",
+    "cancel": "lastserved"
+   },
+   "effect": -0.145723077268201,
+   "ci_low": -0.19482522988423,
+   "ci_high": -0.096620924652172,
+   "p": 6.00423290060037e-09,
+   "n": 874905
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "all",
+    "threshold": "6",
+    "cancel": "drop"
+   },
+   "effect": -1.51157625198542,
+   "ci_low": -1.57892745492647,
+   "ci_high": -1.44422504904438,
+   "p": 0,
+   "n": 411728
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "all",
+    "threshold": "6",
+    "cancel": "lastserved"
+   },
+   "effect": -1.30032861960929,
+   "ci_low": -1.36767974552005,
+   "ci_high": -1.23297749369852,
+   "p": 8.4248775385467e-313,
+   "n": 418597
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "all",
+    "threshold": "11",
+    "cancel": "drop"
+   },
+   "effect": -1.40836342599818,
+   "ci_low": -1.52706104090137,
+   "ci_high": -1.28966581109499,
+   "p": 1.51033136755574e-119,
+   "n": 404798
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "all",
+    "threshold": "11",
+    "cancel": "lastserved"
+   },
+   "effect": -0.880110172282245,
+   "ci_low": -0.994392994086358,
+   "ci_high": -0.765827350478132,
+   "p": 1.83101320686112e-51,
+   "n": 411471
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "all",
+    "threshold": "16",
+    "cancel": "drop"
+   },
+   "effect": -1.33170004473213,
+   "ci_low": -1.49588880751922,
+   "ci_high": -1.16751128194504,
+   "p": 6.93207541287445e-57,
+   "n": 403308
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "all",
+    "threshold": "16",
+    "cancel": "lastserved"
+   },
+   "effect": -0.707421347843687,
+   "ci_low": -0.860404888584609,
+   "ci_high": -0.554437807102764,
+   "p": 1.27192564081594e-19,
+   "n": 409839
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "long",
+    "threshold": "6",
+    "cancel": "drop"
+   },
+   "effect": -1.41653928813039,
+   "ci_low": -1.83021623741315,
+   "ci_high": -1.00286233884764,
+   "p": 1.96044304165265e-11,
+   "n": 39273
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "long",
+    "threshold": "6",
+    "cancel": "lastserved"
+   },
+   "effect": -0.786944026550909,
+   "ci_low": -1.18587890631334,
+   "ci_high": -0.388009146788482,
+   "p": 0.000110715111549054,
+   "n": 40476
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "long",
+    "threshold": "11",
+    "cancel": "drop"
+   },
+   "effect": -0.643712741480832,
+   "ci_low": -1.2379546857048,
+   "ci_high": -0.0494707972568654,
+   "p": 0.0337439286114778,
+   "n": 38080
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "long",
+    "threshold": "11",
+    "cancel": "lastserved"
+   },
+   "effect": 0.208335476886577,
+   "ci_low": -0.341559218488025,
+   "ci_high": 0.75823017226118,
+   "p": 0.457732698378932,
+   "n": 39196
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "long",
+    "threshold": "16",
+    "cancel": "drop"
+   },
+   "effect": -0.263406267703755,
+   "ci_low": -1.01207245313383,
+   "ci_high": 0.485259917726318,
+   "p": 0.490444604861597,
+   "n": 37689
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "long",
+    "threshold": "16",
+    "cancel": "lastserved"
+   },
+   "effect": 0.281376963345587,
+   "ci_low": -0.394920083209599,
+   "ci_high": 0.957674009900772,
+   "p": 0.414799209126199,
+   "n": 38731
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "regional",
+    "threshold": "6",
+    "cancel": "drop"
+   },
+   "effect": -1.42117224494193,
+   "ci_low": -1.45981098233459,
+   "ci_high": -1.38253350754927,
+   "p": 0,
+   "n": 372455
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "regional",
+    "threshold": "6",
+    "cancel": "lastserved"
+   },
+   "effect": -1.31348123939602,
+   "ci_low": -1.35288821733454,
+   "ci_high": -1.2740742614575,
+   "p": 0,
+   "n": 378121
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "regional",
+    "threshold": "11",
+    "cancel": "drop"
+   },
+   "effect": -1.57263591441317,
+   "ci_low": -1.64440008275558,
+   "ci_high": -1.50087174607076,
+   "p": 0,
+   "n": 366718
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "regional",
+    "threshold": "11",
+    "cancel": "lastserved"
+   },
+   "effect": -1.23097835411655,
+   "ci_low": -1.30195015125551,
+   "ci_high": -1.16000655697758,
+   "p": 6.52778556025694e-253,
+   "n": 372275
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "regional",
+    "threshold": "16",
+    "cancel": "drop"
+   },
+   "effect": -1.81690075973842,
+   "ci_low": -1.92113395486184,
+   "ci_high": -1.712667564615,
+   "p": 2.09371481656102e-255,
+   "n": 365619
+  },
+  {
+   "choices": {
+    "country": "ch",
+    "trains": "regional",
+    "threshold": "16",
+    "cancel": "lastserved"
+   },
+   "effect": -1.22934391449366,
+   "ci_low": -1.32964793239256,
+   "ci_high": -1.12903989659475,
+   "p": 2.06848574523446e-127,
+   "n": 371108
+  }
+ ]
+}
+

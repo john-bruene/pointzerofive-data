@@ -7,6 +7,9 @@ folder.
 
 Story | Data
 ---|---
+[Does rain lower turnout?](https://pointzerofive.net/2026/10/rain-lowers-turnout) | [rain-lowers-turnout](rain-lowers-turnout/)
+[Does a late train get even later?](https://pointzerofive.net/2026/10/delayed-trains-get-later) | [delayed-trains-get-later](delayed-trains-get-later/)
+[Are Abitur grades getting better every year?](https://pointzerofive.net/2026/10/abitur-grades-better-every-year) | [abitur-grades-better-every-year](abitur-grades-better-every-year/)
 [Does the gingerbread season start earlier every year?](https://pointzerofive.net/2026/10/gingerbread-earlier-every-year) | [gingerbread-earlier-every-year](gingerbread-earlier-every-year/)
 [Does home advantage shrink without fans?](https://pointzerofive.net/2026/09/home-advantage-without-fans) | [home-advantage-without-fans](home-advantage-without-fans/)
 [Are there more road accidents on Friday the 13th?](https://pointzerofive.net/2026/09/friday-the-13th) | [friday-the-13th](friday-the-13th/)

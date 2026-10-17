@@ -29,10 +29,10 @@
 #
 #   For each change we compare points in the K games before and the K games after.
 #   Controls are all other team-game positions with a full ±K window and no coach
-#   change inside it, matched exactly on points in the K games before. The effect
-#   of a change is its post-window points minus the mean post-window points of
-#   its matched controls. The 18 calculation paths (comparison × window × opponents)
-#   and their cluster bootstrap are in coach_firing_stats.R (relaunch spec §7.1).
+#   change inside it. Main calculation: a linear model of points per game in the K games
+#   after on a coach-change dummy and one dummy per points in the K games before, with the
+#   t-test of the change dummy. The 18 calculation paths (comparison × window × opponents)
+#   use test_path() in coach_firing_stats.R.
 # ──────────────────────────────────────────────────────────────────────
 
 if (!isTRUE(l10n_info()[["UTF-8"]])) stop("Run in a UTF-8 locale, e.g. LANG=C.UTF-8 Rscript …")
@@ -48,8 +48,6 @@ LOG <- file.path("data", "does-firing-the-coach-work.output.txt")
 CLAIM <- file.path("notebooks", "claims", "does-firing-the-coach-work.json")
 
 K <- 6L          # window length in games (main specification)
-B <- 10000L      # bootstrap replicates per calculation path (spec §7.1)
-SEED <- 4L       # path i (1..18, fork order) uses set.seed(SEED * 1000 + i)
 RUN_TIME <- Sys.time()
 FORK_OPTIONS <- list(
   comparison = c("before", "matched", "all_slumps"),
@@ -229,12 +227,10 @@ compute_specs <- function(tg, forks) {
   options <- lapply(forks, function(f) vapply(f$options, function(o) o$id, ""))
   names(options) <- ids
   stopifnot(identical(ids, names(FORK_OPTIONS)), identical(options, FORK_OPTIONS))
-  designs <- list()
+  splits <- list()
   for (window in FORK_OPTIONS$window) {
     k <- as.integer(window)
-    ch <- find_changes(tg, k)$changes
-    sp <- split_windows(tg, ch, k)
-    designs[[window]] <- build_designs(sp$treated, sp$control, k)
+    splits[[window]] <- split_windows(tg, find_changes(tg, k)$changes, k)
   }
   specs <- list()
   for (comparison in FORK_OPTIONS$comparison) {
@@ -243,13 +239,11 @@ compute_specs <- function(tg, forks) {
         i <- length(specs) + 1L
         choices <- list(comparison = comparison, window = window, opponents = opponents)
         key <- paste0(names(choices), "=", unlist(choices), collapse = "|")
-        d <- designs[[window]][[paste(comparison, opponents, sep = "|")]]
-        set.seed(SEED * 1000L + i)
-        s <- summarize(bootstrap(d, B))
-        specs[[i]] <- c(list(choices = choices, effect = point_estimate(d)), s,
-                        list(n = length(d$y)))
-        cat(sprintf("  %s: n=%d, %+.3f [%+.3f, %+.3f] p=%.4f\n", key, length(d$y),
-                    specs[[i]]$effect, s$ci_low, s$ci_high, s$p))
+        sp <- splits[[window]]
+        s <- test_path(sp$treated, sp$control, comparison, opponents, as.integer(window))
+        specs[[i]] <- c(list(choices = choices), s[c("effect", "ci_low", "ci_high", "p", "n")])
+        cat(sprintf("  %s: n=%d, %+.3f [%+.3f, %+.3f] p=%.4f\n", key, s$n, s$effect,
+                    s$ci_low, s$ci_high, s$p))
       }
     }
   }
@@ -271,43 +265,35 @@ trajectories <- function(tg, treated, control, k) {
 
 season_label <- function(s) sprintf("%d/%s", s, substr(s + 1, 3, 4))
 
-# The result table of the main calculation (estimation_table.R). Path i gets the same seed and
-# random stream as in compute_specs(), so the difference row is the main result.
-estimation <- function(tg, i, spec, sre) {
+# The result table of the main calculation (estimation_table.R): the coefficient of the
+# coach-change dummy with its t-test; the dummies for the points before are not shown.
+estimation <- function(tg, spec, sre) {
   sp <- split_windows(tg, find_changes(tg, K)$changes, K)
-  d <- build_designs(sp$treated, sp$control, K)[["matched|no"]]
-  set.seed(SEED * 1000L + i)
-  reps <- bootstrap_parts(d, B)
-  set.seed(SEED * 1000L + i)
-  stopifnot(isTRUE(all.equal(reps[, "effect"], bootstrap(d, B))))
-  point <- parts(d, matrix(1, 1, length(d$y)), matrix(1, 1, nrow(d$s)))
-  diff <- est_values(point[, "effect"], reps[, "effect"])
-  stopifnot(abs(diff[1] - spec$effect) < 1e-12,
-            isTRUE(all.equal(diff[3:5], c(spec$ci_low, spec$ci_high, spec$p))))
+  s <- test_path(sp$treated, sp$control, "matched", "no", K)
+  stopifnot(abs(s$effect - spec$effect) < 1e-12, abs(s$p - spec$p) < 1e-12)
+  sm <- summary(s$fit)
   seasons <- sprintf("%s–%s", season_label(min(tg$season)), season_label(max(tg$season)))
   est_table(RUN_TIME,
     dependent = txt(sprintf("Points per game in the %d games after", K),
                     sprintf("Punkte je Spiel in den %d Spielen danach", K)),
-    method = txt("Matched comparison, cluster bootstrap, B = 10,000",
-                 "Gematchter Vergleich, Cluster-Bootstrap, B = 10.000"),
+    method = txt("Least squares, dummies for the points before, t-test",
+                 "Kleinste Quadrate, Dummies für die Punkte davor, t-Test"),
     sample = txt(sprintf("Bundesliga %s", seasons)),
-    observations = length(d$y),
+    observations = nobs(s$fit),
     rows = list(
-      est_row("After a coach change", "Nach Trainerwechsel",
-              est_values(point[, "treated"], reps[, "treated"])),
-      est_row("Matched controls", "Gematchte Vergleichsfälle",
-              est_values(point[, "comparison"], reps[, "comparison"])),
-      est_row("Difference", "Differenz", diff)
+      est_row("Coach change (dummy)", "Trainerwechsel (Dummy)",
+              est_values_t(s$effect, s$se, s$df))
     ),
     left = list(
-      est_stat("Coach changes", "Trainerwechsel", length(d$y), 0),
-      est_stat("Control windows", "Vergleichsfenster", nrow(sp$control), 0),
-      est_stat("Club-seasons (clusters)", "Klub-Saisons (Cluster)", nrow(d$s), 0),
+      est_stat("Coach changes", "Trainerwechsel", s$n, 0),
+      est_stat("Control stretches", "Vergleichsserien", nobs(s$fit) - s$n, 0),
+      est_stat("Dummies for points before", "Dummies für Punkte davor",
+               length(coef(s$fit)) - 2, 0),
       est_stat("Window (games)", "Fenster (Spiele)", K, 0)
     ),
     right = list(
-      est_stat("Bootstrap replicates", "Bootstrap-Wiederholungen", B, 0),
-      est_stat("Seed", "Seed", SEED * 1000L + i, 0),
+      est_stat("R-squared", "R²", sm$r.squared, 6),
+      est_stat("Degrees of freedom", "Freiheitsgrade", s$df, 0),
       est_stat("Significance level", "Signifikanzniveau", ALPHA, 2),
       est_stat("Smallest relevant effect", "Kleinster relevanter Effekt", sre, 2)
     )
@@ -348,8 +334,7 @@ main <- function() {
                                     opponents = "no")))
   main_i <- which(vapply(specs, function(s) identical(s$choices, primary), TRUE))
   main_spec <- specs[[main_i]]
-  stopifnot(abs(main_spec$effect - eff) < 1e-12)
-  est <- estimation(tg, main_i, main_spec, claim_file$claim$smallest_relevant_effect)
+  est <- estimation(tg, main_spec, claim_file$claim$smallest_relevant_effect)
   cat("\nResult table of the main calculation:\n")
   print_est_table(est)
   cat("\n")
@@ -361,8 +346,7 @@ main <- function() {
                       "openfootball/deutschland (CC0 1.0)"),
       updated = format(Sys.Date()),
       seasons = sprintf("%s–%s", season_label(min(tg$season)), season_label(max(tg$season))),
-      window = K,
-      bootstrap = B
+      window = K
     ),
     summary = list(
       matches = nrow(tg) %/% 2L,
@@ -376,8 +360,8 @@ main <- function() {
       prePpg = round(mean(treated$pre) / K, 3),
       postPpg = round(mean(treated$post) / K, 3),
       controlPostPpg = round(mean(treated$ctrl_post) / K, 3),
-      perGame = round(eff, 3),
-      perWindow = round(eff * K, 2),
+      perGame = round(main_spec$effect, 3),
+      perWindow = round(main_spec$effect * K, 2),
       improvedShare = round(mean(treated$post > treated$pre), 3),
       controlImprovedShare = round(mean(improved_by_pre[as.character(treated$pre)]), 3),
       oppPostPpg = round(mean(treated$opp_post), 3),
@@ -419,7 +403,7 @@ main <- function() {
               nrow(changes), fc$standins, nrow(treated), K))
   cat(sprintf("  before %s → after %s ppg; matched controls → %s\n",
               e$prePpg, e$postPpg, e$controlPostPpg))
-  cat(sprintf("  main: %+.3f ppg, 95%% range [%+.3f, %+.3f], p = %.4f\n",
+  cat(sprintf("  main: %+.3f ppg, 95%% CI [%+.3f, %+.3f], p = %.4f\n",
               main_spec$effect, main_spec$ci_low, main_spec$ci_high, main_spec$p))
   yes <- sum(vapply(specs, function(s) s$p < ALPHA && s$effect > 0, TRUE))
   cat(sprintf("  yes paths: %d of %d\n", yes, length(specs)))

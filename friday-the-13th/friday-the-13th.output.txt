@@ -1,0 +1,71 @@
+R version 4.3.3 (2024-02-29), run on 2026-10-17 12:21 UTC
+
+Calculation paths (effect in per cent, Friday the 13th against its comparison days):
+  comparison=all_days|outcome=all|holidays=exclude: n=78, +19.36% [+15.13, +23.75] p=0.0000
+  comparison=all_days|outcome=all|holidays=keep: n=81, +19.30% [+14.97, +23.78] p=0.0000
+  comparison=all_days|outcome=ksi|holidays=exclude: n=78, +19.07% [+14.77, +23.53] p=0.0000
+  comparison=all_days|outcome=ksi|holidays=keep: n=81, +19.15% [+14.83, +23.63] p=0.0000
+  comparison=all_days|outcome=fatal|holidays=exclude: n=78, +18.20% [+9.19, +27.94] p=0.0000
+  comparison=all_days|outcome=fatal|holidays=keep: n=81, +18.88% [+10.05, +28.43] p=0.0000
+  comparison=fridays|outcome=all|holidays=exclude: n=78, -0.76% [-3.56, +2.12] p=0.5980
+  comparison=fridays|outcome=all|holidays=keep: n=81, -0.92% [-3.77, +2.02] p=0.5350
+  comparison=fridays|outcome=ksi|holidays=exclude: n=78, -0.92% [-4.05, +2.31] p=0.5698
+  comparison=fridays|outcome=ksi|holidays=keep: n=81, -0.89% [-3.92, +2.24] p=0.5718
+  comparison=fridays|outcome=fatal|holidays=exclude: n=78, +2.39% [-6.47, +12.10] p=0.6067
+  comparison=fridays|outcome=fatal|holidays=keep: n=81, +2.70% [-5.83, +12.00] p=0.5455
+  comparison=friday_6th|outcome=all|holidays=exclude: n=76, -0.10% [-3.43, +3.36] p=0.9555
+  comparison=friday_6th|outcome=all|holidays=keep: n=81, -0.76% [-4.13, +2.73] p=0.6611
+  comparison=friday_6th|outcome=ksi|holidays=exclude: n=76, +0.28% [-3.41, +4.11] p=0.8820
+  comparison=friday_6th|outcome=ksi|holidays=keep: n=81, -0.24% [-3.82, +3.47] p=0.8943
+  comparison=friday_6th|outcome=fatal|holidays=exclude: n=76, +3.79% [-6.77, +15.56] p=0.4918
+  comparison=friday_6th|outcome=fatal|holidays=keep: n=81, +3.54% [-6.42, +14.56] p=0.4958
+
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Collisions with injuries per day
+Method: Poisson regression with overdispersion (quasi-Poisson), constant per month, t-test
+Date: 2026-10-17   Time: 12:21 UTC
+Sample: Great Britain 1979–2025, Fridays the 13th and the Fridays a week before and after
+Included observations: 231
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+Friday 13th (log)            -0.007657    0.014491   -0.036286    0.020972      0.5980
+Effect, % = 100(exp-1)       -0.762799               -3.563578    2.119323      0.5980
+--------------------------------------------------------------------------------------
+Fridays the 13th (months)              78  Degrees of freedom                    152
+Comparison Fridays                    153  Significance level                   0.05
+Month constants                        78  Smallest relevant effect, %          5.00
+Dispersion                       6.810445
+======================================================================================
+
+Wrote data/friday-the-13th.json
+  9,116,617 collisions on 17167 days, 81 Fridays the 13th (3 bank holidays)
+  main: -0.76%, 95% CI [-3.56, +2.12], p = 0.5980, n = 78
+  yes paths: 6 of 18
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] jsonlite_1.8.8
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3

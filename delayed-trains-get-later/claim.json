@@ -1,0 +1,206 @@
+{
+	"claim": {
+		"question": {
+			"en": "Does a late train get even later?",
+			"de": "Sammelt ein verspäteter Zug noch mehr Verspätung?"
+		},
+		"yes_text": {
+			"en": "On the rest of their route, trains that are late lose significantly more time than the same trains on days they are on time.",
+			"de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt signifikant mehr Zeit als dieselben Züge an Tagen, an denen sie pünktlich sind."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "Late trains do not lose significantly more time on the rest of their route than the same trains on time. Any extra loss is at most {bound} minutes.",
+				"de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt nicht signifikant mehr Zeit als dieselben Züge, wenn sie pünktlich sind. Ein zusätzlicher Verlust liegt höchstens bei {bound} Minuten."
+			},
+			"not_detectable": {
+				"en": "Late trains do not lose significantly more time on the rest of their route than the same trains on time. A relevant extra loss is not ruled out either.",
+				"de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt nicht signifikant mehr Zeit als dieselben Züge, wenn sie pünktlich sind. Ein relevanter zusätzlicher Verlust ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "Late trains lose significantly less time on the rest of their route than the same trains on time: they make some of it up.",
+				"de": "Verspätete Züge verlieren auf dem Rest ihrer Fahrt signifikant weniger Zeit als dieselben Züge, wenn sie pünktlich sind: Sie holen einen Teil auf."
+			}
+		},
+		"unit": {
+			"en": "minutes",
+			"de": "Minuten"
+		},
+		"cases": {
+			"en": "{n} train runs, September 2026",
+			"de": "{n} Zugfahrten, September 2026"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 1,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, says the transport researcher Gernot Liedtke (TU Berlin, DLR): small delays can be absorbed by the timetable, larger ones \"build up in the train itself\".",
+					"de": "Ja, sagt der Verkehrsforscher Gernot Liedtke (TU Berlin, DLR): Kleine Verspätungen fange der Fahrplan ab, bei größeren „schaukeln die sich auf im Zug selber“."
+				},
+				"source": "Gernot Liedtke, Science Media Center, press briefing \"Wie wird die Bahn wieder pünktlich?\", 20 August 2025, transcript: https://media.sciencemediacenter.de/stories/689c8f43377426fbee4df964/Transkript_Wie-wird-die-Bahn-wieder-pnktlich-wie-knnte-Lutz-Nachfolger-die-drngendsten-Probleme-lsen_SMC-Press-Briefing_2025-08-20.pdf"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "No, says the railway engineer Markus Hecht (TU Berlin): departure delays of seven to nine minutes are often made up on the way.",
+					"de": "Nein, sagt der Bahntechniker Markus Hecht (TU Berlin): Abfahrtsverspätungen von sieben bis neun Minuten würden unterwegs oft wieder aufgeholt."
+				},
+				"source": "Markus Hecht, Science Media Center, press briefing \"Wie wird die Bahn wieder pünktlich?\", 20 August 2025, transcript: https://media.sciencemediacenter.de/stories/689c8f43377426fbee4df964/Transkript_Wie-wird-die-Bahn-wieder-pnktlich-wie-knnte-Lutz-Nachfolger-die-drngendsten-Probleme-lsen_SMC-Press-Briefing_2025-08-20.pdf"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "country",
+			"question": {
+				"en": "Which country?",
+				"de": "Welches Land?"
+			},
+			"primary": "de",
+			"options": [
+				{
+					"id": "de",
+					"label": {
+						"en": "Germany",
+						"de": "Deutschland"
+					},
+					"why": {
+						"en": "Deutsche Bahn and the other operators on German track.",
+						"de": "Deutsche Bahn und die anderen Betreiber auf deutschen Gleisen."
+					}
+				},
+				{
+					"id": "ch",
+					"label": {
+						"en": "Switzerland",
+						"de": "Schweiz"
+					},
+					"why": {
+						"en": "A tighter network with smaller delays.",
+						"de": "Ein dichteres Netz mit kleineren Verspätungen."
+					}
+				}
+			]
+		},
+		{
+			"id": "trains",
+			"question": {
+				"en": "Which trains?",
+				"de": "Welche Züge?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "all trains",
+						"de": "alle Züge"
+					},
+					"why": {
+						"en": "Long distance, regional and S-Bahn.",
+						"de": "Fern-, Regional- und S-Bahn-Verkehr."
+					}
+				},
+				{
+					"id": "long",
+					"label": {
+						"en": "long distance",
+						"de": "Fernverkehr"
+					},
+					"why": {
+						"en": "ICE, IC, EC and other long-distance trains with long runs.",
+						"de": "ICE, IC, EC und andere Fernzüge mit langen Läufen."
+					}
+				},
+				{
+					"id": "regional",
+					"label": {
+						"en": "regional and S-Bahn",
+						"de": "Regional- und S-Bahn"
+					},
+					"why": {
+						"en": "Short runs on often busy lines.",
+						"de": "Kurze Läufe auf oft vollen Strecken."
+					}
+				}
+			]
+		},
+		{
+			"id": "threshold",
+			"question": {
+				"en": "From how many minutes is a train late?",
+				"de": "Ab wie vielen Minuten ist ein Zug verspätet?"
+			},
+			"primary": "6",
+			"options": [
+				{
+					"id": "6",
+					"label": {
+						"en": "from 6 minutes",
+						"de": "ab 6 Minuten"
+					},
+					"why": {
+						"en": "Deutsche Bahn's own line between on time and late.",
+						"de": "Die Grenze, ab der die Bahn selbst von verspätet spricht."
+					}
+				},
+				{
+					"id": "11",
+					"label": {
+						"en": "from 11 minutes",
+						"de": "ab 11 Minuten"
+					},
+					"why": {
+						"en": "Clearly late.",
+						"de": "Deutlich verspätet."
+					}
+				},
+				{
+					"id": "16",
+					"label": {
+						"en": "from 16 minutes",
+						"de": "ab 16 Minuten"
+					},
+					"why": {
+						"en": "Badly late; often a breakdown or a closed track.",
+						"de": "Stark verspätet, oft wegen einer Störung oder Sperrung."
+					}
+				}
+			]
+		},
+		{
+			"id": "cancel",
+			"question": {
+				"en": "What about cancellations?",
+				"de": "Was ist mit Ausfällen?"
+			},
+			"primary": "drop",
+			"options": [
+				{
+					"id": "drop",
+					"label": {
+						"en": "runs with a cancellation left out",
+						"de": "Fahrten mit Ausfall weglassen"
+					},
+					"why": {
+						"en": "Only trains that ran to their final stop.",
+						"de": "Nur Züge, die bis zum Endhalt gefahren sind."
+					}
+				},
+				{
+					"id": "lastserved",
+					"label": {
+						"en": "last stop served counts",
+						"de": "letzter bedienter Halt zählt"
+					},
+					"why": {
+						"en": "A train cut short ends where it last stopped.",
+						"de": "Ein vorzeitig gewendeter Zug endet an seinem letzten Halt."
+					}
+				}
+			]
+		}
+	]
+}

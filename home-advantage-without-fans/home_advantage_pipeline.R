@@ -31,8 +31,7 @@
 #   in the data and the match is dropped. Full stadium: attendance figure and played before
 #   8 March 2020 or from 1 July 2022 on. Restricted crowd: attendance figure inside the window.
 #   Effect = mean y in the comparison group − mean y in the ghost games (positive = home
-#   advantage smaller without fans). Cluster bootstrap over league × season × matchday × group,
-#   clusters resampled within each group, B = 10,000.
+#   advantage smaller without fans). Test: Welch two-sample t-test (unequal variances).
 # ──────────────────────────────────────────────────────────────────────
 
 suppressPackageStartupMessages(library(jsonlite))
@@ -51,8 +50,6 @@ LEAGUES <- c(L1 = "Bundesliga", GB1 = "Premier League", ES1 = "LaLiga", IT1 = "S
 SEASONS <- 2012:2025
 WINDOW_START <- as.Date("2020-03-08")
 WINDOW_END <- as.Date("2022-06-30")
-B <- 10000L      # bootstrap replicates per calculation path
-SEED <- 6000L    # path i (1..18, fork order) uses set.seed(SEED + i)
 ALPHA <- 0.05
 RUN_TIME <- Sys.time()
 
@@ -112,39 +109,6 @@ matches <- function() {
   m
 }
 
-# Cluster sums and counts of y for one group.
-clusters <- function(d) {
-  s <- rowsum(d$y, d$cluster)
-  n <- rowsum(rep(1, nrow(d)), d$cluster)
-  list(s = as.vector(s), n = as.vector(n))
-}
-
-# B means of y, each from clusters drawn with replacement (current random stream).
-boot_means <- function(cl, b, chunk = 1000L) {
-  k <- length(cl$s)
-  unlist(lapply(seq(1L, b, by = chunk), function(start) {
-    m <- min(chunk, b - start + 1L)
-    w <- matrix(0, m, k)
-    for (r in seq_len(m)) w[r, ] <- tabulate(sample.int(k, k, replace = TRUE), k)
-    as.vector((w %*% cl$s) / (w %*% cl$n))
-  }))
-}
-
-# 95% interval from order statistics and the matching two-sided bootstrap p-value.
-# With m = alpha/2 * B, the interval is the m-th to the (B + 1 - m)-th smallest replicate and
-# p = 2 * min(#{<= 0}, #{>= 0}) / B. Then p < alpha exactly when the interval excludes 0.
-summarize <- function(reps, alpha = ALPHA) {
-  b <- length(reps)
-  m <- round(alpha / 2 * b)
-  stopifnot("alpha/2 * B must be a whole number" = abs(alpha / 2 * b - m) < 1e-9)
-  s <- sort(reps)
-  lo <- s[m]
-  hi <- s[b + 1 - m]
-  p <- min(1, 2 * min(sum(reps <= 0), sum(reps >= 0)) / b)
-  stopifnot((p < alpha) == (lo > 0 || hi < 0))
-  list(ci_low = lo, ci_high = hi, p = p)
-}
-
 # The two groups of one calculation path.
 path_groups <- function(m, leagues, ghost, comparison) {
   d <- m[!m$dropped, ]
@@ -160,14 +124,12 @@ path_groups <- function(m, leagues, ghost, comparison) {
   list(ghost = g, comparison = c)
 }
 
-# Effect = mean y (comparison) − mean y (ghost); bootstrap draws ghost clusters first.
-test_path <- function(pg, b = B) {
-  cg <- clusters(pg$ghost)
-  cc <- clusters(pg$comparison)
-  rg <- boot_means(cg, b)
-  rc <- boot_means(cc, b)
-  c(list(effect = mean(pg$comparison$y) - mean(pg$ghost$y)), summarize(rc - rg),
-    list(n = nrow(pg$ghost)))
+# Effect = mean y (comparison) − mean y (ghost), Welch two-sample t-test.
+test_path <- function(pg) {
+  t <- t.test(pg$comparison$y, pg$ghost$y, var.equal = FALSE, conf.level = 1 - ALPHA)
+  list(effect = mean(pg$comparison$y) - mean(pg$ghost$y), ci_low = t$conf.int[1],
+       ci_high = t$conf.int[2], p = t$p.value, n = nrow(pg$ghost),
+       se = unname(t$stderr), df = unname(t$parameter))
 }
 
 # Every combination of the forks in the claim file, in fork order.
@@ -183,9 +145,8 @@ compute_specs <- function(m, forks) {
         i <- length(specs) + 1L
         choices <- list(leagues = leagues, ghost = ghost, comparison = comparison)
         key <- paste0(names(choices), "=", unlist(choices), collapse = "|")
-        set.seed(SEED + i)
         s <- test_path(path_groups(m, leagues, ghost, comparison))
-        specs[[i]] <- c(list(choices = choices), s)
+        specs[[i]] <- c(list(choices = choices), s[c("effect", "ci_low", "ci_high", "p", "n")])
         cat(sprintf("  %s: n=%d, %+.3f [%+.3f, %+.3f] p=%.4f\n", key, s$n, s$effect,
                     s$ci_low, s$ci_high, s$p))
       }
@@ -194,54 +155,48 @@ compute_specs <- function(m, forks) {
   specs
 }
 
-# Mean y of one group with a 95% interval from the same cluster bootstrap.
-group_mean <- function(d, seed) {
+# Mean y of one group with its 95% t-interval.
+group_mean <- function(d) {
   if (nrow(d) == 0L) return(NULL)
-  set.seed(seed)
-  reps <- sort(boot_means(clusters(d), B))
-  m <- round(ALPHA / 2 * B)
-  list(n = nrow(d), ha = round(mean(d$y), 3), lo = round(reps[m], 3),
-       hi = round(reps[B + 1L - m], 3),
+  ci <- t.test(d$y, conf.level = 1 - ALPHA)$conf.int
+  list(n = nrow(d), ha = round(mean(d$y), 3), lo = round(ci[1], 3), hi = round(ci[2], 3),
        homeWin = round(mean(d$y > 0), 3), draw = round(mean(d$y == 0), 3),
        awayWin = round(mean(d$y < 0), 3))
 }
 
-# The result table of the main calculation (estimation_table.R). Path i gets the same seed and
-# random stream as in compute_specs(), so the difference row is the main result.
-estimation <- function(m, primary, i, spec, sre) {
+# Mean, standard error and t-interval of one group, as a row of the result table.
+mean_values <- function(y) {
+  est_values_t(mean(y), sd(y) / sqrt(length(y)), length(y) - 1)
+}
+
+# The result table of the main calculation (estimation_table.R).
+estimation <- function(m, primary, spec, sre) {
   pg <- path_groups(m, primary$leagues, primary$ghost, primary$comparison)
-  cg <- clusters(pg$ghost)
-  cc <- clusters(pg$comparison)
-  set.seed(SEED + i)
-  rg <- boot_means(cg, B)
-  rc <- boot_means(cc, B)
-  diff <- est_values(spec$effect, rc - rg)
-  stopifnot(isTRUE(all.equal(diff[3:5], c(spec$ci_low, spec$ci_high, spec$p))))
+  s <- test_path(pg)
+  stopifnot(abs(s$p - spec$p) < 1e-12)
   y <- c(pg$comparison$y, pg$ghost$y)
   est_table(RUN_TIME,
     dependent = txt("Home points − away points per match",
                     "Heimpunkte − Auswärtspunkte je Spiel"),
-    method = txt("Cluster bootstrap, B = 10,000 (clusters: matchday × group)",
-                 "Cluster-Bootstrap, B = 10.000 (Cluster: Spieltag × Gruppe)"),
+    method = txt("Welch two-sample t-test (unequal variances)",
+                 "Welch-t-Test für zwei Stichproben (ungleiche Varianzen)"),
     sample = txt(sprintf("Bundesliga %s–%s", season_label(min(SEASONS)),
                          season_label(max(SEASONS)))),
     observations = length(y),
     rows = list(
-      est_row("Full stadiums", "Volle Stadien", est_values(mean(pg$comparison$y), rc)),
-      est_row("Ghost games", "Geisterspiele", est_values(mean(pg$ghost$y), rg)),
-      est_row("Difference (full − ghost)", "Differenz (voll − Geister)", diff)
+      est_row("Full stadiums", "Volle Stadien", mean_values(pg$comparison$y)),
+      est_row("Ghost games", "Geisterspiele", mean_values(pg$ghost$y)),
+      est_row("Difference (full − ghost)", "Differenz (voll − Geister)",
+              c(s$effect, s$se, s$ci_low, s$ci_high, s$p))
     ),
     left = list(
       est_stat("Mean dependent var", "Mittelwert abh. Variable", mean(y), 6),
       est_stat("S.D. dependent var", "Std.-Abw. abh. Variable", sd(y), 6),
       est_stat("Observations, full", "Beobachtungen, voll", nrow(pg$comparison), 0),
-      est_stat("Observations, ghost", "Beobachtungen, Geister", nrow(pg$ghost), 0),
-      est_stat("Clusters, full", "Cluster, voll", length(cc$s), 0),
-      est_stat("Clusters, ghost", "Cluster, Geister", length(cg$s), 0)
+      est_stat("Observations, ghost", "Beobachtungen, Geister", nrow(pg$ghost), 0)
     ),
     right = list(
-      est_stat("Bootstrap replicates", "Bootstrap-Wiederholungen", B, 0),
-      est_stat("Seed", "Seed", SEED + i, 0),
+      est_stat("Degrees of freedom (Welch)", "Freiheitsgrade (Welch)", s$df, 2),
       est_stat("Significance level", "Signifikanzniveau", ALPHA, 2),
       est_stat("Smallest relevant effect", "Kleinster relevanter Effekt", sre, 2)
     )
@@ -268,19 +223,15 @@ main <- function() {
   stopifnot(identical(primary, list(leagues = "bundesliga", ghost = "all", comparison = "full")))
   main_i <- which(vapply(specs, function(s) identical(s$choices, primary), TRUE))
   main_spec <- specs[[main_i]]
-  est <- estimation(m, primary, main_i, main_spec, claim_file$claim$smallest_relevant_effect)
+  est <- estimation(m, primary, main_spec, claim_file$claim$smallest_relevant_effect)
   cat("\nResult table of the main calculation:\n")
   print_est_table(est)
 
   # Group means per league and for the five leagues together (figure 2)
-  seed <- 7000L
   groups <- lapply(c(names(LEAGUES), "top5"), function(l) {
     d <- if (l == "top5") kept else kept[kept$competition_id == l, ]
     out <- list(id = l, name = if (l == "top5") "top5" else unname(LEAGUES[l]))
-    for (g in c("full", "restricted", "ghost")) {
-      seed <<- seed + 1L
-      out[[g]] <- group_mean(d[d$group == g, ], seed)
-    }
+    for (g in c("full", "restricted", "ghost")) out[[g]] <- group_mean(d[d$group == g, ])
     out
   })
 
@@ -310,7 +261,6 @@ main <- function() {
                       "openfootball/deutschland (CC0 1.0)"),
       updated = format(Sys.Date()),
       seasons = sprintf("%s–%s", season_label(min(SEASONS)), season_label(max(SEASONS))),
-      bootstrap = B,
       windowStart = format(WINDOW_START),
       windowEnd = format(WINDOW_END)
     ),

@@ -1,0 +1,80 @@
+R version 4.3.3 (2024-02-29), run on 2026-10-17 12:26 UTC
+
+KMK: 192 Land-years 2014–2025; left out as previous-year copies: RP 2021, BW 2025
+Unusual cohorts (exams < 70% or > 130% of the Land's median): SN 2014, SH 2016, NI 2020, BY 2025
+
+Calculation paths (effect = grade points better per year):
+  years=all|weight=equal|cohorts=all: n=190, +0.0102 [+0.0069, +0.0134] p=0.0000
+  years=all|weight=equal|cohorts=regular: n=186, +0.0107 [+0.0077, +0.0137] p=0.0000
+  years=all|weight=exams|cohorts=all: n=190, +0.0105 [+0.0051, +0.0159] p=0.0002
+  years=all|weight=exams|cohorts=regular: n=186, +0.0119 [+0.0091, +0.0148] p=0.0000
+  years=nocorona|weight=equal|cohorts=all: n=159, +0.0094 [+0.0062, +0.0127] p=0.0000
+  years=nocorona|weight=equal|cohorts=regular: n=156, +0.0105 [+0.0078, +0.0132] p=0.0000
+  years=nocorona|weight=exams|cohorts=all: n=159, +0.0114 [+0.0084, +0.0144] p=0.0000
+  years=nocorona|weight=exams|cohorts=regular: n=156, +0.0117 [+0.0091, +0.0142] p=0.0000
+  years=precorona|weight=equal|cohorts=all: n=96, +0.0077 [+0.0042, +0.0112] p=0.0000
+  years=precorona|weight=equal|cohorts=regular: n=94, +0.0076 [+0.0041, +0.0110] p=0.0000
+  years=precorona|weight=exams|cohorts=all: n=96, +0.0078 [+0.0045, +0.0110] p=0.0000
+  years=precorona|weight=exams|cohorts=regular: n=94, +0.0079 [+0.0051, +0.0106] p=0.0000
+
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Mean Abitur grade (1.0 best)
+Method: Generalized least squares, constant per state, AR(1) errors within states, t-test
+Date: 2026-10-17   Time: 12:26 UTC
+Sample: 16 states, 2014–2025, KMK
+Included observations: 190
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+Better per year               0.010160    0.001656    0.006891    0.013429      0.0000
+--------------------------------------------------------------------------------------
+State-years                           190  Degrees of freedom                    173
+States (constants)                     16  Significance level                   0.05
+Previous-year copies left out           2  Smallest relevant effect             0.01
+AR(1) coefficient                0.634577
+======================================================================================
+
+Wrote data/abitur-grades-better-every-year.json
+Germany per year:
+ year lands  exams passed failed   mean share1 share10 failRate
+ 2014    16 335356 324431  10925 2.4548 0.2310  0.0141   0.0326
+ 2015    16 346663 335563  11100 2.4353 0.2409  0.0147   0.0320
+ 2016    16 359813 347488  12325 2.4278 0.2449  0.0162   0.0343
+ 2017    16 352182 338888  13294 2.4198 0.2493  0.0170   0.0377
+ 2018    16 346861 332394  14467 2.4184 0.2531  0.0175   0.0417
+ 2019    16 337667 324377  13290 2.4106 0.2579  0.0188   0.0394
+ 2020    16 302278 292628   9650 2.3794 0.2758  0.0223   0.0319
+ 2021    15 299011 289933   9078 2.2752 0.3300  0.0324   0.0304
+ 2022    16 312910 300991  11919 2.2833 0.3287  0.0337   0.0381
+ 2023    16 315017 301559  13458 2.3233 0.3071  0.0302   0.0427
+ 2024    16 312186 297490  14696 2.3449 0.2979  0.0305   0.0471
+ 2025    15 235933 224804  11129 2.3545 0.2945  0.0308   0.0472
+  main: +0.0102 grade points better per year, 95% CI [+0.0069, +0.0134], p = 0.0000, n = 190
+  yes paths: 12 of 12
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] nlme_3.1-164   jsonlite_1.8.8
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3 grid_4.3.3     lattice_0.22-5

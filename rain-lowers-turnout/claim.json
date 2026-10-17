@@ -1,0 +1,184 @@
+{
+	"claim": {
+		"question": {
+			"en": "Does rain lower turnout?",
+			"de": "Senkt Regen die Wahlbeteiligung?"
+		},
+		"yes_text": {
+			"en": "Where more rain falls on election day than at the previous election, turnout drops significantly more than elsewhere in the same Land.",
+			"de": "Wo am Wahltag mehr Regen fällt als bei der Wahl davor, sinkt die Wahlbeteiligung signifikant stärker als im übrigen Land."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "Rain on election day does not significantly lower turnout. The 95% interval ends at {bound} percentage points per 10 mm; a relevant drop is ruled out.",
+				"de": "Regen am Wahltag senkt die Wahlbeteiligung nicht signifikant. Das 95-%-Intervall reicht nur bis {bound} Prozentpunkte pro 10 mm, ein relevanter Rückgang ist ausgeschlossen."
+			},
+			"not_detectable": {
+				"en": "Rain on election day does not significantly lower turnout. A relevant effect is not ruled out either.",
+				"de": "Regen am Wahltag senkt die Wahlbeteiligung nicht signifikant. Ein relevanter Effekt ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "Where it rains more on election day, turnout is significantly higher, not lower.",
+				"de": "Wo es am Wahltag mehr regnet, ist die Wahlbeteiligung signifikant höher, nicht niedriger."
+			}
+		},
+		"unit": {
+			"en": "percentage points per 10 mm",
+			"de": "Prozentpunkte pro 10 mm"
+		},
+		"cases": {
+			"en": "{n} Wahlkreis results, Bundestag elections 2005–2025",
+			"de": "{n} Wahlkreisergebnisse, Bundestagswahlen 2005–2025"
+		},
+		"direction": "negative",
+		"smallest_relevant_effect": 0.4,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, found Brad Gomez, Thomas Hansford and George Krause for fourteen US presidential elections: each inch of rain, 25.4 mm, lowers turnout by just under one percentage point.",
+					"de": "Ja, fanden Brad Gomez, Thomas Hansford und George Krause für 14 Präsidentschaftswahlen in den USA: Jeder Zoll Regen, 25,4 mm, senkt die Wahlbeteiligung um knapp einen Prozentpunkt."
+				},
+				"source": "Gomez, Hansford and Krause (2007), The Republicans Should Pray for Rain: Weather, Turnout, and Voting in U.S. Presidential Elections, Journal of Politics 69(3): 649–663"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "No, found Mikael Persson, Anders Sundell and Richard Öhrvall for Sweden: in none of their three data sets did rain reliably lower turnout.",
+					"de": "Nein, fanden Mikael Persson, Anders Sundell und Richard Öhrvall für Schweden: In keinem ihrer drei Datensätze senkte Regen die Beteiligung verlässlich."
+				},
+				"source": "Persson, Sundell and Öhrvall (2014), Does Election Day weather affect voter turnout? Evidence from Swedish elections, Electoral Studies, doi 10.1016/j.electstud.2013.07.021"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "rain",
+			"question": {
+				"en": "How is rain measured?",
+				"de": "Wie wird Regen gemessen?"
+			},
+			"primary": "day",
+			"options": [
+				{
+					"id": "day",
+					"label": {
+						"en": "mm on election day",
+						"de": "mm am Wahltag"
+					},
+					"why": {
+						"en": "Rain in the 24 hours from 8 am on election day (7 am in winter), mean over the Wahlkreis.",
+						"de": "Regen in den 24 Stunden ab 8 Uhr am Wahltag (im Winter ab 7 Uhr), gemittelt über den Wahlkreis."
+					}
+				},
+				{
+					"id": "anomaly",
+					"label": {
+						"en": "mm above normal",
+						"de": "mm über normal"
+					},
+					"why": {
+						"en": "Rain minus the Wahlkreis mean of the same date over 1995–2025: some areas are wetter every year.",
+						"de": "Regen minus das Mittel desselben Datums 1995–2025 im Wahlkreis: Manche Gegenden sind jedes Jahr nasser."
+					}
+				}
+			]
+		},
+		{
+			"id": "within",
+			"question": {
+				"en": "Compared within what?",
+				"de": "Verglichen innerhalb wovon?"
+			},
+			"primary": "land",
+			"options": [
+				{
+					"id": "land",
+					"label": {
+						"en": "each Land and election",
+						"de": "jedes Land und jede Wahl"
+					},
+					"why": {
+						"en": "State elections on the same day change turnout in whole Länder.",
+						"de": "Landtagswahlen am selben Tag verändern die Beteiligung in ganzen Ländern."
+					}
+				},
+				{
+					"id": "election",
+					"label": {
+						"en": "each election",
+						"de": "jede Wahl"
+					},
+					"why": {
+						"en": "Wahlkreise in different Länder are compared as well.",
+						"de": "Auch Wahlkreise verschiedener Länder werden verglichen."
+					}
+				}
+			]
+		},
+		{
+			"id": "elections",
+			"question": {
+				"en": "Which elections?",
+				"de": "Welche Wahlen?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "2005–2025",
+						"de": "2005–2025"
+					},
+					"why": {
+						"en": "Six changes from one election to the next.",
+						"de": "Sechs Veränderungen von einer Wahl zur nächsten."
+					}
+				},
+				{
+					"id": "pre2021",
+					"label": {
+						"en": "2005–2017",
+						"de": "2005–2017"
+					},
+					"why": {
+						"en": "Before postal voting rose sharply in 2021; postal voters vote before election day.",
+						"de": "Vor dem starken Anstieg der Briefwahl 2021; Briefwähler wählen vor dem Wahltag."
+					}
+				}
+			]
+		},
+		{
+			"id": "weight",
+			"question": {
+				"en": "How are Wahlkreise weighted?",
+				"de": "Wie werden Wahlkreise gewichtet?"
+			},
+			"primary": "none",
+			"options": [
+				{
+					"id": "none",
+					"label": {
+						"en": "each Wahlkreis once",
+						"de": "jeder Wahlkreis einmal"
+					},
+					"why": {
+						"en": "Every Wahlkreis counts the same.",
+						"de": "Jeder Wahlkreis zählt gleich."
+					}
+				},
+				{
+					"id": "voters",
+					"label": {
+						"en": "by eligible voters",
+						"de": "nach Wahlberechtigten"
+					},
+					"why": {
+						"en": "Large Wahlkreise count more.",
+						"de": "Große Wahlkreise zählen mehr."
+					}
+				}
+			]
+		}
+	]
+}

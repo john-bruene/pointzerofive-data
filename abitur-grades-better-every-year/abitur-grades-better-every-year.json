@@ -1,0 +1,1331 @@
+{
+ "meta": {
+  "source": "Sekretariat der Kultusministerkonferenz, Abiturnoten im Ländervergleich",
+  "updated": "2026-10-17",
+  "years": "2014–2025",
+  "copies": [
+   {
+    "land": "RP",
+    "year": 2021
+   },
+   {
+    "land": "BW",
+    "year": 2025
+   }
+  ],
+  "unusual": [
+   {
+    "land": "SN",
+    "year": 2014
+   },
+   {
+    "land": "SH",
+    "year": 2016
+   },
+   {
+    "land": "NI",
+    "year": 2020
+   },
+   {
+    "land": "BY",
+    "year": 2025
+   }
+  ]
+ },
+ "germany": [
+  {
+   "year": 2014,
+   "lands": 16,
+   "exams": 335356,
+   "passed": 324431,
+   "failed": 10925,
+   "mean": 2.4548,
+   "share1": 0.231,
+   "share10": 0.0141,
+   "failRate": 0.0326
+  },
+  {
+   "year": 2015,
+   "lands": 16,
+   "exams": 346663,
+   "passed": 335563,
+   "failed": 11100,
+   "mean": 2.4353,
+   "share1": 0.2409,
+   "share10": 0.0147,
+   "failRate": 0.032
+  },
+  {
+   "year": 2016,
+   "lands": 16,
+   "exams": 359813,
+   "passed": 347488,
+   "failed": 12325,
+   "mean": 2.4278,
+   "share1": 0.2449,
+   "share10": 0.0162,
+   "failRate": 0.0343
+  },
+  {
+   "year": 2017,
+   "lands": 16,
+   "exams": 352182,
+   "passed": 338888,
+   "failed": 13294,
+   "mean": 2.4198,
+   "share1": 0.2493,
+   "share10": 0.017,
+   "failRate": 0.0377
+  },
+  {
+   "year": 2018,
+   "lands": 16,
+   "exams": 346861,
+   "passed": 332394,
+   "failed": 14467,
+   "mean": 2.4184,
+   "share1": 0.2531,
+   "share10": 0.0175,
+   "failRate": 0.0417
+  },
+  {
+   "year": 2019,
+   "lands": 16,
+   "exams": 337667,
+   "passed": 324377,
+   "failed": 13290,
+   "mean": 2.4106,
+   "share1": 0.2579,
+   "share10": 0.0188,
+   "failRate": 0.0394
+  },
+  {
+   "year": 2020,
+   "lands": 16,
+   "exams": 302278,
+   "passed": 292628,
+   "failed": 9650,
+   "mean": 2.3794,
+   "share1": 0.2758,
+   "share10": 0.0223,
+   "failRate": 0.0319
+  },
+  {
+   "year": 2021,
+   "lands": 15,
+   "exams": 299011,
+   "passed": 289933,
+   "failed": 9078,
+   "mean": 2.2752,
+   "share1": 0.33,
+   "share10": 0.0324,
+   "failRate": 0.0304
+  },
+  {
+   "year": 2022,
+   "lands": 16,
+   "exams": 312910,
+   "passed": 300991,
+   "failed": 11919,
+   "mean": 2.2833,
+   "share1": 0.3287,
+   "share10": 0.0337,
+   "failRate": 0.0381
+  },
+  {
+   "year": 2023,
+   "lands": 16,
+   "exams": 315017,
+   "passed": 301559,
+   "failed": 13458,
+   "mean": 2.3233,
+   "share1": 0.3071,
+   "share10": 0.0302,
+   "failRate": 0.0427
+  },
+  {
+   "year": 2024,
+   "lands": 16,
+   "exams": 312186,
+   "passed": 297490,
+   "failed": 14696,
+   "mean": 2.3449,
+   "share1": 0.2979,
+   "share10": 0.0305,
+   "failRate": 0.0471
+  },
+  {
+   "year": 2025,
+   "lands": 15,
+   "exams": 235933,
+   "passed": 224804,
+   "failed": 11129,
+   "mean": 2.3545,
+   "share1": 0.2945,
+   "share10": 0.0308,
+   "failRate": 0.0472
+  }
+ ],
+ "lands": [
+  {
+   "id": "BW",
+   "name": "Baden-Württemberg",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "mean": [
+    2.4558,
+    2.4361,
+    2.4308,
+    2.4231,
+    2.4359,
+    2.4086,
+    2.3767,
+    2.2324,
+    2.2557,
+    2.2984,
+    2.3017
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "BY",
+   "name": "Bayern",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.325,
+    2.3109,
+    2.3163,
+    2.3116,
+    2.3082,
+    2.3209,
+    2.2939,
+    2.177,
+    2.2015,
+    2.281,
+    2.2928,
+    2.4425
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "id": "BE",
+   "name": "Berlin",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.424,
+    2.3886,
+    2.3919,
+    2.4079,
+    2.4238,
+    2.4152,
+    2.3457,
+    2.2437,
+    2.2248,
+    2.2682,
+    2.3217,
+    2.3179
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "BB",
+   "name": "Brandenburg",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.309,
+    2.3007,
+    2.2787,
+    2.2746,
+    2.2896,
+    2.2729,
+    2.2797,
+    2.1687,
+    2.1454,
+    2.1833,
+    2.2073,
+    2.1926
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "HB",
+   "name": "Bremen",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.4563,
+    2.4468,
+    2.4392,
+    2.4683,
+    2.4097,
+    2.4038,
+    2.3987,
+    2.3178,
+    2.3205,
+    2.3307,
+    2.3624,
+    2.3691
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "HH",
+   "name": "Hamburg",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.4317,
+    2.4252,
+    2.4395,
+    2.4278,
+    2.4106,
+    2.4232,
+    2.3629,
+    2.2662,
+    2.2848,
+    2.3065,
+    2.3629,
+    2.3511
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "HE",
+   "name": "Hessen",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.4252,
+    2.4305,
+    2.4038,
+    2.4061,
+    2.3938,
+    2.3709,
+    2.3254,
+    2.2504,
+    2.2261,
+    2.2478,
+    2.2746,
+    2.26
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "MV",
+   "name": "Mecklenburg-Vorpommern",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.368,
+    2.3375,
+    2.3141,
+    2.3203,
+    2.329,
+    2.3428,
+    2.3378,
+    2.2057,
+    2.2114,
+    2.2751,
+    2.2848,
+    2.2753
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "NI",
+   "name": "Niedersachsen",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.6078,
+    2.5885,
+    2.5761,
+    2.5677,
+    2.57,
+    2.5575,
+    2.6724,
+    2.3845,
+    2.3839,
+    2.4285,
+    2.4519,
+    2.4539
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "NW",
+   "name": "Nordrhein-Westfalen",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.498,
+    2.4745,
+    2.4611,
+    2.4545,
+    2.453,
+    2.4413,
+    2.4291,
+    2.3586,
+    2.359,
+    2.3781,
+    2.4004,
+    2.3769
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "RP",
+   "name": "Rheinland-Pfalz",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.5382,
+    2.5184,
+    2.5013,
+    2.4851,
+    2.4795,
+    2.4937,
+    2.4838,
+    2.3793,
+    2.4037,
+    2.4438,
+    2.4463
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "SL",
+   "name": "Saarland",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.4365,
+    2.3822,
+    2.3951,
+    2.3711,
+    2.378,
+    2.3661,
+    2.3667,
+    2.2614,
+    2.2639,
+    2.3371,
+    2.3531,
+    2.3912
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "SN",
+   "name": "Sachsen",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.3376,
+    2.3223,
+    2.3179,
+    2.277,
+    2.2525,
+    2.2367,
+    2.1991,
+    2.1154,
+    2.1087,
+    2.1918,
+    2.2134,
+    2.2226
+   ],
+   "regular": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "ST",
+   "name": "Sachsen-Anhalt",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.4168,
+    2.3887,
+    2.3911,
+    2.308,
+    2.3223,
+    2.3189,
+    2.3265,
+    2.2495,
+    2.2408,
+    2.2792,
+    2.2827,
+    2.2811
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "SH",
+   "name": "Schleswig-Holstein",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.5409,
+    2.5175,
+    2.5041,
+    2.5621,
+    2.5548,
+    2.5534,
+    2.5165,
+    2.4062,
+    2.4118,
+    2.4593,
+    2.4851,
+    2.4573
+   ],
+   "regular": [
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "id": "TH",
+   "name": "Thüringen",
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "mean": [
+    2.1626,
+    2.16,
+    2.1752,
+    2.177,
+    2.1617,
+    2.1819,
+    2.1585,
+    2.0556,
+    2.0421,
+    2.086,
+    2.1276,
+    2.1345
+   ],
+   "regular": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  }
+ ],
+ "estimation": {
+  "run": "2026-10-17T12:26:00Z",
+  "dependent": {
+   "en": "Mean Abitur grade (1.0 best)",
+   "de": "Abiturdurchschnittsnote (1,0 beste)"
+  },
+  "method": {
+   "en": "Generalized least squares, constant per state, AR(1) errors within states, t-test",
+   "de": "Verallgemeinerte kleinste Quadrate, Konstante je Land, AR(1)-Fehler je Land, t-Test"
+  },
+  "sample": {
+   "en": "16 states, 2014–2025, KMK",
+   "de": "16 Länder, 2014–2025, KMK"
+  },
+  "observations": 190,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "Better per year",
+     "de": "Besser pro Jahr"
+    },
+    "values": [
+     0.0101598039364301,
+     0.00165611756818927,
+     0.0068910065498222,
+     0.0134286013230379,
+     5.63850280813317e-09
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "State-years",
+      "de": "Länder-Jahre"
+     },
+     "value": 190,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "States (constants)",
+      "de": "Länder (Konstanten)"
+     },
+     "value": 16,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Previous-year copies left out",
+      "de": "Ausgelassene Vorjahreskopien"
+     },
+     "value": 2,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "AR(1) coefficient",
+      "de": "AR(1)-Koeffizient"
+     },
+     "value": 0.634577345785347,
+     "digits": 6
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "Degrees of freedom",
+      "de": "Freiheitsgrade"
+     },
+     "value": 173,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect",
+      "de": "Kleinster relevanter Effekt"
+     },
+     "value": 0.01,
+     "digits": 2
+    }
+   ]
+  }
+ },
+ "claim": {
+  "question": {
+   "en": "Are Abitur grades getting better every year?",
+   "de": "Werden die Abiturnoten immer besser?"
+  },
+  "yes_text": {
+   "en": "The average Abitur grade gets significantly better from year to year.",
+   "de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr signifikant besser."
+  },
+  "no_text": {
+   "ruled_out": {
+    "en": "The average Abitur grade does not get significantly better from year to year. Any improvement is at most {bound} grade points per year.",
+    "de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr nicht signifikant besser. Eine Verbesserung liegt höchstens bei {bound} Notenpunkten pro Jahr."
+   },
+   "not_detectable": {
+    "en": "The average Abitur grade does not get significantly better from year to year. A relevant improvement is not ruled out either.",
+    "de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr nicht signifikant besser. Eine relevante Verbesserung ist aber auch nicht ausgeschlossen."
+   },
+   "opposite": {
+    "en": "The average Abitur grade gets significantly worse from year to year.",
+    "de": "Die Abiturdurchschnittsnote wird von Jahr zu Jahr signifikant schlechter."
+   }
+  },
+  "unit": {
+   "en": "grade points better per year",
+   "de": "Notenpunkte besser pro Jahr"
+  },
+  "cases": {
+   "en": "{n} state-years, 2014–2025",
+   "de": "{n} Länder-Jahre, 2014–2025"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 0.01,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, says the president of the Deutscher Lehrerverband, Stefan Düll: \"Compared with earlier years there is a flood of straight-A Abiturs.\"",
+     "de": "Ja, sagt der Präsident des Deutschen Lehrerverbands, Stefan Düll: „Im Vergleich zu früheren Jahren gibt es eine Flut an Einser-Abis.“"
+    },
+    "source": "Stefan Düll to the Rheinische Post, quoted in the taz, 28 July 2025, https://taz.de/!6099298/"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "No, wrote the taz in the same week: the latest KMK statistics show no clear trend towards more averages between 1.0 and 1.9.",
+     "de": "Nein, schrieb die taz in derselben Woche: Die jüngste KMK-Statistik zeige keine eindeutige Tendenz hin zu mehr Abiturabschlüssen zwischen 1,0 und 1,9."
+    },
+    "source": "taz, 28 July 2025, https://taz.de/!6099298/"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "years",
+   "question": {
+    "en": "Which years?",
+    "de": "Welche Jahre?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "2014 to 2025",
+      "de": "2014 bis 2025"
+     },
+     "why": {
+      "en": "Every year the KMK has online.",
+      "de": "Alle Jahre, die die KMK online hat."
+     }
+    },
+    {
+     "id": "nocorona",
+     "label": {
+      "en": "without 2020 and 2021",
+      "de": "ohne 2020 und 2021"
+     },
+     "why": {
+      "en": "The exams under Corona rules left out.",
+      "de": "Ohne die Prüfungen unter Corona-Regeln."
+     }
+    },
+    {
+     "id": "precorona",
+     "label": {
+      "en": "2014 to 2019",
+      "de": "2014 bis 2019"
+     },
+     "why": {
+      "en": "Only the years before Corona.",
+      "de": "Nur die Jahre vor Corona."
+     }
+    }
+   ]
+  },
+  {
+   "id": "weight",
+   "question": {
+    "en": "How much does each state count?",
+    "de": "Wie viel zählt jedes Land?"
+   },
+   "primary": "equal",
+   "options": [
+    {
+     "id": "equal",
+     "label": {
+      "en": "every state the same",
+      "de": "jedes Land gleich"
+     },
+     "why": {
+      "en": "Bremen counts as much as Bayern.",
+      "de": "Bremen zählt so viel wie Bayern."
+     }
+    },
+    {
+     "id": "exams",
+     "label": {
+      "en": "by number of exams",
+      "de": "nach Zahl der Prüfungen"
+     },
+     "why": {
+      "en": "Large states count more, as in the national average.",
+      "de": "Große Länder zählen mehr, wie im Bundesdurchschnitt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "cohorts",
+   "question": {
+    "en": "Which cohorts?",
+    "de": "Welche Jahrgänge?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "all",
+      "de": "alle"
+     },
+     "why": {
+      "en": "Every state-year with new figures.",
+      "de": "Jedes Länder-Jahr mit neuen Zahlen."
+     }
+    },
+    {
+     "id": "regular",
+     "label": {
+      "en": "without unusual cohorts",
+      "de": "ohne ungewöhnliche Jahrgänge"
+     },
+     "why": {
+      "en": "Without state-years with far fewer or far more exams than usual, as after a switch between G8 and G9.",
+      "de": "Ohne Länder-Jahre mit weit weniger oder weit mehr Prüfungen als sonst, etwa nach einem Wechsel zwischen G8 und G9."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "years": "all",
+    "weight": "equal",
+    "cohorts": "all"
+   },
+   "effect": 0.0101598039364301,
+   "ci_low": 0.0068910065498222,
+   "ci_high": 0.0134286013230379,
+   "p": 5.63850280813317e-09,
+   "n": 190
+  },
+  {
+   "choices": {
+    "years": "all",
+    "weight": "equal",
+    "cohorts": "regular"
+   },
+   "effect": 0.0106959731628503,
+   "ci_low": 0.00769578444004374,
+   "ci_high": 0.0136961618856568,
+   "p": 4.66525679444974e-11,
+   "n": 186
+  },
+  {
+   "choices": {
+    "years": "all",
+    "weight": "exams",
+    "cohorts": "all"
+   },
+   "effect": 0.0105272813214503,
+   "ci_low": 0.00511636396567025,
+   "ci_high": 0.0159381986772303,
+   "p": 0.000172344436018374,
+   "n": 190
+  },
+  {
+   "choices": {
+    "years": "all",
+    "weight": "exams",
+    "cohorts": "regular"
+   },
+   "effect": 0.0119401013683452,
+   "ci_low": 0.00905033219867706,
+   "ci_high": 0.0148298705380134,
+   "p": 7.47995769261853e-14,
+   "n": 186
+  },
+  {
+   "choices": {
+    "years": "nocorona",
+    "weight": "equal",
+    "cohorts": "all"
+   },
+   "effect": 0.00942115434785031,
+   "ci_low": 0.00617873386058034,
+   "ci_high": 0.0126635748351203,
+   "p": 5.4137306303975e-08,
+   "n": 159
+  },
+  {
+   "choices": {
+    "years": "nocorona",
+    "weight": "equal",
+    "cohorts": "regular"
+   },
+   "effect": 0.0105046589916563,
+   "ci_low": 0.00781160980232548,
+   "ci_high": 0.0131977081809871,
+   "p": 2.15130519814331e-12,
+   "n": 156
+  },
+  {
+   "choices": {
+    "years": "nocorona",
+    "weight": "exams",
+    "cohorts": "all"
+   },
+   "effect": 0.0114352086228737,
+   "ci_low": 0.00843217837697104,
+   "ci_high": 0.0144382388687763,
+   "p": 5.44951268170572e-12,
+   "n": 159
+  },
+  {
+   "choices": {
+    "years": "nocorona",
+    "weight": "exams",
+    "cohorts": "regular"
+   },
+   "effect": 0.0116563457811756,
+   "ci_low": 0.00912310511949474,
+   "ci_high": 0.0141895864428565,
+   "p": 8.67308024527239e-16,
+   "n": 156
+  },
+  {
+   "choices": {
+    "years": "precorona",
+    "weight": "equal",
+    "cohorts": "all"
+   },
+   "effect": 0.007728941609532,
+   "ci_low": 0.00422779877709962,
+   "ci_high": 0.0112300844419644,
+   "p": 3.4243088982557e-05,
+   "n": 96
+  },
+  {
+   "choices": {
+    "years": "precorona",
+    "weight": "equal",
+    "cohorts": "regular"
+   },
+   "effect": 0.00757094713215692,
+   "ci_low": 0.00414204080734003,
+   "ci_high": 0.0109998534569738,
+   "p": 3.47804040530853e-05,
+   "n": 94
+  },
+  {
+   "choices": {
+    "years": "precorona",
+    "weight": "exams",
+    "cohorts": "all"
+   },
+   "effect": 0.00775424462635487,
+   "ci_low": 0.00454143321893106,
+   "ci_high": 0.0109670560337787,
+   "p": 7.26413038274861e-06,
+   "n": 96
+  },
+  {
+   "choices": {
+    "years": "precorona",
+    "weight": "exams",
+    "cohorts": "regular"
+   },
+   "effect": 0.00785048936394148,
+   "ci_low": 0.00513721008441792,
+   "ci_high": 0.010563768643465,
+   "p": 1.63198563287497e-07,
+   "n": 94
+  }
+ ]
+}
+

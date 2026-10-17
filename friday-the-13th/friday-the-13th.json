@@ -1,12 +1,11 @@
 {
  "meta": {
   "source": "Department for Transport, Road Safety Data (STATS19), Open Government Licence v3.0",
-  "updated": "2026-10-15",
+  "updated": "2026-10-17",
   "accessed": "2026-10-15",
   "years": "1979–2025",
   "firstYear": 1979,
   "lastYear": 2025,
-  "bootstrap": 10000,
   "holidaysPackage": "0.106"
  },
  "summary": {
@@ -32,7 +31,7 @@
  },
  "main": {
   "sum13": 48949,
-  "sumComparison": 49385.0,
+  "sumComparison": 49385,
   "mean13": 627.6,
   "meanComparison": 633.1,
   "moreCount": 45,
@@ -69,7 +68,7 @@
   },
   {
    "weekday": "Fri",
-   "mean": 626.0,
+   "mean": 626,
    "days": 231
   },
   {
@@ -87,13 +86,13 @@
   {
    "date": "1979-07-13",
    "on13": 848,
-   "comparison": 836.0,
+   "comparison": 836,
    "pct": 1.44
   },
   {
    "date": "1980-06-13",
    "on13": 795,
-   "comparison": 832.0,
+   "comparison": 832,
    "pct": -4.45
   },
   {
@@ -111,13 +110,13 @@
   {
    "date": "1981-11-13",
    "on13": 875,
-   "comparison": 851.0,
+   "comparison": 851,
    "pct": 2.82
   },
   {
    "date": "1982-08-13",
    "on13": 995,
-   "comparison": 836.0,
+   "comparison": 836,
    "pct": 19.02
   },
   {
@@ -135,43 +134,43 @@
   {
    "date": "1984-04-13",
    "on13": 765,
-   "comparison": 829.0,
+   "comparison": 829,
    "pct": -7.72
   },
   {
    "date": "1984-07-13",
    "on13": 830,
-   "comparison": 806.0,
+   "comparison": 806,
    "pct": 2.98
   },
   {
    "date": "1985-09-13",
    "on13": 890,
-   "comparison": 842.0,
+   "comparison": 842,
    "pct": 5.7
   },
   {
    "date": "1985-12-13",
    "on13": 975,
-   "comparison": 1110.0,
+   "comparison": 1110,
    "pct": -12.16
   },
   {
    "date": "1986-06-13",
    "on13": 805,
-   "comparison": 774.0,
+   "comparison": 774,
    "pct": 4.01
   },
   {
    "date": "1987-02-13",
    "on13": 669,
-   "comparison": 737.0,
+   "comparison": 737,
    "pct": -9.23
   },
   {
    "date": "1987-03-13",
    "on13": 587,
-   "comparison": 773.0,
+   "comparison": 773,
    "pct": -24.06
   },
   {
@@ -225,7 +224,7 @@
   {
    "date": "1992-11-13",
    "on13": 865,
-   "comparison": 835.0,
+   "comparison": 835,
    "pct": 3.59
   },
   {
@@ -243,13 +242,13 @@
   {
    "date": "1995-01-13",
    "on13": 727,
-   "comparison": 763.0,
+   "comparison": 763,
    "pct": -4.72
   },
   {
    "date": "1995-10-13",
    "on13": 628,
-   "comparison": 898.0,
+   "comparison": 898,
    "pct": -30.07
   },
   {
@@ -285,25 +284,25 @@
   {
    "date": "1998-11-13",
    "on13": 796,
-   "comparison": 858.0,
+   "comparison": 858,
    "pct": -7.23
   },
   {
    "date": "1999-08-13",
    "on13": 709,
-   "comparison": 700.0,
+   "comparison": 700,
    "pct": 1.29
   },
   {
    "date": "2000-10-13",
    "on13": 702,
-   "comparison": 803.0,
+   "comparison": 803,
    "pct": -12.58
   },
   {
    "date": "2001-07-13",
    "on13": 801,
-   "comparison": 663.0,
+   "comparison": 663,
    "pct": 20.81
   },
   {
@@ -333,8 +332,8 @@
   {
    "date": "2004-08-13",
    "on13": 615,
-   "comparison": 634.0,
-   "pct": -3.0
+   "comparison": 634,
+   "pct": -3
   },
   {
    "date": "2005-05-13",
@@ -351,19 +350,19 @@
   {
    "date": "2006-10-13",
    "on13": 641,
-   "comparison": 728.0,
+   "comparison": 728,
    "pct": -11.95
   },
   {
    "date": "2007-04-13",
    "on13": 424,
-   "comparison": 538.0,
+   "comparison": 538,
    "pct": -21.19
   },
   {
    "date": "2007-07-13",
    "on13": 692,
-   "comparison": 599.0,
+   "comparison": 599,
    "pct": 15.53
   },
   {
@@ -381,19 +380,19 @@
   {
    "date": "2009-03-13",
    "on13": 456,
-   "comparison": 536.0,
+   "comparison": 536,
    "pct": -14.93
   },
   {
    "date": "2009-11-13",
    "on13": 692,
-   "comparison": 609.0,
+   "comparison": 609,
    "pct": 13.63
   },
   {
    "date": "2010-08-13",
    "on13": 523,
-   "comparison": 452.0,
+   "comparison": 452,
    "pct": 15.71
   },
   {
@@ -411,19 +410,19 @@
   {
    "date": "2012-04-13",
    "on13": 384,
-   "comparison": 458.0,
+   "comparison": 458,
    "pct": -16.16
   },
   {
    "date": "2012-07-13",
    "on13": 440,
-   "comparison": 465.0,
+   "comparison": 465,
    "pct": -5.38
   },
   {
    "date": "2013-09-13",
    "on13": 486,
-   "comparison": 479.0,
+   "comparison": 479,
    "pct": 1.46
   },
   {
@@ -435,13 +434,13 @@
   {
    "date": "2014-06-13",
    "on13": 502,
-   "comparison": 497.0,
+   "comparison": 497,
    "pct": 1.01
   },
   {
    "date": "2015-02-13",
    "on13": 430,
-   "comparison": 412.0,
+   "comparison": 412,
    "pct": 4.37
   },
   {
@@ -453,7 +452,7 @@
   {
    "date": "2015-11-13",
    "on13": 513,
-   "comparison": 480.0,
+   "comparison": 480,
    "pct": 6.88
   },
   {
@@ -465,7 +464,7 @@
   {
    "date": "2017-01-13",
    "on13": 408,
-   "comparison": 429.0,
+   "comparison": 429,
    "pct": -4.9
   },
   {
@@ -489,7 +488,7 @@
   {
    "date": "2019-09-13",
    "on13": 402,
-   "comparison": 396.0,
+   "comparison": 396,
    "pct": 1.52
   },
   {
@@ -507,25 +506,25 @@
   {
    "date": "2020-11-13",
    "on13": 306,
-   "comparison": 291.0,
+   "comparison": 291,
    "pct": 5.15
   },
   {
    "date": "2021-08-13",
    "on13": 318,
-   "comparison": 310.0,
+   "comparison": 310,
    "pct": 2.58
   },
   {
    "date": "2022-05-13",
    "on13": 364,
-   "comparison": 359.0,
+   "comparison": 359,
    "pct": 1.39
   },
   {
    "date": "2023-01-13",
    "on13": 339,
-   "comparison": 337.0,
+   "comparison": 337,
    "pct": 0.59
   },
   {
@@ -537,7 +536,7 @@
   {
    "date": "2024-09-13",
    "on13": 370,
-   "comparison": 348.0,
+   "comparison": 348,
    "pct": 6.32
   },
   {
@@ -553,6 +552,141 @@
    "pct": 10.72
   }
  ],
+ "estimation": {
+  "run": "2026-10-17T12:21:00Z",
+  "dependent": {
+   "en": "Collisions with injuries per day",
+   "de": "Unfälle mit Verletzten pro Tag"
+  },
+  "method": {
+   "en": "Poisson regression with overdispersion (quasi-Poisson), constant per month, t-test",
+   "de": "Poisson-Regression mit Überdispersion (Quasi-Poisson), Konstante je Monat, t-Test"
+  },
+  "sample": {
+   "en": "Great Britain 1979–2025, Fridays the 13th and the Fridays a week before and after",
+   "de": "Großbritannien 1979–2025, Freitage, der 13., und die Freitage eine Woche davor und danach"
+  },
+  "observations": 231,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "Friday 13th (log)",
+     "de": "Freitag, 13. (log)"
+    },
+    "values": [
+     -0.00765722905839651,
+     0.0144906073157529,
+     -0.0362862339424849,
+     0.0209717758256919,
+     0.597973649509022
+    ]
+   },
+   {
+    "name": {
+     "en": "Effect, % = 100(exp-1)",
+     "de": "Effekt, % = 100(exp-1)"
+    },
+    "values": [
+     -0.762798716486435,
+     "NA",
+     -3.56357797985036,
+     2.11932288950869,
+     0.597973649509022
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "Fridays the 13th (months)",
+      "de": "Freitage, der 13. (Monate)"
+     },
+     "value": 78,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Comparison Fridays",
+      "de": "Vergleichsfreitage"
+     },
+     "value": 153,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Month constants",
+      "de": "Monatskonstanten"
+     },
+     "value": 78,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Dispersion",
+      "de": "Dispersion"
+     },
+     "value": 6.8104447192811,
+     "digits": 6
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "Degrees of freedom",
+      "de": "Freiheitsgrade"
+     },
+     "value": 152,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect, %",
+      "de": "Kleinster relevanter Effekt, %"
+     },
+     "value": 5,
+     "digits": 2
+    }
+   ]
+  }
+ },
  "claim": {
   "question": {
    "en": "Are there more road accidents on Friday the 13th?",
@@ -740,10 +874,10 @@
     "outcome": "all",
     "holidays": "exclude"
    },
-   "effect": 19.364668488855386,
-   "ci_low": 16.662648176592754,
-   "ci_high": 22.01824232106302,
-   "p": 0.0,
+   "effect": 19.3629102447401,
+   "ci_low": 15.1318780354516,
+   "ci_high": 23.749430524418,
+   "p": 1.74131986498404e-21,
    "n": 78
   },
   {
@@ -752,10 +886,10 @@
     "outcome": "all",
     "holidays": "keep"
    },
-   "effect": 19.29446570772606,
-   "ci_low": 16.28404184653769,
-   "ci_high": 22.257585075481433,
-   "p": 0.0,
+   "effect": 19.296019072631,
+   "ci_low": 14.9712614349067,
+   "ci_high": 23.783456743536,
+   "p": 1.62843833933741e-20,
    "n": 81
   },
   {
@@ -764,10 +898,10 @@
     "outcome": "ksi",
     "holidays": "exclude"
    },
-   "effect": 19.073244927070142,
-   "ci_low": 15.723203827846577,
-   "ci_high": 22.33942239313993,
-   "p": 0.0,
+   "effect": 19.0709073048411,
+   "ci_low": 14.7718503383933,
+   "ci_high": 23.5309958373591,
+   "p": 2.99204521936585e-20,
    "n": 78
   },
   {
@@ -776,10 +910,10 @@
     "outcome": "ksi",
     "holidays": "keep"
    },
-   "effect": 19.1501951552296,
-   "ci_low": 15.650357753866452,
-   "ci_high": 22.51758879929586,
-   "p": 0.0,
+   "effect": 19.1518339994675,
+   "ci_low": 14.832823169581,
+   "ci_high": 23.6332884063191,
+   "p": 2.89298877802789e-20,
    "n": 81
   },
   {
@@ -788,10 +922,10 @@
     "outcome": "fatal",
     "holidays": "exclude"
    },
-   "effect": 18.199537823993307,
-   "ci_low": 8.39787369123053,
-   "ci_high": 27.779745332133675,
-   "p": 0.0004,
+   "effect": 18.1964072384226,
+   "ci_low": 9.19266026849113,
+   "ci_high": 27.9425801122493,
+   "p": 3.63889110180409e-05,
    "n": 78
   },
   {
@@ -800,10 +934,10 @@
     "outcome": "fatal",
     "holidays": "keep"
    },
-   "effect": 18.8881374153667,
-   "ci_low": 9.247347446484167,
-   "ci_high": 28.453199086791138,
-   "p": 0.0,
+   "effect": 18.8849225606583,
+   "ci_low": 10.05056181004,
+   "ci_high": 28.4284657869353,
+   "p": 1.16631511650255e-05,
    "n": 81
   },
   {
@@ -812,10 +946,10 @@
     "outcome": "all",
     "holidays": "exclude"
    },
-   "effect": -0.8828591677634945,
-   "ci_low": -3.61117107922988,
-   "ci_high": 1.7987270546997447,
-   "p": 0.5258,
+   "effect": -0.762798716486435,
+   "ci_low": -3.56357797985036,
+   "ci_high": 2.11932288950869,
+   "p": 0.597973649509022,
    "n": 78
   },
   {
@@ -824,10 +958,10 @@
     "outcome": "all",
     "holidays": "keep"
    },
-   "effect": -0.9154455850954979,
-   "ci_low": -3.6424345143251546,
-   "ci_high": 1.78017801780177,
-   "p": 0.5278,
+   "effect": -0.915445585095509,
+   "ci_low": -3.76779836728631,
+   "ci_high": 2.02145183242561,
+   "p": 0.534973931505726,
    "n": 81
   },
   {
@@ -836,10 +970,10 @@
     "outcome": "ksi",
     "holidays": "exclude"
    },
-   "effect": -0.9591474245115417,
-   "ci_low": -4.161470601819772,
-   "ci_high": 2.3260398186477405,
-   "p": 0.5634,
+   "effect": -0.92202212077992,
+   "ci_low": -4.05475674479006,
+   "ci_high": 2.31300028625627,
+   "p": 0.569793178555577,
    "n": 78
   },
   {
@@ -848,10 +982,10 @@
     "outcome": "ksi",
     "holidays": "keep"
    },
-   "effect": -0.8883063928935453,
-   "ci_low": -4.023984634843303,
-   "ci_high": 2.304147465437789,
-   "p": 0.5806,
+   "effect": -0.888306392893579,
+   "ci_low": -3.92348158350706,
+   "ci_high": 2.24275370892975,
+   "p": 0.571817405498192,
    "n": 81
   },
   {
@@ -860,10 +994,10 @@
     "outcome": "fatal",
     "holidays": "exclude"
    },
-   "effect": 2.5099075297225992,
-   "ci_low": -6.4398541919805545,
-   "ci_high": 11.994609164420478,
-   "p": 0.5868,
+   "effect": 2.39303781163909,
+   "ci_low": -6.47266152671075,
+   "ci_high": 12.0991398177123,
+   "p": 0.606675302898974,
    "n": 78
   },
   {
@@ -872,10 +1006,10 @@
     "outcome": "fatal",
     "holidays": "keep"
    },
-   "effect": 2.6959247648902895,
-   "ci_low": -6.090373280943028,
-   "ci_high": 11.814073595868301,
-   "p": 0.5446,
+   "effect": 2.69592476471379,
+   "ci_low": -5.83372517509065,
+   "ci_high": 11.9981966249551,
+   "p": 0.545460803797904,
    "n": 81
   },
   {
@@ -884,10 +1018,10 @@
     "outcome": "all",
     "holidays": "exclude"
    },
-   "effect": -0.09546143150642727,
-   "ci_low": -3.6064798391864716,
-   "ci_high": 3.358136525396316,
-   "p": 0.9944,
+   "effect": -0.0954614315065161,
+   "ci_low": -3.43415797088605,
+   "ci_high": 3.35866820872772,
+   "p": 0.95551045644742,
    "n": 76
   },
   {
@@ -896,10 +1030,10 @@
     "outcome": "all",
     "holidays": "keep"
    },
-   "effect": -0.7616146230007614,
-   "ci_low": -4.357399466913892,
-   "ci_high": 2.8086019763486236,
-   "p": 0.6834,
+   "effect": -0.761614623000706,
+   "ci_low": -4.1339742376762,
+   "ci_high": 2.72937731506837,
+   "p": 0.661073465313166,
    "n": 81
   },
   {
@@ -908,10 +1042,10 @@
     "outcome": "ksi",
     "holidays": "exclude"
    },
-   "effect": 0.2808404410234999,
-   "ci_low": -3.5517807161470905,
-   "ci_high": 4.226736566186107,
-   "p": 0.89,
+   "effect": 0.280840441023544,
+   "ci_low": -3.41036481563902,
+   "ci_high": 4.11310634276265,
+   "p": 0.881978542903506,
    "n": 76
   },
   {
@@ -920,10 +1054,10 @@
     "outcome": "ksi",
     "holidays": "keep"
    },
-   "effect": -0.2442837600156289,
-   "ci_low": -3.9113056718690475,
-   "ci_high": 3.544120686092178,
-   "p": 0.8756,
+   "effect": -0.244283760015762,
+   "ci_low": -3.82072737424487,
+   "ci_high": 3.46515055560417,
+   "p": 0.894280046741915,
    "n": 81
   },
   {
@@ -932,10 +1066,10 @@
     "outcome": "fatal",
     "holidays": "exclude"
    },
-   "effect": 3.7940379403794022,
-   "ci_low": -6.618531889290013,
-   "ci_high": 15.463917525773185,
-   "p": 0.5164,
+   "effect": 3.7940379403167,
+   "ci_low": -6.77338183706883,
+   "ci_high": 15.5592954485133,
+   "p": 0.491778552306475,
    "n": 76
   },
   {
@@ -944,11 +1078,12 @@
     "outcome": "fatal",
     "holidays": "keep"
    },
-   "effect": 3.539823008849563,
-   "ci_low": -6.2937062937062915,
-   "ci_high": 14.540816326530614,
-   "p": 0.501,
+   "effect": 3.53982300880029,
+   "ci_low": -6.42254504665333,
+   "ci_high": 14.5627967125033,
+   "p": 0.495774976704043,
    "n": 81
   }
  ]
 }
+
