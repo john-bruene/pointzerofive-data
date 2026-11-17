@@ -1,0 +1,1981 @@
+{
+ "meta": {
+  "source": "football.csv / openfootball, deutschland (CC0 1.0)",
+  "updated": "2026-11-17",
+  "seasons": "1963/64–2025/26"
+ },
+ "summary": {
+  "matches": 19220,
+  "seasons": 63,
+  "all": {
+   "n": 63,
+   "champion": 44
+  },
+  "bayern": {
+   "n": 28,
+   "champion": 25
+  },
+  "others": {
+   "n": 35,
+   "champion": 19
+  },
+  "levelOnPoints": {
+   "n": 10,
+   "champion": 7
+  },
+  "winterDiffers": 4,
+  "championSecondAtHalf": 10,
+  "championBelowSecondAtHalf": 9
+ },
+ "seasons": [
+  {
+   "season": "1963/64",
+   "clubs": 16,
+   "leader": "1. FC Köln",
+   "leaderShort": "Köln",
+   "leaderPts": 24,
+   "second": "FC Schalke 04",
+   "secondPts": 20,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "1. FC Köln",
+   "championShort": "Köln",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 24,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "1. FC Köln",
+   "winterMatchday": 15,
+   "winterY": 1
+  },
+  {
+   "season": "1964/65",
+   "clubs": 16,
+   "leader": "Werder Bremen",
+   "leaderShort": "Bremen",
+   "leaderPts": 20,
+   "second": "1. FC Köln",
+   "secondPts": 20,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "Werder Bremen",
+   "championShort": "Bremen",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 20,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "1. FC Köln",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1965/66",
+   "clubs": 18,
+   "leader": "TSV 1860 München",
+   "leaderShort": "1860 München",
+   "leaderPts": 29,
+   "second": "Bayern München",
+   "secondPts": 26,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "TSV 1860 München",
+   "championShort": "1860 München",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 29,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "TSV 1860 München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1966/67",
+   "clubs": 18,
+   "leader": "Eintracht Braunschweig",
+   "leaderShort": "Braunschweig",
+   "leaderPts": 22,
+   "second": "Hamburger SV",
+   "secondPts": 22,
+   "levelOnPoints": true,
+   "lead3": 1,
+   "champion": "Eintracht Braunschweig",
+   "championShort": "Braunschweig",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 22,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Eintracht Braunschweig",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1967/68",
+   "clubs": 18,
+   "leader": "1. FC Nürnberg",
+   "leaderShort": "Nürnberg",
+   "leaderPts": 27,
+   "second": "Borussia Mönchengladbach",
+   "secondPts": 20,
+   "levelOnPoints": false,
+   "lead3": 9,
+   "champion": "1. FC Nürnberg",
+   "championShort": "Nürnberg",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 27,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "1. FC Nürnberg",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1968/69",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 25,
+   "second": "Borussia Mönchengladbach",
+   "secondPts": 21,
+   "levelOnPoints": false,
+   "lead3": 5,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 25,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1969/70",
+   "clubs": 18,
+   "leader": "Borussia Mönchengladbach",
+   "leaderShort": "Mönchengladbach",
+   "leaderPts": 27,
+   "second": "Bayern München",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Borussia Mönchengladbach",
+   "championShort": "Mönchengladbach",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 27,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Borussia Mönchengladbach",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1970/71",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 26,
+   "second": "Borussia Mönchengladbach",
+   "secondPts": 25,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Borussia Mönchengladbach",
+   "championShort": "Mönchengladbach",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 25,
+   "y": 0,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1971/72",
+   "clubs": 18,
+   "leader": "FC Schalke 04",
+   "leaderShort": "Schalke",
+   "leaderPts": 28,
+   "second": "Bayern München",
+   "secondPts": 25,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 25,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "FC Schalke 04",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1972/73",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 27,
+   "second": "Fortuna Düsseldorf",
+   "secondPts": 25,
+   "levelOnPoints": false,
+   "lead3": 5,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 27,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1973/74",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 23,
+   "second": "Eintracht Frankfurt",
+   "secondPts": 23,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 23,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1974/75",
+   "clubs": 18,
+   "leader": "Borussia Mönchengladbach",
+   "leaderShort": "Mönchengladbach",
+   "leaderPts": 23,
+   "second": "Hertha BSC",
+   "secondPts": 23,
+   "levelOnPoints": true,
+   "lead3": 1,
+   "champion": "Borussia Mönchengladbach",
+   "championShort": "Mönchengladbach",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 23,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Hertha BSC",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1975/76",
+   "clubs": 18,
+   "leader": "Borussia Mönchengladbach",
+   "leaderShort": "Mönchengladbach",
+   "leaderPts": 25,
+   "second": "Eintracht Braunschweig",
+   "secondPts": 21,
+   "levelOnPoints": false,
+   "lead3": 5,
+   "champion": "Borussia Mönchengladbach",
+   "championShort": "Mönchengladbach",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 25,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Borussia Mönchengladbach",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1976/77",
+   "clubs": 18,
+   "leader": "Borussia Mönchengladbach",
+   "leaderShort": "Mönchengladbach",
+   "leaderPts": 27,
+   "second": "Eintracht Braunschweig",
+   "secondPts": 23,
+   "levelOnPoints": false,
+   "lead3": 8,
+   "champion": "Borussia Mönchengladbach",
+   "championShort": "Mönchengladbach",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 27,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Borussia Mönchengladbach",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1977/78",
+   "clubs": 18,
+   "leader": "1. FC Köln",
+   "leaderShort": "Köln",
+   "leaderPts": 23,
+   "second": "Borussia Mönchengladbach",
+   "secondPts": 22,
+   "levelOnPoints": false,
+   "lead3": 3,
+   "champion": "1. FC Köln",
+   "championShort": "Köln",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 23,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "1. FC Köln",
+   "winterMatchday": 19,
+   "winterY": 1
+  },
+  {
+   "season": "1978/79",
+   "clubs": 18,
+   "leader": "1. FC Kaiserslautern",
+   "leaderShort": "Kaiserslautern",
+   "leaderPts": 26,
+   "second": "Hamburger SV",
+   "secondPts": 25,
+   "levelOnPoints": false,
+   "lead3": 0,
+   "champion": "Hamburger SV",
+   "championShort": "HSV",
+   "place": 3,
+   "championHalfPlace": 2,
+   "championHalfPts": 25,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "1. FC Kaiserslautern",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1979/80",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 24,
+   "second": "Hamburger SV",
+   "secondPts": 23,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 24,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1980/81",
+   "clubs": 18,
+   "leader": "Hamburger SV",
+   "leaderShort": "HSV",
+   "leaderPts": 28,
+   "second": "Bayern München",
+   "secondPts": 27,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 27,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Hamburger SV",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1981/82",
+   "clubs": 18,
+   "leader": "1. FC Köln",
+   "leaderShort": "Köln",
+   "leaderPts": 25,
+   "second": "Bayern München",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 0,
+   "champion": "Hamburger SV",
+   "championShort": "HSV",
+   "place": 2,
+   "championHalfPlace": 3,
+   "championHalfPts": 23,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "1. FC Köln",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1982/83",
+   "clubs": 18,
+   "leader": "Hamburger SV",
+   "leaderShort": "HSV",
+   "leaderPts": 26,
+   "second": "Bayern München",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "Hamburger SV",
+   "championShort": "HSV",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 26,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Hamburger SV",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1983/84",
+   "clubs": 18,
+   "leader": "VfB Stuttgart",
+   "leaderShort": "Stuttgart",
+   "leaderPts": 25,
+   "second": "Bayern München",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "VfB Stuttgart",
+   "championShort": "Stuttgart",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 25,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "VfB Stuttgart",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1984/85",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 25,
+   "second": "Werder Bremen",
+   "secondPts": 23,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 25,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1985/86",
+   "clubs": 18,
+   "leader": "Werder Bremen",
+   "leaderShort": "Bremen",
+   "leaderPts": 25,
+   "second": "Borussia Mönchengladbach",
+   "secondPts": 23,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 2,
+   "championHalfPlace": 3,
+   "championHalfPts": 22,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Werder Bremen",
+   "winterMatchday": 19,
+   "winterY": 0
+  },
+  {
+   "season": "1986/87",
+   "clubs": 18,
+   "leader": "Hamburger SV",
+   "leaderShort": "HSV",
+   "leaderPts": 24,
+   "second": "Bayern München",
+   "secondPts": 24,
+   "levelOnPoints": true,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 24,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Hamburger SV",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1987/88",
+   "clubs": 18,
+   "leader": "Werder Bremen",
+   "leaderShort": "Bremen",
+   "leaderPts": 28,
+   "second": "Bayern München",
+   "secondPts": 26,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "Werder Bremen",
+   "championShort": "Bremen",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 28,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Werder Bremen",
+   "winterMatchday": 19,
+   "winterY": 1
+  },
+  {
+   "season": "1988/89",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 26,
+   "second": "Werder Bremen",
+   "secondPts": 23,
+   "levelOnPoints": false,
+   "lead3": 3,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 26,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1989/90",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 23,
+   "second": "Bayer Leverkusen",
+   "secondPts": 23,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 23,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 21,
+   "winterY": 1
+  },
+  {
+   "season": "1990/91",
+   "clubs": 18,
+   "leader": "Werder Bremen",
+   "leaderShort": "Bremen",
+   "leaderPts": 24,
+   "second": "Bayern München",
+   "secondPts": 23,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "1. FC Kaiserslautern",
+   "championShort": "Kaiserslautern",
+   "place": 3,
+   "championHalfPlace": 3,
+   "championHalfPts": 23,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Werder Bremen",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1991/92",
+   "clubs": 20,
+   "leader": "Eintracht Frankfurt",
+   "leaderShort": "Frankfurt",
+   "leaderPts": 25,
+   "second": "VfB Stuttgart",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "VfB Stuttgart",
+   "championShort": "Stuttgart",
+   "place": 3,
+   "championHalfPlace": 2,
+   "championHalfPts": 24,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Borussia Dortmund",
+   "winterMatchday": 22,
+   "winterY": 0
+  },
+  {
+   "season": "1992/93",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 25,
+   "second": "Eintracht Frankfurt",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Werder Bremen",
+   "championShort": "Bremen",
+   "place": 2,
+   "championHalfPlace": 3,
+   "championHalfPts": 23,
+   "y": 0,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "1993/94",
+   "clubs": 18,
+   "leader": "Eintracht Frankfurt",
+   "leaderShort": "Frankfurt",
+   "leaderPts": 24,
+   "second": "Bayern München",
+   "secondPts": 22,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 5,
+   "championHalfPlace": 2,
+   "championHalfPts": 22,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Bayer Leverkusen",
+   "winterMatchday": 20,
+   "winterY": 0
+  },
+  {
+   "season": "1994/95",
+   "clubs": 18,
+   "leader": "Borussia Dortmund",
+   "leaderShort": "Dortmund",
+   "leaderPts": 28,
+   "second": "Werder Bremen",
+   "secondPts": 24,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "Borussia Dortmund",
+   "championShort": "Dortmund",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 28,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Borussia Dortmund",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1995/96",
+   "clubs": 18,
+   "leader": "Borussia Dortmund",
+   "leaderShort": "Dortmund",
+   "leaderPts": 40,
+   "second": "Bayern München",
+   "secondPts": 38,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Borussia Dortmund",
+   "championShort": "Dortmund",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 40,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Borussia Dortmund",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1996/97",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 36,
+   "second": "Borussia Dortmund",
+   "secondPts": 34,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 36,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "1997/98",
+   "clubs": 18,
+   "leader": "1. FC Kaiserslautern",
+   "leaderShort": "Kaiserslautern",
+   "leaderPts": 39,
+   "second": "Bayern München",
+   "secondPts": 35,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "1. FC Kaiserslautern",
+   "championShort": "Kaiserslautern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 39,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "1. FC Kaiserslautern",
+   "winterMatchday": 20,
+   "winterY": 1
+  },
+  {
+   "season": "1998/99",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 41,
+   "second": "Bayer Leverkusen",
+   "secondPts": 35,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 41,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 18,
+   "winterY": 1
+  },
+  {
+   "season": "1999/00",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 36,
+   "second": "Bayer Leverkusen",
+   "secondPts": 34,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 36,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2000/01",
+   "clubs": 18,
+   "leader": "FC Schalke 04",
+   "leaderShort": "Schalke",
+   "leaderPts": 33,
+   "second": "Bayer Leverkusen",
+   "secondPts": 31,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 2,
+   "championHalfPlace": 3,
+   "championHalfPts": 30,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "FC Schalke 04",
+   "winterMatchday": 18,
+   "winterY": 0
+  },
+  {
+   "season": "2001/02",
+   "clubs": 18,
+   "leader": "Bayer Leverkusen",
+   "leaderShort": "Leverkusen",
+   "leaderPts": 39,
+   "second": "Borussia Dortmund",
+   "secondPts": 38,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "Borussia Dortmund",
+   "championShort": "Dortmund",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 38,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Bayer Leverkusen",
+   "winterMatchday": 18,
+   "winterY": 0
+  },
+  {
+   "season": "2002/03",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 39,
+   "second": "Borussia Dortmund",
+   "secondPts": 33,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 39,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2003/04",
+   "clubs": 18,
+   "leader": "Werder Bremen",
+   "leaderShort": "Bremen",
+   "leaderPts": 39,
+   "second": "Bayern München",
+   "secondPts": 35,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Werder Bremen",
+   "championShort": "Bremen",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 39,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Werder Bremen",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2004/05",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 34,
+   "second": "FC Schalke 04",
+   "secondPts": 34,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 34,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2005/06",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 44,
+   "second": "Hamburger SV",
+   "secondPts": 38,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 44,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2006/07",
+   "clubs": 18,
+   "leader": "Werder Bremen",
+   "leaderShort": "Bremen",
+   "leaderPts": 36,
+   "second": "FC Schalke 04",
+   "secondPts": 36,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "VfB Stuttgart",
+   "championShort": "Stuttgart",
+   "place": 3,
+   "championHalfPlace": 4,
+   "championHalfPts": 32,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Werder Bremen",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "2007/08",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 36,
+   "second": "Werder Bremen",
+   "secondPts": 36,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 36,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2008/09",
+   "clubs": 18,
+   "leader": "TSG Hoffenheim",
+   "leaderShort": "Hoffenheim",
+   "leaderPts": 35,
+   "second": "Bayern München",
+   "secondPts": 35,
+   "levelOnPoints": true,
+   "lead3": 0,
+   "champion": "VfL Wolfsburg",
+   "championShort": "Wolfsburg",
+   "place": 7,
+   "championHalfPlace": 9,
+   "championHalfPts": 26,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "TSG Hoffenheim",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "2009/10",
+   "clubs": 18,
+   "leader": "Bayer Leverkusen",
+   "leaderShort": "Leverkusen",
+   "leaderPts": 35,
+   "second": "FC Schalke 04",
+   "secondPts": 34,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 4,
+   "championHalfPlace": 3,
+   "championHalfPts": 33,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Bayer Leverkusen",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "2010/11",
+   "clubs": 18,
+   "leader": "Borussia Dortmund",
+   "leaderShort": "Dortmund",
+   "leaderPts": 43,
+   "second": "1. FSV Mainz 05",
+   "secondPts": 33,
+   "levelOnPoints": false,
+   "lead3": 10,
+   "champion": "Borussia Dortmund",
+   "championShort": "Dortmund",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 43,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Borussia Dortmund",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2011/12",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 37,
+   "second": "Borussia Dortmund",
+   "secondPts": 34,
+   "levelOnPoints": false,
+   "lead3": 3,
+   "champion": "Borussia Dortmund",
+   "championShort": "Dortmund",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 34,
+   "y": 0,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "2012/13",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 42,
+   "second": "Bayer Leverkusen",
+   "secondPts": 33,
+   "levelOnPoints": false,
+   "lead3": 9,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 42,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2013/14",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 47,
+   "second": "Bayer Leverkusen",
+   "secondPts": 37,
+   "levelOnPoints": false,
+   "lead3": 10,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 47,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2014/15",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 45,
+   "second": "VfL Wolfsburg",
+   "secondPts": 34,
+   "levelOnPoints": false,
+   "lead3": 11,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 45,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2015/16",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 46,
+   "second": "Borussia Dortmund",
+   "secondPts": 38,
+   "levelOnPoints": false,
+   "lead3": 8,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 46,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2016/17",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 42,
+   "second": "RB Leipzig",
+   "secondPts": 39,
+   "levelOnPoints": false,
+   "lead3": 3,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 42,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 16,
+   "winterY": 1
+  },
+  {
+   "season": "2017/18",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 41,
+   "second": "FC Schalke 04",
+   "secondPts": 30,
+   "levelOnPoints": false,
+   "lead3": 11,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 41,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2018/19",
+   "clubs": 18,
+   "leader": "Borussia Dortmund",
+   "leaderShort": "Dortmund",
+   "leaderPts": 42,
+   "second": "Bayern München",
+   "secondPts": 36,
+   "levelOnPoints": false,
+   "lead3": 6,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 2,
+   "championHalfPlace": 2,
+   "championHalfPts": 36,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "Borussia Dortmund",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "2019/20",
+   "clubs": 18,
+   "leader": "RB Leipzig",
+   "leaderShort": "Leipzig",
+   "leaderPts": 37,
+   "second": "Borussia Mönchengladbach",
+   "secondPts": 35,
+   "levelOnPoints": false,
+   "lead3": 2,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 3,
+   "championHalfPlace": 3,
+   "championHalfPts": 33,
+   "y": 0,
+   "bayern": false,
+   "winterLeader": "RB Leipzig",
+   "winterMatchday": 17,
+   "winterY": 0
+  },
+  {
+   "season": "2020/21",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 39,
+   "second": "RB Leipzig",
+   "secondPts": 35,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 39,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 13,
+   "winterY": 1
+  },
+  {
+   "season": "2021/22",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 43,
+   "second": "Borussia Dortmund",
+   "secondPts": 34,
+   "levelOnPoints": false,
+   "lead3": 9,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 43,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 17,
+   "winterY": 1
+  },
+  {
+   "season": "2022/23",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 36,
+   "second": "1. FC Union Berlin",
+   "secondPts": 33,
+   "levelOnPoints": false,
+   "lead3": 3,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 36,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 15,
+   "winterY": 1
+  },
+  {
+   "season": "2023/24",
+   "clubs": 18,
+   "leader": "Bayer Leverkusen",
+   "leaderShort": "Leverkusen",
+   "leaderPts": 45,
+   "second": "Bayern München",
+   "secondPts": 44,
+   "levelOnPoints": false,
+   "lead3": 1,
+   "champion": "Bayer Leverkusen",
+   "championShort": "Leverkusen",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 45,
+   "y": 1,
+   "bayern": false,
+   "winterLeader": "Bayer Leverkusen",
+   "winterMatchday": 16,
+   "winterY": 1
+  },
+  {
+   "season": "2024/25",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 42,
+   "second": "Bayer Leverkusen",
+   "secondPts": 38,
+   "levelOnPoints": false,
+   "lead3": 4,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 42,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 15,
+   "winterY": 1
+  },
+  {
+   "season": "2025/26",
+   "clubs": 18,
+   "leader": "Bayern München",
+   "leaderShort": "Bayern",
+   "leaderPts": 47,
+   "second": "Borussia Dortmund",
+   "secondPts": 36,
+   "levelOnPoints": false,
+   "lead3": 11,
+   "champion": "Bayern München",
+   "championShort": "Bayern",
+   "place": 1,
+   "championHalfPlace": 1,
+   "championHalfPts": 47,
+   "y": 1,
+   "bayern": true,
+   "winterLeader": "Bayern München",
+   "winterMatchday": 15,
+   "winterY": 1
+  }
+ ],
+ "leadCurve": {
+  "intercept": -0.142823381123683,
+  "slope": 0.317122410582059,
+  "points": [
+   {
+    "lead": 0,
+    "p": 0.4644
+   },
+   {
+    "lead": 0.28,
+    "p": 0.4861
+   },
+   {
+    "lead": 0.55,
+    "p": 0.5079
+   },
+   {
+    "lead": 0.83,
+    "p": 0.5297
+   },
+   {
+    "lead": 1.1,
+    "p": 0.5513
+   },
+   {
+    "lead": 1.38,
+    "p": 0.5728
+   },
+   {
+    "lead": 1.65,
+    "p": 0.594
+   },
+   {
+    "lead": 1.93,
+    "p": 0.6148
+   },
+   {
+    "lead": 2.2,
+    "p": 0.6353
+   },
+   {
+    "lead": 2.48,
+    "p": 0.6552
+   },
+   {
+    "lead": 2.75,
+    "p": 0.6746
+   },
+   {
+    "lead": 3.03,
+    "p": 0.6935
+   },
+   {
+    "lead": 3.3,
+    "p": 0.7117
+   },
+   {
+    "lead": 3.58,
+    "p": 0.7293
+   },
+   {
+    "lead": 3.85,
+    "p": 0.7461
+   },
+   {
+    "lead": 4.12,
+    "p": 0.7623
+   },
+   {
+    "lead": 4.4,
+    "p": 0.7777
+   },
+   {
+    "lead": 4.68,
+    "p": 0.7924
+   },
+   {
+    "lead": 4.95,
+    "p": 0.8064
+   },
+   {
+    "lead": 5.23,
+    "p": 0.8197
+   },
+   {
+    "lead": 5.5,
+    "p": 0.8322
+   },
+   {
+    "lead": 5.78,
+    "p": 0.844
+   },
+   {
+    "lead": 6.05,
+    "p": 0.8552
+   },
+   {
+    "lead": 6.32,
+    "p": 0.8656
+   },
+   {
+    "lead": 6.6,
+    "p": 0.8755
+   },
+   {
+    "lead": 6.88,
+    "p": 0.8847
+   },
+   {
+    "lead": 7.15,
+    "p": 0.8933
+   },
+   {
+    "lead": 7.43,
+    "p": 0.9013
+   },
+   {
+    "lead": 7.7,
+    "p": 0.9088
+   },
+   {
+    "lead": 7.98,
+    "p": 0.9158
+   },
+   {
+    "lead": 8.25,
+    "p": 0.9223
+   },
+   {
+    "lead": 8.53,
+    "p": 0.9283
+   },
+   {
+    "lead": 8.8,
+    "p": 0.9339
+   },
+   {
+    "lead": 9.08,
+    "p": 0.9391
+   },
+   {
+    "lead": 9.35,
+    "p": 0.9439
+   },
+   {
+    "lead": 9.62,
+    "p": 0.9483
+   },
+   {
+    "lead": 9.9,
+    "p": 0.9524
+   },
+   {
+    "lead": 10.18,
+    "p": 0.9562
+   },
+   {
+    "lead": 10.45,
+    "p": 0.9597
+   },
+   {
+    "lead": 10.73,
+    "p": 0.963
+   },
+   {
+    "lead": 11,
+    "p": 0.966
+   }
+  ]
+ },
+ "estimation": {
+  "run": "2026-11-17T20:05:00Z",
+  "dependent": {
+   "en": "Herbstmeister became champion (1 = yes, 0 = no)",
+   "de": "Herbstmeister wurde Meister (1 = ja, 0 = nein)"
+  },
+  "method": {
+   "en": "Logistic regression (binomial GLM), intercept only; Wald z-test",
+   "de": "Logistische Regression (binomiales GLM), nur Konstante; Wald-z-Test"
+  },
+  "sample": {
+   "en": "Bundesliga 1963/64–2025/26",
+   "de": "Bundesliga 1963/64–2025/26"
+  },
+  "observations": 63,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "Constant (log-odds)",
+     "de": "Konstante (Log-Odds)"
+    },
+    "values": [
+     0.839750654750722,
+     0.274515539360295,
+     0.301710084407956,
+     1.37779122509349,
+     0.00222056574498084
+    ]
+   },
+   {
+    "name": {
+     "en": "Share champion",
+     "de": "Anteil Meister"
+    },
+    "values": [
+     0.698412698412467,
+     0.0578218671971042,
+     0.574860507845505,
+     0.798636027039795,
+     0.00222056574498084
+    ]
+   },
+   {
+    "name": {
+     "en": "Share − 0.5 (pp)",
+     "de": "Anteil − 0,5 (Pp.)"
+    },
+    "values": [
+     19.8412698412467,
+     5.78218671971042,
+     7.48605078455054,
+     29.8636027039795,
+     0.00222056574498084
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "Seasons",
+      "de": "Spielzeiten"
+     },
+     "value": 63,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Herbstmeister champion",
+      "de": "Herbstmeister Meister"
+     },
+     "value": 44,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Log likelihood",
+      "de": "Log-Likelihood"
+     },
+     "value": -38.5688032661007,
+     "digits": 4
+    },
+    {
+     "label": {
+      "en": "Akaike info criterion",
+      "de": "Akaike-Kriterium"
+     },
+     "value": 79.1376065322014,
+     "digits": 4
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "z-statistic",
+      "de": "z-Statistik"
+     },
+     "value": 3.05902775743624,
+     "digits": 4
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect (pp)",
+      "de": "Kleinster relevanter Effekt (Pp.)"
+     },
+     "value": 10,
+     "digits": 0
+    }
+   ]
+  }
+ },
+ "claim": {
+  "question": {
+   "en": "Does the halfway leader usually win the Bundesliga?",
+   "de": "Wird der Herbstmeister am Ende meistens Meister?"
+  },
+  "yes_text": {
+   "en": "The team on top at the halfway point won the title in significantly more than half of all seasons.",
+   "de": "Der Tabellenführer zur Halbzeit wurde in signifikant mehr als der Hälfte aller Spielzeiten Meister."
+  },
+  "no_text": {
+   "ruled_out": {
+    "en": "The halfway leader did not win the title in significantly more than half of the seasons. Its share lies at most {bound} percentage points above one half.",
+    "de": "Der Herbstmeister wurde nicht in signifikant mehr als der Hälfte der Spielzeiten Meister. Sein Anteil liegt höchstens {bound} Prozentpunkte über der Hälfte."
+   },
+   "not_detectable": {
+    "en": "The halfway leader did not win the title in significantly more than half of the seasons. A share well above one half is not ruled out either.",
+    "de": "Der Herbstmeister wurde nicht in signifikant mehr als der Hälfte der Spielzeiten Meister. Ein Anteil deutlich über der Hälfte ist aber auch nicht ausgeschlossen."
+   },
+   "opposite": {
+    "en": "The halfway leader won the title in significantly fewer than half of the seasons.",
+    "de": "Der Herbstmeister wurde in signifikant weniger als der Hälfte der Spielzeiten Meister."
+   }
+  },
+  "unit": {
+   "en": "percentage points above one half",
+   "de": "Prozentpunkte über der Hälfte"
+  },
+  "cases": {
+   "en": "{n} Bundesliga seasons",
+   "de": "{n} Bundesliga-Spielzeiten"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 10,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, counted Bundesliga.com in December 2021: in 39 of the 58 completed seasons, 67 per cent, the halfway leader was champion at the end.",
+     "de": "Ja, zählte Bundesliga.com im Dezember 2021: In 39 der 58 abgeschlossenen Spielzeiten, 67 Prozent, war der Herbstmeister am Ende auch Meister."
+    },
+    "source": "Bundesliga.com, „Herbstmeisterschaft: Rekorde, Zahlen und Fakten“, 14 December 2021"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "Not for every club, shows a count by the same site from January 2026: Bayern turned 24 of 27 halfway leads into the title, all other clubs only 19 of 35, little more than a coin toss.",
+     "de": "Nicht für jeden Klub, zeigt eine Zählung derselben Seite vom Januar 2026: Bayern machte aus 24 von 27 Herbstmeisterschaften den Titel, alle anderen Klubs nur aus 19 von 35, kaum mehr als ein Münzwurf."
+    },
+    "source": "Bundesliga.com, “What does being top of the table halfway mean for the title race?”, 15 January 2026"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "seasons",
+   "question": {
+    "en": "Which seasons count?",
+    "de": "Welche Spielzeiten zählen?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "every season since 1963/64",
+      "de": "alle Spielzeiten seit 1963/64"
+     },
+     "why": {
+      "en": "The question is about the Bundesliga as a whole.",
+      "de": "Die Frage gilt der Bundesliga insgesamt."
+     }
+    },
+    {
+     "id": "without_bayern",
+     "label": {
+      "en": "only seasons with a halfway leader other than Bayern",
+      "de": "nur Spielzeiten mit einem anderen Herbstmeister als Bayern"
+     },
+     "why": {
+      "en": "Bayern converts almost every halfway lead and may carry the whole rule.",
+      "de": "Bayern macht fast jede Herbstmeisterschaft zum Titel und könnte die ganze Regel tragen."
+     }
+    },
+    {
+     "id": "three_points",
+     "label": {
+      "en": "only since 1995/96, three points per win",
+      "de": "nur seit 1995/96, drei Punkte pro Sieg"
+     },
+     "why": {
+      "en": "With three points for a win, leads grow faster and the league is a different one.",
+      "de": "Mit drei Punkten pro Sieg wachsen Vorsprünge schneller; es ist eine andere Liga."
+     }
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "question": {
+    "en": "Which table counts?",
+    "de": "Welche Tabelle zählt?"
+   },
+   "primary": "first_half",
+   "options": [
+    {
+     "id": "first_half",
+     "label": {
+      "en": "after the first half of the season",
+      "de": "nach der Hinrunde"
+     },
+     "why": {
+      "en": "The halfway leader in the strict sense: every club has played every other once.",
+      "de": "Der Herbstmeister im engen Sinn: Jeder hat gegen jeden einmal gespielt."
+     }
+    },
+    {
+     "id": "winter_break",
+     "label": {
+      "en": "on 31 December",
+      "de": "am 31. Dezember"
+     },
+     "why": {
+      "en": "The leader at Christmas, which is what most people remember.",
+      "de": "Der Tabellenführer an Weihnachten, an den sich die meisten erinnern."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ties",
+   "question": {
+    "en": "Does a lead on goals alone count?",
+    "de": "Zählt ein Herbstmeister, der nur nach Toren vorne liegt?"
+   },
+   "primary": "official",
+   "options": [
+    {
+     "id": "official",
+     "label": {
+      "en": "yes, as the table shows it",
+      "de": "ja, so wie die Tabelle es zeigt"
+     },
+     "why": {
+      "en": "The tie-break rules of the time decide who is top.",
+      "de": "Die Regeln der Zeit bei Punktgleichheit entscheiden, wer oben steht."
+     }
+    },
+    {
+     "id": "clear_lead",
+     "label": {
+      "en": "no, only leaders ahead on points",
+      "de": "nein, nur Herbstmeister mit Punktevorsprung"
+     },
+     "why": {
+      "en": "A leader level on points with the second place is a weak leader.",
+      "de": "Wer punktgleich mit dem Zweiten ist, führt nur knapp."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "seasons": "all",
+    "table": "first_half",
+    "ties": "official"
+   },
+   "effect": 19.8412698412467,
+   "ci_low": 7.48605078455054,
+   "ci_high": 29.8636027039795,
+   "p": 0.00222056574498084,
+   "n": 63
+  },
+  {
+   "choices": {
+    "seasons": "all",
+    "table": "first_half",
+    "ties": "clear_lead"
+   },
+   "effect": 19.8113207546941,
+   "ci_low": 6.26409796882411,
+   "ci_high": 30.6085278996517,
+   "p": 0.0050817780761298,
+   "n": 53
+  },
+  {
+   "choices": {
+    "seasons": "all",
+    "table": "winter_break",
+    "ties": "official"
+   },
+   "effect": 16.6666666666622,
+   "ci_low": 4.22303666231909,
+   "ci_high": 27.1529796819301,
+   "p": 0.00949990842525919,
+   "n": 63
+  },
+  {
+   "choices": {
+    "seasons": "all",
+    "table": "winter_break",
+    "ties": "clear_lead"
+   },
+   "effect": 21.6981132075054,
+   "ci_low": 8.22177254900969,
+   "ci_high": 32.1594492387478,
+   "p": 0.00230095582352516,
+   "n": 53
+  },
+  {
+   "choices": {
+    "seasons": "without_bayern",
+    "table": "first_half",
+    "ties": "official"
+   },
+   "effect": 4.28571428113909,
+   "ci_low": -12.0856244207933,
+   "ci_high": 19.7808680152053,
+   "p": 0.612526376496303,
+   "n": 35
+  },
+  {
+   "choices": {
+    "seasons": "without_bayern",
+    "table": "first_half",
+    "ties": "clear_lead"
+   },
+   "effect": 5.17241377647593,
+   "ci_low": -12.8128198157483,
+   "ci_high": 21.8993362259413,
+   "p": 0.578149476074399,
+   "n": 29
+  },
+  {
+   "choices": {
+    "seasons": "without_bayern",
+    "table": "winter_break",
+    "ties": "official"
+   },
+   "effect": -1.42857142856924,
+   "ci_low": -17.2610928077527,
+   "ci_high": 14.6959504176091,
+   "p": 0.865790467436978,
+   "n": 35
+  },
+  {
+   "choices": {
+    "seasons": "without_bayern",
+    "table": "winter_break",
+    "ties": "clear_lead"
+   },
+   "effect": 7.14285714285713,
+   "ci_low": -11.3201933936451,
+   "ci_high": 23.8107561524735,
+   "p": 0.451252537148321,
+   "n": 28
+  },
+  {
+   "choices": {
+    "seasons": "three_points",
+    "table": "first_half",
+    "ties": "official"
+   },
+   "effect": 24.1935483870392,
+   "ci_low": 6.25615439424388,
+   "ci_high": 36.5359974080764,
+   "p": 0.0100865692014268,
+   "n": 31
+  },
+  {
+   "choices": {
+    "seasons": "three_points",
+    "table": "first_half",
+    "ties": "clear_lead"
+   },
+   "effect": 27.7777777777536,
+   "ci_low": 8.55202159463015,
+   "ci_high": 39.6604130898078,
+   "p": 0.00680418528342839,
+   "n": 27
+  },
+  {
+   "choices": {
+    "seasons": "three_points",
+    "table": "winter_break",
+    "ties": "official"
+   },
+   "effect": 24.1935483870392,
+   "ci_low": 6.25615439424388,
+   "ci_high": 36.5359974080764,
+   "p": 0.0100865692014268,
+   "n": 31
+  },
+  {
+   "choices": {
+    "seasons": "three_points",
+    "table": "winter_break",
+    "ties": "clear_lead"
+   },
+   "effect": 30.7692307692298,
+   "ci_low": 11.2962082367095,
+   "ci_high": 41.761606651458,
+   "p": 0.00392739405674618,
+   "n": 26
+  }
+ ]
+}
+

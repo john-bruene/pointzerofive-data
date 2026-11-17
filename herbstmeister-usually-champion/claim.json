@@ -1,0 +1,163 @@
+{
+	"claim": {
+		"question": {
+			"en": "Does the halfway leader usually win the Bundesliga?",
+			"de": "Wird der Herbstmeister am Ende meistens Meister?"
+		},
+		"yes_text": {
+			"en": "The team on top at the halfway point won the title in significantly more than half of all seasons.",
+			"de": "Der Tabellenführer zur Halbzeit wurde in signifikant mehr als der Hälfte aller Spielzeiten Meister."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "The halfway leader did not win the title in significantly more than half of the seasons. Its share lies at most {bound} percentage points above one half.",
+				"de": "Der Herbstmeister wurde nicht in signifikant mehr als der Hälfte der Spielzeiten Meister. Sein Anteil liegt höchstens {bound} Prozentpunkte über der Hälfte."
+			},
+			"not_detectable": {
+				"en": "The halfway leader did not win the title in significantly more than half of the seasons. A share well above one half is not ruled out either.",
+				"de": "Der Herbstmeister wurde nicht in signifikant mehr als der Hälfte der Spielzeiten Meister. Ein Anteil deutlich über der Hälfte ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "The halfway leader won the title in significantly fewer than half of the seasons.",
+				"de": "Der Herbstmeister wurde in signifikant weniger als der Hälfte der Spielzeiten Meister."
+			}
+		},
+		"unit": {
+			"en": "percentage points above one half",
+			"de": "Prozentpunkte über der Hälfte"
+		},
+		"cases": {
+			"en": "{n} Bundesliga seasons",
+			"de": "{n} Bundesliga-Spielzeiten"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 10,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, counted Bundesliga.com in December 2021: in 39 of the 58 completed seasons, 67 per cent, the halfway leader was champion at the end.",
+					"de": "Ja, zählte Bundesliga.com im Dezember 2021: In 39 der 58 abgeschlossenen Spielzeiten, 67 Prozent, war der Herbstmeister am Ende auch Meister."
+				},
+				"source": "Bundesliga.com, „Herbstmeisterschaft: Rekorde, Zahlen und Fakten“, 14 December 2021"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "Not for every club, shows a count by the same site from January 2026: Bayern turned 24 of 27 halfway leads into the title, all other clubs only 19 of 35, little more than a coin toss.",
+					"de": "Nicht für jeden Klub, zeigt eine Zählung derselben Seite vom Januar 2026: Bayern machte aus 24 von 27 Herbstmeisterschaften den Titel, alle anderen Klubs nur aus 19 von 35, kaum mehr als ein Münzwurf."
+				},
+				"source": "Bundesliga.com, “What does being top of the table halfway mean for the title race?”, 15 January 2026"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "seasons",
+			"question": {
+				"en": "Which seasons count?",
+				"de": "Welche Spielzeiten zählen?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "every season since 1963/64",
+						"de": "alle Spielzeiten seit 1963/64"
+					},
+					"why": {
+						"en": "The question is about the Bundesliga as a whole.",
+						"de": "Die Frage gilt der Bundesliga insgesamt."
+					}
+				},
+				{
+					"id": "without_bayern",
+					"label": {
+						"en": "only seasons with a halfway leader other than Bayern",
+						"de": "nur Spielzeiten mit einem anderen Herbstmeister als Bayern"
+					},
+					"why": {
+						"en": "Bayern converts almost every halfway lead and may carry the whole rule.",
+						"de": "Bayern macht fast jede Herbstmeisterschaft zum Titel und könnte die ganze Regel tragen."
+					}
+				},
+				{
+					"id": "three_points",
+					"label": {
+						"en": "only since 1995/96, three points per win",
+						"de": "nur seit 1995/96, drei Punkte pro Sieg"
+					},
+					"why": {
+						"en": "With three points for a win, leads grow faster and the league is a different one.",
+						"de": "Mit drei Punkten pro Sieg wachsen Vorsprünge schneller; es ist eine andere Liga."
+					}
+				}
+			]
+		},
+		{
+			"id": "table",
+			"question": {
+				"en": "Which table counts?",
+				"de": "Welche Tabelle zählt?"
+			},
+			"primary": "first_half",
+			"options": [
+				{
+					"id": "first_half",
+					"label": {
+						"en": "after the first half of the season",
+						"de": "nach der Hinrunde"
+					},
+					"why": {
+						"en": "The halfway leader in the strict sense: every club has played every other once.",
+						"de": "Der Herbstmeister im engen Sinn: Jeder hat gegen jeden einmal gespielt."
+					}
+				},
+				{
+					"id": "winter_break",
+					"label": {
+						"en": "on 31 December",
+						"de": "am 31. Dezember"
+					},
+					"why": {
+						"en": "The leader at Christmas, which is what most people remember.",
+						"de": "Der Tabellenführer an Weihnachten, an den sich die meisten erinnern."
+					}
+				}
+			]
+		},
+		{
+			"id": "ties",
+			"question": {
+				"en": "Does a lead on goals alone count?",
+				"de": "Zählt ein Herbstmeister, der nur nach Toren vorne liegt?"
+			},
+			"primary": "official",
+			"options": [
+				{
+					"id": "official",
+					"label": {
+						"en": "yes, as the table shows it",
+						"de": "ja, so wie die Tabelle es zeigt"
+					},
+					"why": {
+						"en": "The tie-break rules of the time decide who is top.",
+						"de": "Die Regeln der Zeit bei Punktgleichheit entscheiden, wer oben steht."
+					}
+				},
+				{
+					"id": "clear_lead",
+					"label": {
+						"en": "no, only leaders ahead on points",
+						"de": "nein, nur Herbstmeister mit Punktevorsprung"
+					},
+					"why": {
+						"en": "A leader level on points with the second place is a weak leader.",
+						"de": "Wer punktgleich mit dem Zweiten ist, führt nur knapp."
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,72 @@
+R version 4.3.3 (2024-02-29), run on 2026-11-17 20:05 UTC
+
+Matches: 19220 in 63 seasons (1963/64–2025/26)
+
+Cross-check against the reference lists: champion 63 of 63, Herbstmeister 63 of 63, champion yes/no 63 of 63 agree
+
+Calculation paths (effect = share champion − 0.5, percentage points):
+  seasons=all|table=first_half|ties=official: 44 of 63, +19.8 [+7.5, +29.9] pp, p=0.0022
+  seasons=all|table=first_half|ties=clear_lead: 37 of 53, +19.8 [+6.3, +30.6] pp, p=0.0051
+  seasons=all|table=winter_break|ties=official: 42 of 63, +16.7 [+4.2, +27.2] pp, p=0.0095
+  seasons=all|table=winter_break|ties=clear_lead: 38 of 53, +21.7 [+8.2, +32.2] pp, p=0.0023
+  seasons=without_bayern|table=first_half|ties=official: 19 of 35, +4.3 [-12.1, +19.8] pp, p=0.6125
+  seasons=without_bayern|table=first_half|ties=clear_lead: 16 of 29, +5.2 [-12.8, +21.9] pp, p=0.5781
+  seasons=without_bayern|table=winter_break|ties=official: 17 of 35, -1.4 [-17.3, +14.7] pp, p=0.8658
+  seasons=without_bayern|table=winter_break|ties=clear_lead: 16 of 28, +7.1 [-11.3, +23.8] pp, p=0.4513
+  seasons=three_points|table=first_half|ties=official: 23 of 31, +24.2 [+6.3, +36.5] pp, p=0.0101
+  seasons=three_points|table=first_half|ties=clear_lead: 21 of 27, +27.8 [+8.6, +39.7] pp, p=0.0068
+  seasons=three_points|table=winter_break|ties=official: 23 of 31, +24.2 [+6.3, +36.5] pp, p=0.0101
+  seasons=three_points|table=winter_break|ties=clear_lead: 21 of 26, +30.8 [+11.3, +41.8] pp, p=0.0039
+
+Checks for the text: chi-squared test against 50:50, X2 = 9.921, p = 0.0016; up to 2019/20 (DSFS count): 38 of 57
+
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Herbstmeister became champion (1 = yes, 0 = no)
+Method: Logistic regression (binomial GLM), intercept only; Wald z-test
+Date: 2026-11-17   Time: 20:05 UTC
+Sample: Bundesliga 1963/64–2025/26
+Included observations: 63
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+Constant (log-odds)           0.839751    0.274516    0.301710    1.377791      0.0022
+Share champion                0.698413    0.057822    0.574861    0.798636      0.0022
+Share − 0.5 (pp)             19.841270    5.782187    7.486051   29.863603      0.0022
+--------------------------------------------------------------------------------------
+Seasons                                63  z-statistic                        3.0590
+Herbstmeister champion                 44  Significance level                   0.05
+Log likelihood                   -38.5688  Smallest relevant effect (pp)          10
+Akaike info criterion             79.1376
+======================================================================================
+
+Wrote data/herbstmeister-usually-champion.json
+  Herbstmeister champion: 44 of 63 (Bayern 25 of 28, others 19 of 35)
+  main: +19.8 percentage points, 95% CI [+7.5, +29.9], p = 0.0022, n = 63
+  yes paths: 8 of 12
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] jsonlite_1.8.8
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3
