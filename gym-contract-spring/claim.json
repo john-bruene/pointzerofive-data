@@ -1,0 +1,174 @@
+{
+	"claim": {
+		"question": {
+			"en": "Do more people want out of their gym contract in spring?",
+			"de": "Suchen im Frühjahr mehr Menschen, wie sie ihr Fitnessstudio kündigen?"
+		},
+		"yes_text": {
+			"en": "In spring, people search significantly more often for how to cancel their gym contract than in the other months of the same year.",
+			"de": "Im Frühjahr wird signifikant häufiger nach der Kündigung des Fitnessstudios gesucht als in den übrigen Monaten desselben Jahres."
+		},
+		"no_text": {
+			"ruled_out": {
+				"en": "In spring, searches for cancelling a gym contract are not significantly higher than in the rest of the year. Any rise is at most {bound} per cent.",
+				"de": "Im Frühjahr wird nicht signifikant häufiger nach der Kündigung des Fitnessstudios gesucht als im Rest des Jahres. Ein Plus liegt höchstens bei {bound} Prozent."
+			},
+			"not_detectable": {
+				"en": "In spring, searches for cancelling a gym contract are not significantly higher than in the rest of the year. A relevant rise is not ruled out either.",
+				"de": "Im Frühjahr wird nicht signifikant häufiger nach der Kündigung des Fitnessstudios gesucht als im Rest des Jahres. Ein relevantes Plus ist aber auch nicht ausgeschlossen."
+			},
+			"opposite": {
+				"en": "In spring, people search significantly less often for how to cancel their gym contract than in the rest of the year.",
+				"de": "Im Frühjahr wird signifikant seltener nach der Kündigung des Fitnessstudios gesucht als im Rest des Jahres."
+			}
+		},
+		"unit": {
+			"en": "per cent, spring against the rest of the year",
+			"de": "Prozent, Frühjahr gegenüber dem übrigen Jahr"
+		},
+		"cases": {
+			"en": "{n} months of Google searches",
+			"de": "{n} Monate Google-Suchen"
+		},
+		"direction": "positive",
+		"smallest_relevant_effect": 10,
+		"dispute": [
+			{
+				"side": "yes",
+				"text": {
+					"en": "Yes, suggests Strava: for 2020 it named 19 January as the day most people give up their New Year's fitness resolutions.",
+					"de": "Ja, legt Strava nahe: Für 2020 nannte die Plattform den 19. Januar als den Tag, an dem die meisten ihre sportlichen Neujahrsvorsätze aufgeben."
+				},
+				"source": "BikeRadar, “Strava has predicted when you'll give up your new year's resolution”, 6 January 2020"
+			},
+			{
+				"side": "no",
+				"text": {
+					"en": "Not right away, found DellaVigna and Malmendier (2006) at three US gyms: on average, members cancelled 2.31 full months after their last visit.",
+					"de": "Nicht sofort, fanden DellaVigna und Malmendier (2006) in drei US-Fitnessstudios: Im Schnitt kündigten Mitglieder erst 2,31 volle Monate nach ihrem letzten Besuch."
+				},
+				"source": "DellaVigna & Malmendier 2006, American Economic Review 96(3): 694–719, doi:10.1257/aer.96.3.694"
+			}
+		]
+	},
+	"forks": [
+		{
+			"id": "window",
+			"question": {
+				"en": "What counts as spring?",
+				"de": "Was zählt als Frühjahr?"
+			},
+			"primary": "feb_apr",
+			"options": [
+				{
+					"id": "feb_apr",
+					"label": {
+						"en": "February to April",
+						"de": "Februar bis April"
+					},
+					"why": {
+						"en": "After the January rush, with a few weeks until people act.",
+						"de": "Nach dem Januar-Ansturm, mit ein paar Wochen, bis die Leute handeln."
+					}
+				},
+				{
+					"id": "jan_mar",
+					"label": {
+						"en": "January to March",
+						"de": "Januar bis März"
+					},
+					"why": {
+						"en": "Right after the resolutions.",
+						"de": "Direkt nach den Vorsätzen."
+					}
+				},
+				{
+					"id": "mar_may",
+					"label": {
+						"en": "March to May",
+						"de": "März bis Mai"
+					},
+					"why": {
+						"en": "The calendar spring.",
+						"de": "Der Frühling im Kalender."
+					}
+				}
+			]
+		},
+		{
+			"id": "term",
+			"question": {
+				"en": "Which search?",
+				"de": "Welche Suchanfrage?"
+			},
+			"primary": "fitnessstudio",
+			"options": [
+				{
+					"id": "fitnessstudio",
+					"label": {
+						"en": "“Fitnessstudio kündigen”",
+						"de": "„Fitnessstudio kündigen“"
+					},
+					"why": {
+						"en": "The common wording.",
+						"de": "Die übliche Formulierung."
+					}
+				},
+				{
+					"id": "vertrag",
+					"label": {
+						"en": "“Fitnessvertrag kündigen”",
+						"de": "„Fitnessvertrag kündigen“"
+					},
+					"why": {
+						"en": "Searches about the contract itself.",
+						"de": "Suchen nach dem Vertrag selbst."
+					}
+				}
+			]
+		},
+		{
+			"id": "years",
+			"question": {
+				"en": "Which years?",
+				"de": "Welche Jahre?"
+			},
+			"primary": "all",
+			"options": [
+				{
+					"id": "all",
+					"label": {
+						"en": "every year of the series",
+						"de": "alle Jahre der Reihe"
+					},
+					"why": {
+						"en": "The whole period with enough searches.",
+						"de": "Der ganze Zeitraum mit genug Suchanfragen."
+					}
+				},
+				{
+					"id": "without_covid",
+					"label": {
+						"en": "without 2020 and 2021",
+						"de": "ohne 2020 und 2021"
+					},
+					"why": {
+						"en": "Gyms were closed for months and members asked about their fees.",
+						"de": "Die Studios waren monatelang zu, und Mitglieder fragten nach ihren Beiträgen."
+					}
+				},
+				{
+					"id": "since_2023",
+					"label": {
+						"en": "only 2023 to 2026",
+						"de": "nur 2023 bis 2026"
+					},
+					"why": {
+						"en": "Since March 2022 members can leave with one month's notice once the first term is over.",
+						"de": "Seit März 2022 kann nach der Erstlaufzeit mit einem Monat Frist gekündigt werden."
+					}
+				}
+			]
+		}
+	]
+}

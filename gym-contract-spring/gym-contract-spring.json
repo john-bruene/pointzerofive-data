@@ -1,0 +1,1414 @@
+{
+ "meta": {
+  "source": "Google Trends (web search, Germany), exported by John Brüne on 18 November 2026",
+  "updated": "2026-11-18",
+  "accessed": "2026-11-18",
+  "lastMonth": "2026-10"
+ },
+ "summary": {
+  "start": 2011,
+  "months": 190,
+  "vertragStart": 2020,
+  "vertragMonths": 57,
+  "vertragZeros": 25,
+  "rawSpring": 29.91,
+  "rawOther": 30.48,
+  "januaryPeaks": 8,
+  "completeYears": 15
+ },
+ "series": [
+  {
+   "month": "2011-01",
+   "value": 8
+  },
+  {
+   "month": "2011-02",
+   "value": 8
+  },
+  {
+   "month": "2011-03",
+   "value": 8
+  },
+  {
+   "month": "2011-04",
+   "value": 9
+  },
+  {
+   "month": "2011-05",
+   "value": 8
+  },
+  {
+   "month": "2011-06",
+   "value": 7
+  },
+  {
+   "month": "2011-07",
+   "value": 10
+  },
+  {
+   "month": "2011-08",
+   "value": 14
+  },
+  {
+   "month": "2011-09",
+   "value": 11
+  },
+  {
+   "month": "2011-10",
+   "value": 15
+  },
+  {
+   "month": "2011-11",
+   "value": 8
+  },
+  {
+   "month": "2011-12",
+   "value": 11
+  },
+  {
+   "month": "2012-01",
+   "value": 12
+  },
+  {
+   "month": "2012-02",
+   "value": 15
+  },
+  {
+   "month": "2012-03",
+   "value": 11
+  },
+  {
+   "month": "2012-04",
+   "value": 13
+  },
+  {
+   "month": "2012-05",
+   "value": 14
+  },
+  {
+   "month": "2012-06",
+   "value": 14
+  },
+  {
+   "month": "2012-07",
+   "value": 15
+  },
+  {
+   "month": "2012-08",
+   "value": 16
+  },
+  {
+   "month": "2012-09",
+   "value": 18
+  },
+  {
+   "month": "2012-10",
+   "value": 16
+  },
+  {
+   "month": "2012-11",
+   "value": 17
+  },
+  {
+   "month": "2012-12",
+   "value": 12
+  },
+  {
+   "month": "2013-01",
+   "value": 18
+  },
+  {
+   "month": "2013-02",
+   "value": 14
+  },
+  {
+   "month": "2013-03",
+   "value": 11
+  },
+  {
+   "month": "2013-04",
+   "value": 14
+  },
+  {
+   "month": "2013-05",
+   "value": 13
+  },
+  {
+   "month": "2013-06",
+   "value": 14
+  },
+  {
+   "month": "2013-07",
+   "value": 15
+  },
+  {
+   "month": "2013-08",
+   "value": 16
+  },
+  {
+   "month": "2013-09",
+   "value": 16
+  },
+  {
+   "month": "2013-10",
+   "value": 16
+  },
+  {
+   "month": "2013-11",
+   "value": 14
+  },
+  {
+   "month": "2013-12",
+   "value": 11
+  },
+  {
+   "month": "2014-01",
+   "value": 21
+  },
+  {
+   "month": "2014-02",
+   "value": 17
+  },
+  {
+   "month": "2014-03",
+   "value": 18
+  },
+  {
+   "month": "2014-04",
+   "value": 14
+  },
+  {
+   "month": "2014-05",
+   "value": 16
+  },
+  {
+   "month": "2014-06",
+   "value": 19
+  },
+  {
+   "month": "2014-07",
+   "value": 21
+  },
+  {
+   "month": "2014-08",
+   "value": 18
+  },
+  {
+   "month": "2014-09",
+   "value": 16
+  },
+  {
+   "month": "2014-10",
+   "value": 18
+  },
+  {
+   "month": "2014-11",
+   "value": 19
+  },
+  {
+   "month": "2014-12",
+   "value": 16
+  },
+  {
+   "month": "2015-01",
+   "value": 26
+  },
+  {
+   "month": "2015-02",
+   "value": 19
+  },
+  {
+   "month": "2015-03",
+   "value": 17
+  },
+  {
+   "month": "2015-04",
+   "value": 22
+  },
+  {
+   "month": "2015-05",
+   "value": 22
+  },
+  {
+   "month": "2015-06",
+   "value": 24
+  },
+  {
+   "month": "2015-07",
+   "value": 20
+  },
+  {
+   "month": "2015-08",
+   "value": 21
+  },
+  {
+   "month": "2015-09",
+   "value": 26
+  },
+  {
+   "month": "2015-10",
+   "value": 28
+  },
+  {
+   "month": "2015-11",
+   "value": 22
+  },
+  {
+   "month": "2015-12",
+   "value": 19
+  },
+  {
+   "month": "2016-01",
+   "value": 22
+  },
+  {
+   "month": "2016-02",
+   "value": 22
+  },
+  {
+   "month": "2016-03",
+   "value": 21
+  },
+  {
+   "month": "2016-04",
+   "value": 20
+  },
+  {
+   "month": "2016-05",
+   "value": 22
+  },
+  {
+   "month": "2016-06",
+   "value": 23
+  },
+  {
+   "month": "2016-07",
+   "value": 22
+  },
+  {
+   "month": "2016-08",
+   "value": 23
+  },
+  {
+   "month": "2016-09",
+   "value": 26
+  },
+  {
+   "month": "2016-10",
+   "value": 27
+  },
+  {
+   "month": "2016-11",
+   "value": 21
+  },
+  {
+   "month": "2016-12",
+   "value": 21
+  },
+  {
+   "month": "2017-01",
+   "value": 29
+  },
+  {
+   "month": "2017-02",
+   "value": 23
+  },
+  {
+   "month": "2017-03",
+   "value": 19
+  },
+  {
+   "month": "2017-04",
+   "value": 25
+  },
+  {
+   "month": "2017-05",
+   "value": 23
+  },
+  {
+   "month": "2017-06",
+   "value": 23
+  },
+  {
+   "month": "2017-07",
+   "value": 27
+  },
+  {
+   "month": "2017-08",
+   "value": 28
+  },
+  {
+   "month": "2017-09",
+   "value": 29
+  },
+  {
+   "month": "2017-10",
+   "value": 30
+  },
+  {
+   "month": "2017-11",
+   "value": 24
+  },
+  {
+   "month": "2017-12",
+   "value": 25
+  },
+  {
+   "month": "2018-01",
+   "value": 37
+  },
+  {
+   "month": "2018-02",
+   "value": 24
+  },
+  {
+   "month": "2018-03",
+   "value": 27
+  },
+  {
+   "month": "2018-04",
+   "value": 27
+  },
+  {
+   "month": "2018-05",
+   "value": 29
+  },
+  {
+   "month": "2018-06",
+   "value": 27
+  },
+  {
+   "month": "2018-07",
+   "value": 27
+  },
+  {
+   "month": "2018-08",
+   "value": 24
+  },
+  {
+   "month": "2018-09",
+   "value": 32
+  },
+  {
+   "month": "2018-10",
+   "value": 28
+  },
+  {
+   "month": "2018-11",
+   "value": 29
+  },
+  {
+   "month": "2018-12",
+   "value": 22
+  },
+  {
+   "month": "2019-01",
+   "value": 32
+  },
+  {
+   "month": "2019-02",
+   "value": 29
+  },
+  {
+   "month": "2019-03",
+   "value": 30
+  },
+  {
+   "month": "2019-04",
+   "value": 23
+  },
+  {
+   "month": "2019-05",
+   "value": 32
+  },
+  {
+   "month": "2019-06",
+   "value": 23
+  },
+  {
+   "month": "2019-07",
+   "value": 31
+  },
+  {
+   "month": "2019-08",
+   "value": 34
+  },
+  {
+   "month": "2019-09",
+   "value": 35
+  },
+  {
+   "month": "2019-10",
+   "value": 31
+  },
+  {
+   "month": "2019-11",
+   "value": 27
+  },
+  {
+   "month": "2019-12",
+   "value": 27
+  },
+  {
+   "month": "2020-01",
+   "value": 38
+  },
+  {
+   "month": "2020-02",
+   "value": 31
+  },
+  {
+   "month": "2020-03",
+   "value": 63
+  },
+  {
+   "month": "2020-04",
+   "value": 69
+  },
+  {
+   "month": "2020-05",
+   "value": 76
+  },
+  {
+   "month": "2020-06",
+   "value": 60
+  },
+  {
+   "month": "2020-07",
+   "value": 48
+  },
+  {
+   "month": "2020-08",
+   "value": 47
+  },
+  {
+   "month": "2020-09",
+   "value": 51
+  },
+  {
+   "month": "2020-10",
+   "value": 84
+  },
+  {
+   "month": "2020-11",
+   "value": 76
+  },
+  {
+   "month": "2020-12",
+   "value": 70
+  },
+  {
+   "month": "2021-01",
+   "value": 100
+  },
+  {
+   "month": "2021-02",
+   "value": 61
+  },
+  {
+   "month": "2021-03",
+   "value": 66
+  },
+  {
+   "month": "2021-04",
+   "value": 69
+  },
+  {
+   "month": "2021-05",
+   "value": 49
+  },
+  {
+   "month": "2021-06",
+   "value": 47
+  },
+  {
+   "month": "2021-07",
+   "value": 37
+  },
+  {
+   "month": "2021-08",
+   "value": 56
+  },
+  {
+   "month": "2021-09",
+   "value": 45
+  },
+  {
+   "month": "2021-10",
+   "value": 46
+  },
+  {
+   "month": "2021-11",
+   "value": 56
+  },
+  {
+   "month": "2021-12",
+   "value": 64
+  },
+  {
+   "month": "2022-01",
+   "value": 79
+  },
+  {
+   "month": "2022-02",
+   "value": 60
+  },
+  {
+   "month": "2022-03",
+   "value": 55
+  },
+  {
+   "month": "2022-04",
+   "value": 44
+  },
+  {
+   "month": "2022-05",
+   "value": 49
+  },
+  {
+   "month": "2022-06",
+   "value": 48
+  },
+  {
+   "month": "2022-07",
+   "value": 52
+  },
+  {
+   "month": "2022-08",
+   "value": 56
+  },
+  {
+   "month": "2022-09",
+   "value": 54
+  },
+  {
+   "month": "2022-10",
+   "value": 53
+  },
+  {
+   "month": "2022-11",
+   "value": 51
+  },
+  {
+   "month": "2022-12",
+   "value": 42
+  },
+  {
+   "month": "2023-01",
+   "value": 62
+  },
+  {
+   "month": "2023-02",
+   "value": 47
+  },
+  {
+   "month": "2023-03",
+   "value": 50
+  },
+  {
+   "month": "2023-04",
+   "value": 46
+  },
+  {
+   "month": "2023-05",
+   "value": 40
+  },
+  {
+   "month": "2023-06",
+   "value": 42
+  },
+  {
+   "month": "2023-07",
+   "value": 45
+  },
+  {
+   "month": "2023-08",
+   "value": 42
+  },
+  {
+   "month": "2023-09",
+   "value": 44
+  },
+  {
+   "month": "2023-10",
+   "value": 41
+  },
+  {
+   "month": "2023-11",
+   "value": 41
+  },
+  {
+   "month": "2023-12",
+   "value": 34
+  },
+  {
+   "month": "2024-01",
+   "value": 44
+  },
+  {
+   "month": "2024-02",
+   "value": 40
+  },
+  {
+   "month": "2024-03",
+   "value": 33
+  },
+  {
+   "month": "2024-04",
+   "value": 37
+  },
+  {
+   "month": "2024-05",
+   "value": 32
+  },
+  {
+   "month": "2024-06",
+   "value": 30
+  },
+  {
+   "month": "2024-07",
+   "value": 26
+  },
+  {
+   "month": "2024-08",
+   "value": 36
+  },
+  {
+   "month": "2024-09",
+   "value": 34
+  },
+  {
+   "month": "2024-10",
+   "value": 31
+  },
+  {
+   "month": "2024-11",
+   "value": 34
+  },
+  {
+   "month": "2024-12",
+   "value": 28
+  },
+  {
+   "month": "2025-01",
+   "value": 33
+  },
+  {
+   "month": "2025-02",
+   "value": 25
+  },
+  {
+   "month": "2025-03",
+   "value": 27
+  },
+  {
+   "month": "2025-04",
+   "value": 23
+  },
+  {
+   "month": "2025-05",
+   "value": 23
+  },
+  {
+   "month": "2025-06",
+   "value": 21
+  },
+  {
+   "month": "2025-07",
+   "value": 18
+  },
+  {
+   "month": "2025-08",
+   "value": 23
+  },
+  {
+   "month": "2025-09",
+   "value": 16
+  },
+  {
+   "month": "2025-10",
+   "value": 21
+  },
+  {
+   "month": "2025-11",
+   "value": 16
+  },
+  {
+   "month": "2025-12",
+   "value": 21
+  },
+  {
+   "month": "2026-01",
+   "value": 23
+  },
+  {
+   "month": "2026-02",
+   "value": 17
+  },
+  {
+   "month": "2026-03",
+   "value": 20
+  },
+  {
+   "month": "2026-04",
+   "value": 14
+  },
+  {
+   "month": "2026-05",
+   "value": 18
+  },
+  {
+   "month": "2026-06",
+   "value": 16
+  },
+  {
+   "month": "2026-07",
+   "value": 16
+  },
+  {
+   "month": "2026-08",
+   "value": 14
+  },
+  {
+   "month": "2026-09",
+   "value": 15
+  },
+  {
+   "month": "2026-10",
+   "value": 14
+  }
+ ],
+ "profile": [
+  {
+   "month": 1,
+   "n": 15,
+   "pct": 16.95,
+   "lo": 1.27,
+   "hi": 35.05
+  },
+  {
+   "month": 2,
+   "n": 15,
+   "pct": -3.86,
+   "lo": -13.49,
+   "hi": 6.84
+  },
+  {
+   "month": 3,
+   "n": 15,
+   "pct": -4.14,
+   "lo": -12.55,
+   "hi": 5.07
+  },
+  {
+   "month": 4,
+   "n": 15,
+   "pct": -2.37,
+   "lo": -9.4,
+   "hi": 5.21
+  },
+  {
+   "month": 5,
+   "n": 15,
+   "pct": -2.33,
+   "lo": -8.24,
+   "hi": 3.97
+  },
+  {
+   "month": 6,
+   "n": 15,
+   "pct": -5.93,
+   "lo": -11.59,
+   "hi": 0.1
+  },
+  {
+   "month": 7,
+   "n": 15,
+   "pct": -4.56,
+   "lo": -12.32,
+   "hi": 3.89
+  },
+  {
+   "month": 8,
+   "n": 15,
+   "pct": 4.67,
+   "lo": -2.88,
+   "hi": 12.8
+  },
+  {
+   "month": 9,
+   "n": 15,
+   "pct": 3.97,
+   "lo": -4.87,
+   "hi": 13.64
+  },
+  {
+   "month": 10,
+   "n": 15,
+   "pct": 9.76,
+   "lo": -0.48,
+   "hi": 21.05
+  },
+  {
+   "month": 11,
+   "n": 15,
+   "pct": -1.26,
+   "lo": -8.48,
+   "hi": 6.52
+  },
+  {
+   "month": 12,
+   "n": 15,
+   "pct": -8.11,
+   "lo": -15.41,
+   "hi": -0.18
+  }
+ ],
+ "estimation": {
+  "run": "2026-11-18T07:51:00Z",
+  "dependent": {
+   "en": "Log of the Google Trends index, “Fitnessstudio kündigen”",
+   "de": "Logarithmus des Google-Trends-Index, „Fitnessstudio kündigen“"
+  },
+  "method": {
+   "en": "GLS with AR(1) errors between months, REML; dummies for each year",
+   "de": "GLS mit AR(1)-Fehlern zwischen Monaten, REML; Dummys für jedes Jahr"
+  },
+  "sample": {
+   "en": "2011-01–2026-10 (monthly)",
+   "de": "2011-01–2026-10 (monatlich)"
+  },
+  "observations": 190,
+  "columns": [
+   {
+    "en": "Coefficient",
+    "de": "Koeffizient"
+   },
+   {
+    "en": "Std. Error",
+    "de": "Std.-Fehler"
+   },
+   {
+    "en": "Lower 95%",
+    "de": "Untere 95 %"
+   },
+   {
+    "en": "Upper 95%",
+    "de": "Obere 95 %"
+   },
+   {
+    "en": "Prob.",
+    "de": "p-Wert"
+   }
+  ],
+  "digits": [
+   6,
+   6,
+   6,
+   6,
+   4
+  ],
+  "rows": [
+   {
+    "name": {
+     "en": "Constant (2011)",
+     "de": "Konstante (2011)"
+    },
+    "values": [
+     2.27712225100189,
+     0.0750645566665679,
+     2.12896198063725,
+     2.42528252136653,
+     3.64083112046927e-71
+    ]
+   },
+   {
+    "name": {
+     "en": "Spring (Feb–Apr), log",
+     "de": "Frühjahr (Feb.–Apr.), log"
+    },
+    "values": [
+     -0.0715820253067392,
+     0.0339635575315103,
+     -0.138618321661164,
+     -0.00454572895231395,
+     0.0365055821670251
+    ]
+   },
+   {
+    "name": {
+     "en": "Spring, per cent",
+     "de": "Frühjahr, Prozent"
+    },
+    "values": [
+     -6.90800845285249,
+     3.16173521063441,
+     -12.943976095868,
+     -0.453541276391167,
+     0.0365055821670251
+    ]
+   }
+  ],
+  "stats": {
+   "left": [
+    {
+     "label": {
+      "en": "Months",
+      "de": "Monate"
+     },
+     "value": 190,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Year dummies",
+      "de": "Jahres-Dummys"
+     },
+     "value": 15,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "AR(1) coefficient",
+      "de": "AR(1)-Koeffizient"
+     },
+     "value": 0.364163862233358,
+     "digits": 4
+    },
+    {
+     "label": {
+      "en": "Log likelihood (REML)",
+      "de": "Log-Likelihood (REML)"
+     },
+     "value": 41.9456058490784,
+     "digits": 4
+    }
+   ],
+   "right": [
+    {
+     "label": {
+      "en": "Degrees of freedom",
+      "de": "Freiheitsgrade"
+     },
+     "value": 173,
+     "digits": 0
+    },
+    {
+     "label": {
+      "en": "Residual S.E.",
+      "de": "Std.-Fehler der Residuen"
+     },
+     "value": 0.186594740211324,
+     "digits": 4
+    },
+    {
+     "label": {
+      "en": "Significance level",
+      "de": "Signifikanzniveau"
+     },
+     "value": 0.05,
+     "digits": 2
+    },
+    {
+     "label": {
+      "en": "Smallest relevant effect (%)",
+      "de": "Kleinster relevanter Effekt (%)"
+     },
+     "value": 10,
+     "digits": 0
+    }
+   ]
+  }
+ },
+ "claim": {
+  "question": {
+   "en": "Do more people want out of their gym contract in spring?",
+   "de": "Suchen im Frühjahr mehr Menschen, wie sie ihr Fitnessstudio kündigen?"
+  },
+  "yes_text": {
+   "en": "In spring, people search significantly more often for how to cancel their gym contract than in the other months of the same year.",
+   "de": "Im Frühjahr wird signifikant häufiger nach der Kündigung des Fitnessstudios gesucht als in den übrigen Monaten desselben Jahres."
+  },
+  "no_text": {
+   "ruled_out": {
+    "en": "In spring, searches for cancelling a gym contract are not significantly higher than in the rest of the year. Any rise is at most {bound} per cent.",
+    "de": "Im Frühjahr wird nicht signifikant häufiger nach der Kündigung des Fitnessstudios gesucht als im Rest des Jahres. Ein Plus liegt höchstens bei {bound} Prozent."
+   },
+   "not_detectable": {
+    "en": "In spring, searches for cancelling a gym contract are not significantly higher than in the rest of the year. A relevant rise is not ruled out either.",
+    "de": "Im Frühjahr wird nicht signifikant häufiger nach der Kündigung des Fitnessstudios gesucht als im Rest des Jahres. Ein relevantes Plus ist aber auch nicht ausgeschlossen."
+   },
+   "opposite": {
+    "en": "In spring, people search significantly less often for how to cancel their gym contract than in the rest of the year.",
+    "de": "Im Frühjahr wird signifikant seltener nach der Kündigung des Fitnessstudios gesucht als im Rest des Jahres."
+   }
+  },
+  "unit": {
+   "en": "per cent, spring against the rest of the year",
+   "de": "Prozent, Frühjahr gegenüber dem übrigen Jahr"
+  },
+  "cases": {
+   "en": "{n} months of Google searches",
+   "de": "{n} Monate Google-Suchen"
+  },
+  "direction": "positive",
+  "smallest_relevant_effect": 10,
+  "dispute": [
+   {
+    "side": "yes",
+    "text": {
+     "en": "Yes, suggests Strava: for 2020 it named 19 January as the day most people give up their New Year's fitness resolutions.",
+     "de": "Ja, legt Strava nahe: Für 2020 nannte die Plattform den 19. Januar als den Tag, an dem die meisten ihre sportlichen Neujahrsvorsätze aufgeben."
+    },
+    "source": "BikeRadar, “Strava has predicted when you'll give up your new year's resolution”, 6 January 2020"
+   },
+   {
+    "side": "no",
+    "text": {
+     "en": "Not right away, found DellaVigna and Malmendier (2006) at three US gyms: on average, members cancelled 2.31 full months after their last visit.",
+     "de": "Nicht sofort, fanden DellaVigna und Malmendier (2006) in drei US-Fitnessstudios: Im Schnitt kündigten Mitglieder erst 2,31 volle Monate nach ihrem letzten Besuch."
+    },
+    "source": "DellaVigna & Malmendier 2006, American Economic Review 96(3): 694–719, doi:10.1257/aer.96.3.694"
+   }
+  ]
+ },
+ "forks": [
+  {
+   "id": "window",
+   "question": {
+    "en": "What counts as spring?",
+    "de": "Was zählt als Frühjahr?"
+   },
+   "primary": "feb_apr",
+   "options": [
+    {
+     "id": "feb_apr",
+     "label": {
+      "en": "February to April",
+      "de": "Februar bis April"
+     },
+     "why": {
+      "en": "After the January rush, with a few weeks until people act.",
+      "de": "Nach dem Januar-Ansturm, mit ein paar Wochen, bis die Leute handeln."
+     }
+    },
+    {
+     "id": "jan_mar",
+     "label": {
+      "en": "January to March",
+      "de": "Januar bis März"
+     },
+     "why": {
+      "en": "Right after the resolutions.",
+      "de": "Direkt nach den Vorsätzen."
+     }
+    },
+    {
+     "id": "mar_may",
+     "label": {
+      "en": "March to May",
+      "de": "März bis Mai"
+     },
+     "why": {
+      "en": "The calendar spring.",
+      "de": "Der Frühling im Kalender."
+     }
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "question": {
+    "en": "Which search?",
+    "de": "Welche Suchanfrage?"
+   },
+   "primary": "fitnessstudio",
+   "options": [
+    {
+     "id": "fitnessstudio",
+     "label": {
+      "en": "“Fitnessstudio kündigen”",
+      "de": "„Fitnessstudio kündigen“"
+     },
+     "why": {
+      "en": "The common wording.",
+      "de": "Die übliche Formulierung."
+     }
+    },
+    {
+     "id": "vertrag",
+     "label": {
+      "en": "“Fitnessvertrag kündigen”",
+      "de": "„Fitnessvertrag kündigen“"
+     },
+     "why": {
+      "en": "Searches about the contract itself.",
+      "de": "Suchen nach dem Vertrag selbst."
+     }
+    }
+   ]
+  },
+  {
+   "id": "years",
+   "question": {
+    "en": "Which years?",
+    "de": "Welche Jahre?"
+   },
+   "primary": "all",
+   "options": [
+    {
+     "id": "all",
+     "label": {
+      "en": "every year of the series",
+      "de": "alle Jahre der Reihe"
+     },
+     "why": {
+      "en": "The whole period with enough searches.",
+      "de": "Der ganze Zeitraum mit genug Suchanfragen."
+     }
+    },
+    {
+     "id": "without_covid",
+     "label": {
+      "en": "without 2020 and 2021",
+      "de": "ohne 2020 und 2021"
+     },
+     "why": {
+      "en": "Gyms were closed for months and members asked about their fees.",
+      "de": "Die Studios waren monatelang zu, und Mitglieder fragten nach ihren Beiträgen."
+     }
+    },
+    {
+     "id": "since_2023",
+     "label": {
+      "en": "only 2023 to 2026",
+      "de": "nur 2023 bis 2026"
+     },
+     "why": {
+      "en": "Since March 2022 members can leave with one month's notice once the first term is over.",
+      "de": "Seit März 2022 kann nach der Erstlaufzeit mit einem Monat Frist gekündigt werden."
+     }
+    }
+   ]
+  }
+ ],
+ "specs": [
+  {
+   "choices": {
+    "window": "feb_apr",
+    "term": "fitnessstudio",
+    "years": "all"
+   },
+   "effect": -6.90800845285249,
+   "ci_low": -12.943976095868,
+   "ci_high": -0.453541276391167,
+   "p": 0.0365055821670251,
+   "n": 190
+  },
+  {
+   "choices": {
+    "window": "feb_apr",
+    "term": "fitnessstudio",
+    "years": "without_covid"
+   },
+   "effect": -6.25651132868877,
+   "ci_low": -11.7551755974332,
+   "ci_high": -0.415217234965182,
+   "p": 0.0363497604833879,
+   "n": 166
+  },
+  {
+   "choices": {
+    "window": "feb_apr",
+    "term": "fitnessstudio",
+    "years": "since_2023"
+   },
+   "effect": 14.5074457865623,
+   "ci_low": 3.62608964609092,
+   "ci_high": 26.531409081855,
+   "p": 0.00905724723960986,
+   "n": 46
+  },
+  {
+   "choices": {
+    "window": "feb_apr",
+    "term": "vertrag",
+    "years": "all"
+   },
+   "effect": -0.478737037018195,
+   "ci_low": -20.3551870494921,
+   "ci_high": 24.3581523369477,
+   "p": 0.965650160027073,
+   "n": 57
+  },
+  {
+   "choices": {
+    "window": "feb_apr",
+    "term": "vertrag",
+    "years": "without_covid"
+   },
+   "effect": 15.5113916266604,
+   "ci_low": -12.0741171394444,
+   "ci_high": 51.7514656826204,
+   "p": 0.287829750392183,
+   "n": 33
+  },
+  {
+   "choices": {
+    "window": "feb_apr",
+    "term": "vertrag",
+    "years": "since_2023"
+   },
+   "effect": 15.301320809002,
+   "ci_low": -5.98372073823223,
+   "ci_high": 41.4052405039883,
+   "p": 0.158566380740105,
+   "n": 21
+  },
+  {
+   "choices": {
+    "window": "jan_mar",
+    "term": "fitnessstudio",
+    "years": "all"
+   },
+   "effect": 9.05915483663788,
+   "ci_low": 1.92812915690017,
+   "ci_high": 16.6890764312295,
+   "p": 0.0122586168234834,
+   "n": 190
+  },
+  {
+   "choices": {
+    "window": "jan_mar",
+    "term": "fitnessstudio",
+    "years": "without_covid"
+   },
+   "effect": 8.5112211995318,
+   "ci_low": 2.02878003226996,
+   "ci_high": 15.4055269747378,
+   "p": 0.00969030747980675,
+   "n": 166
+  },
+  {
+   "choices": {
+    "window": "jan_mar",
+    "term": "fitnessstudio",
+    "years": "since_2023"
+   },
+   "effect": 28.6870599697666,
+   "ci_low": 20.3764517677202,
+   "ci_high": 37.5714199951445,
+   "p": 2.15927887758263e-09,
+   "n": 46
+  },
+  {
+   "choices": {
+    "window": "jan_mar",
+    "term": "vertrag",
+    "years": "all"
+   },
+   "effect": 13.8358587525186,
+   "ci_low": -7.3611453874439,
+   "ci_high": 39.8830198421621,
+   "p": 0.212262355318719,
+   "n": 57
+  },
+  {
+   "choices": {
+    "window": "jan_mar",
+    "term": "vertrag",
+    "years": "without_covid"
+   },
+   "effect": 27.0671992003197,
+   "ci_low": 1.93334329428609,
+   "ci_high": 58.3983473003462,
+   "p": 0.0342489363888454,
+   "n": 33
+  },
+  {
+   "choices": {
+    "window": "jan_mar",
+    "term": "vertrag",
+    "years": "since_2023"
+   },
+   "effect": 14.5580534785685,
+   "ci_low": -4.0075375847908,
+   "ci_high": 36.7143553421257,
+   "p": 0.122728434205681,
+   "n": 21
+  },
+  {
+   "choices": {
+    "window": "mar_may",
+    "term": "fitnessstudio",
+    "years": "all"
+   },
+   "effect": -1.05392055386987,
+   "ci_low": -7.44983690072799,
+   "ci_high": 5.78400199315159,
+   "p": 0.754698685025329,
+   "n": 190
+  },
+  {
+   "choices": {
+    "window": "mar_may",
+    "term": "fitnessstudio",
+    "years": "without_covid"
+   },
+   "effect": -5.62145069366214,
+   "ci_low": -10.9622770864357,
+   "ci_high": 0.0397390869469216,
+   "p": 0.0515630747666383,
+   "n": 166
+  },
+  {
+   "choices": {
+    "window": "mar_may",
+    "term": "fitnessstudio",
+    "years": "since_2023"
+   },
+   "effect": 5.95808631000345,
+   "ci_low": -6.4759897842804,
+   "ci_high": 20.0452806566145,
+   "p": 0.35458621573611,
+   "n": 46
+  },
+  {
+   "choices": {
+    "window": "mar_may",
+    "term": "vertrag",
+    "years": "all"
+   },
+   "effect": -3.157052327194,
+   "ci_low": -22.4509282814502,
+   "ci_high": 20.9370570932892,
+   "p": 0.772922537108542,
+   "n": 57
+  },
+  {
+   "choices": {
+    "window": "mar_may",
+    "term": "vertrag",
+    "years": "without_covid"
+   },
+   "effect": -12.5320879989945,
+   "ci_low": -34.2534609566423,
+   "ci_high": 16.3656025265496,
+   "p": 0.344380919859777,
+   "n": 33
+  },
+  {
+   "choices": {
+    "window": "mar_may",
+    "term": "vertrag",
+    "years": "since_2023"
+   },
+   "effect": -0.744830023694942,
+   "ci_low": -20.3972630207833,
+   "ci_high": 23.7594226137895,
+   "p": 0.943628068577837,
+   "n": 21
+  }
+ ]
+}
+

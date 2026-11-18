@@ -1,0 +1,75 @@
+R version 4.3.3 (2024-02-29), run on 2026-11-18 07:51 UTC
+
+Fitnessstudio kündigen: from 2011, 190 months, 0 months with index 0 left out
+Fitnessvertrag kündigen: from 2020, 57 months, 25 months with index 0 left out
+
+Calculation paths (effect = per cent more search interest in spring):
+  window=feb_apr|term=fitnessstudio|years=all: n=190, -6.9% [-12.9, -0.5] p=0.0365
+  window=feb_apr|term=fitnessstudio|years=without_covid: n=166, -6.3% [-11.8, -0.4] p=0.0363
+  window=feb_apr|term=fitnessstudio|years=since_2023: n=46, +14.5% [+3.6, +26.5] p=0.0091
+  window=feb_apr|term=vertrag|years=all: n=57, -0.5% [-20.4, +24.4] p=0.9657
+  window=feb_apr|term=vertrag|years=without_covid: n=33, +15.5% [-12.1, +51.8] p=0.2878
+  window=feb_apr|term=vertrag|years=since_2023: n=21, +15.3% [-6.0, +41.4] p=0.1586
+  window=jan_mar|term=fitnessstudio|years=all: n=190, +9.1% [+1.9, +16.7] p=0.0123
+  window=jan_mar|term=fitnessstudio|years=without_covid: n=166, +8.5% [+2.0, +15.4] p=0.0097
+  window=jan_mar|term=fitnessstudio|years=since_2023: n=46, +28.7% [+20.4, +37.6] p=0.0000
+  window=jan_mar|term=vertrag|years=all: n=57, +13.8% [-7.4, +39.9] p=0.2123
+  window=jan_mar|term=vertrag|years=without_covid: n=33, +27.1% [+1.9, +58.4] p=0.0342
+  window=jan_mar|term=vertrag|years=since_2023: n=21, +14.6% [-4.0, +36.7] p=0.1227
+  window=mar_may|term=fitnessstudio|years=all: n=190, -1.1% [-7.4, +5.8] p=0.7547
+  window=mar_may|term=fitnessstudio|years=without_covid: n=166, -5.6% [-11.0, +0.0] p=0.0516
+  window=mar_may|term=fitnessstudio|years=since_2023: n=46, +6.0% [-6.5, +20.0] p=0.3546
+  window=mar_may|term=vertrag|years=all: n=57, -3.2% [-22.5, +20.9] p=0.7729
+  window=mar_may|term=vertrag|years=without_covid: n=33, -12.5% [-34.3, +16.4] p=0.3444
+  window=mar_may|term=vertrag|years=since_2023: n=21, -0.7% [-20.4, +23.8] p=0.9436
+
+Result table of the main calculation:
+======================================================================================
+Dependent Variable: Log of the Google Trends index, “Fitnessstudio kündigen”
+Method: GLS with AR(1) errors between months, REML; dummies for each year
+Date: 2026-11-18   Time: 07:51 UTC
+Sample: 2011-01–2026-10 (monthly)
+Included observations: 190
+======================================================================================
+Variable                   Coefficient  Std. Error   Lower 95%   Upper 95%       Prob.
+--------------------------------------------------------------------------------------
+Constant (2011)               2.277122    0.075065    2.128962    2.425283      0.0000
+Spring (Feb–Apr), log        -0.071582    0.033964   -0.138618   -0.004546      0.0365
+Spring, per cent             -6.908008    3.161735  -12.943976   -0.453541      0.0365
+--------------------------------------------------------------------------------------
+Months                                190  Degrees of freedom                    173
+Year dummies                           15  Residual S.E.                      0.1866
+AR(1) coefficient                  0.3642  Significance level                   0.05
+Log likelihood (REML)             41.9456  Smallest relevant effect (%)           10
+======================================================================================
+
+Wrote data/gym-contract-spring.json
+  raw means 2011-2025: spring 29.91, other months 30.48; January the top month in 8 of 15 years
+  main: -6.9 per cent, 95% CI [-12.9, -0.5], p = 0.0365, n = 190
+  yes paths: 5 of 18
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] nlme_3.1-164   jsonlite_1.8.8
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3 grid_4.3.3     lattice_0.22-5

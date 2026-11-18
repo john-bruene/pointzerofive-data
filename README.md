@@ -7,6 +7,7 @@ folder.
 
 Story | Data
 ---|---
+[Do more people want out of their gym contract in spring?](https://pointzerofive.net/2026/11/gym-contract-spring) | [gym-contract-spring](gym-contract-spring/)
 [Does the halfway leader usually win the Bundesliga?](https://pointzerofive.net/2026/10/herbstmeister-usually-champion) | [herbstmeister-usually-champion](herbstmeister-usually-champion/)
 [Does rain lower turnout?](https://pointzerofive.net/2026/10/rain-lowers-turnout) | [rain-lowers-turnout](rain-lowers-turnout/)
 [Does a late train get even later?](https://pointzerofive.net/2026/10/delayed-trains-get-later) | [delayed-trains-get-later](delayed-trains-get-later/)
